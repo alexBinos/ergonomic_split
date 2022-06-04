@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 5 7
 Title "TKL Keyboard"
 Date ""
 Rev "0"
@@ -113,23 +113,6 @@ F 3 "" H 4175 4400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4175 4400 4175 4350
-$Comp
-L Device:R R?
-U 1 1 60D6927E
-P 4175 2400
-AR Path="/60D6927E" Ref="R?"  Part="1" 
-AR Path="/60D44BDB/60D6927E" Ref="R?"  Part="1" 
-AR Path="/62022D96/60D6927E" Ref="R18"  Part="1" 
-AR Path="/612342D1/60D6927E" Ref="R18"  Part="1" 
-AR Path="/63013830/60D6927E" Ref="R22"  Part="1" 
-AR Path="/62999575/60D6927E" Ref="R22"  Part="1" 
-F 0 "R22" H 3975 2475 50  0000 L CNN
-F 1 "10K" V 4175 2350 50  0000 L CNN
-F 2 "resistor_smd:R_0603_1608Metric" V 4105 2400 50  0001 C CNN
-F 3 "~" H 4175 2400 50  0001 C CNN
-	1    4175 2400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4175 2550 4175 2625
 Wire Wire Line
@@ -145,8 +128,6 @@ Wire Wire Line
 	3650 3025 3650 2975
 Wire Wire Line
 	3625 2825 4375 2825
-Text GLabel 7975 3475 2    50   Input ~ 0
-MOSI
 $Comp
 L power:GND #PWR?
 U 1 1 60D6929B
@@ -164,18 +145,10 @@ F 3 "" H 3650 3025 50  0001 C CNN
 	1    3650 3025
 	1    0    0    -1  
 $EndComp
-Text GLabel 5925 2925 2    50   Output ~ 0
-MISO
-Text GLabel 5925 2725 2    50   Input ~ 0
-SCK
-Text GLabel 5925 2825 2    50   Input ~ 0
-MOSI
 Wire Wire Line
 	5925 2725 5575 2725
 Wire Wire Line
 	5575 2825 5925 2825
-Text GLabel 4100 2625 0    50   Input ~ 0
-RST
 Wire Wire Line
 	4100 2625 4175 2625
 Connection ~ 4175 2625
@@ -210,12 +183,6 @@ Wire Wire Line
 	6975 3475 7225 3475
 Wire Wire Line
 	6975 3575 7150 3575
-Text GLabel 6975 3575 0    50   Input ~ 0
-RST
-Text GLabel 6975 3475 0    50   Input ~ 0
-SCK
-Text GLabel 6975 3375 0    50   Output ~ 0
-MISO
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J?
 U 1 1 60D692BA
@@ -684,9 +651,9 @@ Wire Notes Line
 Wire Notes Line
 	6650 2900 8300 2900
 Text HLabel 3500 3625 0    50   BiDi ~ 0
-USB_IN+
+USB+
 Text HLabel 3500 3725 0    50   BiDi ~ 0
-USB_IN-
+USB-
 Text HLabel 5925 3825 2    50   BiDi ~ 0
 SCL
 Text HLabel 5925 3925 2    50   BiDi ~ 0
@@ -789,10 +756,6 @@ F 3 "" H 7675 4875 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7675 4825 7675 4875
-Wire Wire Line
-	9375 5750 9025 5750
-Text GLabel 9375 5750 2    50   Input ~ 0
-nCAPS
 $Comp
 L Device:R R?
 U 1 1 61453084
@@ -862,8 +825,6 @@ Wire Wire Line
 	2500 5125 2500 5175
 Wire Wire Line
 	2500 5475 2500 5525
-Text GLabel 2675 5900 2    50   Input ~ 0
-nCAPS
 Wire Wire Line
 	2500 5900 2500 5825
 Wire Wire Line
@@ -872,4 +833,135 @@ Wire Wire Line
 	3500 3725 4375 3725
 Wire Wire Line
 	3500 3625 4375 3625
+$Comp
+L Device:R R?
+U 1 1 60D6927E
+P 4175 2400
+AR Path="/60D6927E" Ref="R?"  Part="1" 
+AR Path="/60D44BDB/60D6927E" Ref="R?"  Part="1" 
+AR Path="/62022D96/60D6927E" Ref="R18"  Part="1" 
+AR Path="/612342D1/60D6927E" Ref="R18"  Part="1" 
+AR Path="/63013830/60D6927E" Ref="R22"  Part="1" 
+AR Path="/62999575/60D6927E" Ref="R22"  Part="1" 
+F 0 "R22" H 3975 2475 50  0000 L CNN
+F 1 "10K" V 4175 2350 50  0000 L CNN
+F 2 "resistor_smd:R_0603_1608Metric" V 4105 2400 50  0001 C CNN
+F 3 "~" H 4175 2400 50  0001 C CNN
+	1    4175 2400
+	1    0    0    -1  
+$EndComp
+Text HLabel 5925 4425 2    50   Input ~ 0
+ENCODER_A_L
+Text HLabel 5925 4525 2    50   Input ~ 0
+ENCODER_B_L
+Text HLabel 5925 5225 2    50   Input ~ 0
+ENCODER_A_R
+Text HLabel 5925 5325 2    50   Input ~ 0
+ENCODER_B_R
+Text Label 5925 2725 0    50   ~ 0
+SCK
+Text Label 6975 3475 2    50   ~ 0
+SCK
+Text Label 5925 2825 0    50   ~ 0
+MOSI
+Text Label 7975 3475 0    50   ~ 0
+MOSI
+Text Label 5925 2925 0    50   ~ 0
+MISO
+Text Label 6975 3375 2    50   ~ 0
+MISO
+Text Label 4100 2625 2    50   ~ 0
+RST
+Text Label 6975 3575 2    50   ~ 0
+RST
+Text Label 5925 4325 0    50   ~ 0
+nCAPS_LED
+Text Label 2675 5900 0    50   ~ 0
+nCAPS_LED
+Wire Notes Line
+	8300 6150 8300 5275
+Wire Notes Line
+	8300 5275 6650 5275
+Wire Notes Line
+	6650 5275 6650 6150
+Wire Notes Line
+	6650 6150 8300 6150
+Text HLabel 7250 5675 0    50   BiDi ~ 0
+SCL
+Text HLabel 7250 5775 0    50   BiDi ~ 0
+SDA
+$Comp
+L Device:R R?
+U 1 1 6EAA3992
+P 7550 5675
+AR Path="/6EAA3992" Ref="R?"  Part="1" 
+AR Path="/60D44BDB/6EAA3992" Ref="R?"  Part="1" 
+AR Path="/62022D96/6EAA3992" Ref="R?"  Part="1" 
+AR Path="/612342D1/6EAA3992" Ref="R?"  Part="1" 
+AR Path="/63013830/6EAA3992" Ref="R?"  Part="1" 
+AR Path="/62999575/6EAA3992" Ref="R14"  Part="1" 
+F 0 "R14" V 7550 6000 50  0000 C CNN
+F 1 "2K2" V 7550 5675 50  0000 C CNN
+F 2 "resistor_smd:R_0603_1608Metric" V 7480 5675 50  0001 C CNN
+F 3 "~" H 7550 5675 50  0001 C CNN
+	1    7550 5675
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6EAA6F53
+P 7550 5775
+AR Path="/6EAA6F53" Ref="R?"  Part="1" 
+AR Path="/60D44BDB/6EAA6F53" Ref="R?"  Part="1" 
+AR Path="/62022D96/6EAA6F53" Ref="R?"  Part="1" 
+AR Path="/612342D1/6EAA6F53" Ref="R?"  Part="1" 
+AR Path="/63013830/6EAA6F53" Ref="R?"  Part="1" 
+AR Path="/62999575/6EAA6F53" Ref="R15"  Part="1" 
+F 0 "R15" V 7550 6100 50  0000 C CNN
+F 1 "2K2" V 7550 5775 50  0000 C CNN
+F 2 "resistor_smd:R_0603_1608Metric" V 7480 5775 50  0001 C CNN
+F 3 "~" H 7550 5775 50  0001 C CNN
+	1    7550 5775
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7400 5675 7250 5675
+Wire Wire Line
+	7250 5775 7400 5775
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6EAA9FB3
+P 7775 5600
+AR Path="/6EAA9FB3" Ref="#PWR?"  Part="1" 
+AR Path="/60D44BDB/6EAA9FB3" Ref="#PWR?"  Part="1" 
+AR Path="/62022D96/6EAA9FB3" Ref="#PWR?"  Part="1" 
+AR Path="/612342D1/6EAA9FB3" Ref="#PWR?"  Part="1" 
+AR Path="/63013830/6EAA9FB3" Ref="#PWR?"  Part="1" 
+AR Path="/62999575/6EAA9FB3" Ref="#PWR0203"  Part="1" 
+F 0 "#PWR0203" H 7775 5450 50  0001 C CNN
+F 1 "+3.3V" H 7790 5773 50  0000 C CNN
+F 2 "" H 7775 5600 50  0001 C CNN
+F 3 "" H 7775 5600 50  0001 C CNN
+	1    7775 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 5775 7775 5775
+Wire Wire Line
+	7775 5775 7775 5675
+Wire Wire Line
+	7700 5675 7775 5675
+Connection ~ 7775 5675
+Wire Wire Line
+	7775 5675 7775 5600
+Wire Wire Line
+	5925 5225 5575 5225
+Wire Wire Line
+	5925 5325 5575 5325
+Wire Wire Line
+	5925 4425 5575 4425
+Wire Wire Line
+	5925 4525 5575 4525
+Wire Wire Line
+	5925 4325 5575 4325
 $EndSCHEMATC
