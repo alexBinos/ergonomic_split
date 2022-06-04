@@ -249,7 +249,67 @@ Wire Wire Line
 Wire Wire Line
 	4625 4325 4775 4325
 Text HLabel 6650 3425 2    50   Input ~ 0
-ENCODER_SW_L
+ROW[6]
 Wire Wire Line
 	6650 3425 6150 3425
+Wire Wire Line
+	3775 2825 3775 2775
+Wire Wire Line
+	3775 3125 3775 3175
+$Comp
+L power:GND #PWR?
+U 1 1 62EDB2E6
+P 3775 3175
+AR Path="/62EDB2E6" Ref="#PWR?"  Part="1" 
+AR Path="/60D44BDB/62EDB2E6" Ref="#PWR?"  Part="1" 
+AR Path="/62022D96/62EDB2E6" Ref="#PWR?"  Part="1" 
+AR Path="/612342D1/62EDB2E6" Ref="#PWR?"  Part="1" 
+AR Path="/63013830/62EDB2E6" Ref="#PWR?"  Part="1" 
+AR Path="/62999575/62EDB2E6" Ref="#PWR?"  Part="1" 
+AR Path="/629997F8/62EDB2E6" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 3775 2925 50  0001 C CNN
+F 1 "GND" H 3780 3002 50  0000 C CNN
+F 2 "" H 3775 3175 50  0001 C CNN
+F 3 "" H 3775 3175 50  0001 C CNN
+	1    3775 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62EDB2EC
+P 3775 2975
+AR Path="/62EDB2EC" Ref="C?"  Part="1" 
+AR Path="/60D44BDB/62EDB2EC" Ref="C?"  Part="1" 
+AR Path="/62022D96/62EDB2EC" Ref="C?"  Part="1" 
+AR Path="/612342D1/62EDB2EC" Ref="C?"  Part="1" 
+AR Path="/63013830/62EDB2EC" Ref="C?"  Part="1" 
+AR Path="/62999575/62EDB2EC" Ref="C?"  Part="1" 
+AR Path="/629997F8/62EDB2EC" Ref="C7"  Part="1" 
+F 0 "C7" H 3775 3125 50  0000 L CNN
+F 1 "100nF" H 3775 3050 50  0000 L CNN
+F 2 "Capacitor_smd:C_0603_1608Metric" H 3813 2825 50  0001 C CNN
+F 3 "~" H 3775 2975 50  0001 C CNN
+	1    3775 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 62EDB2F2
+P 3775 2775
+AR Path="/62EDB2F2" Ref="#PWR?"  Part="1" 
+AR Path="/60D44BDB/62EDB2F2" Ref="#PWR?"  Part="1" 
+AR Path="/62022D96/62EDB2F2" Ref="#PWR?"  Part="1" 
+AR Path="/612342D1/62EDB2F2" Ref="#PWR?"  Part="1" 
+AR Path="/63013830/62EDB2F2" Ref="#PWR?"  Part="1" 
+AR Path="/62999575/62EDB2F2" Ref="#PWR?"  Part="1" 
+AR Path="/629997F8/62EDB2F2" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 3775 2625 50  0001 C CNN
+F 1 "+3.3V" H 3790 2948 50  0000 C CNN
+F 2 "" H 3775 2775 50  0001 C CNN
+F 3 "" H 3775 2775 50  0001 C CNN
+	1    3775 2775
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6150 3525
+NoConn ~ 6150 4425
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title "TKL Keyboard"
 Date ""
 Rev "0"
@@ -229,4 +229,124 @@ F 3 "" H 5025 4700 50  0001 C CNN
 	1    5825 4000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 62F25DCF
+P 1500 5550
+F 0 "H1" H 1600 5599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1600 5508 50  0000 L CNN
+F 2 "mounting_hole:MountingHole_3.2mm_M3_ISO7380_Pad" H 1500 5550 50  0001 C CNN
+F 3 "~" H 1500 5550 50  0001 C CNN
+	1    1500 5550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1500 5650
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 62F281A1
+P 1500 6050
+F 0 "H2" H 1600 6099 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1600 6008 50  0000 L CNN
+F 2 "mounting_hole:MountingHole_3.2mm_M3_ISO7380_Pad" H 1500 6050 50  0001 C CNN
+F 3 "~" H 1500 6050 50  0001 C CNN
+	1    1500 6050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1500 6150
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 62F28C3F
+P 1500 6550
+F 0 "H3" H 1600 6599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1600 6508 50  0000 L CNN
+F 2 "mounting_hole:MountingHole_3.2mm_M3_ISO7380_Pad" H 1500 6550 50  0001 C CNN
+F 3 "~" H 1500 6550 50  0001 C CNN
+	1    1500 6550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1500 6650
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 62F2B314
+P 2500 5550
+F 0 "H4" H 2600 5599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2600 5508 50  0000 L CNN
+F 2 "mounting_hole:MountingHole_3.2mm_M3_ISO7380_Pad" H 2500 5550 50  0001 C CNN
+F 3 "~" H 2500 5550 50  0001 C CNN
+	1    2500 5550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2500 5650
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 62F2B31B
+P 2500 6050
+F 0 "H5" H 2600 6099 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2600 6008 50  0000 L CNN
+F 2 "mounting_hole:MountingHole_3.2mm_M3_ISO7380_Pad" H 2500 6050 50  0001 C CNN
+F 3 "~" H 2500 6050 50  0001 C CNN
+	1    2500 6050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2500 6150
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 62F2B322
+P 2500 6550
+F 0 "H6" H 2600 6599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2600 6508 50  0000 L CNN
+F 2 "mounting_hole:MountingHole_3.2mm_M3_ISO7380_Pad" H 2500 6550 50  0001 C CNN
+F 3 "~" H 2500 6550 50  0001 C CNN
+	1    2500 6550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2500 6650
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 62F2BF2F
+P 3500 5550
+F 0 "H7" H 3600 5599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3600 5508 50  0000 L CNN
+F 2 "mounting_hole:MountingHole_3.2mm_M3_ISO7380_Pad" H 3500 5550 50  0001 C CNN
+F 3 "~" H 3500 5550 50  0001 C CNN
+	1    3500 5550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3500 5650
+$Comp
+L Mechanical:MountingHole_Pad H8
+U 1 1 62F2BF36
+P 3500 6050
+F 0 "H8" H 3600 6099 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3600 6008 50  0000 L CNN
+F 2 "mounting_hole:MountingHole_3.2mm_M3_ISO7380_Pad" H 3500 6050 50  0001 C CNN
+F 3 "~" H 3500 6050 50  0001 C CNN
+	1    3500 6050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3500 6150
+$Comp
+L Mechanical:MountingHole_Pad H9
+U 1 1 62F2BF3D
+P 3500 6550
+F 0 "H9" H 3600 6599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3600 6508 50  0000 L CNN
+F 2 "mounting_hole:MountingHole_3.2mm_M3_ISO7380_Pad" H 3500 6550 50  0001 C CNN
+F 3 "~" H 3500 6550 50  0001 C CNN
+	1    3500 6550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3500 6650
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 629C12E0
+P 4500 5550
+F 0 "H?" H 4600 5599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4600 5508 50  0000 L CNN
+F 2 "mounting_hole:MountingHole_3.2mm_M3_ISO7380_Pad" H 4500 5550 50  0001 C CNN
+F 3 "~" H 4500 5550 50  0001 C CNN
+	1    4500 5550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4500 5650
 $EndSCHEMATC
