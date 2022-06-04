@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 6 7
 Title ""
@@ -13,2704 +13,3147 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A14438
-P -8375 2950
-AR Path="/62A14438" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A14438" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A14438" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A14438" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A14438" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A14438" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A14438" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A14438" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A14438" Ref="SW96"  Part="1" 
-F 0 "SW96" H -8375 3235 50  0000 C CNN
-F 1 "L01" H -8375 3144 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -8375 2975 50  0001 C CNN
-F 3 "" H -8375 2975 50  0001 C CNN
-	1    -8375 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A1443E
-P -7375 2950
-AR Path="/62A1443E" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A1443E" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A1443E" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A1443E" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A1443E" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A1443E" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A1443E" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A1443E" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A1443E" Ref="SW102"  Part="1" 
-F 0 "SW102" H -7375 3235 50  0000 C CNN
-F 1 "L02" H -7375 3144 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -7375 2975 50  0001 C CNN
-F 3 "" H -7375 2975 50  0001 C CNN
-	1    -7375 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A14444
-P -6375 2950
-AR Path="/62A14444" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A14444" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A14444" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A14444" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A14444" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A14444" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A14444" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A14444" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A14444" Ref="SW108"  Part="1" 
-F 0 "SW108" H -6375 3235 50  0000 C CNN
-F 1 "L03" H -6375 3144 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -6375 2975 50  0001 C CNN
-F 3 "" H -6375 2975 50  0001 C CNN
-	1    -6375 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62A1444A
-P -7950 2950
-AR Path="/62F5643B/62A1444A" Ref="D?"  Part="1" 
-AR Path="/63013830/62A1444A" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A1444A" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A1444A" Ref="D?"  Part="1" 
-AR Path="/62999965/62A1444A" Ref="D6"  Part="1" 
-F 0 "D6" V -7904 2870 50  0000 R CNN
-F 1 "D" V -7995 2870 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -7950 2950 50  0001 C CNN
-F 3 "~" H -7950 2950 50  0001 C CNN
-	1    -7950 2950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62A14450
-P -6950 2950
-AR Path="/62F5643B/62A14450" Ref="D?"  Part="1" 
-AR Path="/63013830/62A14450" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A14450" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A14450" Ref="D?"  Part="1" 
-AR Path="/62999965/62A14450" Ref="D12"  Part="1" 
-F 0 "D12" V -6904 2870 50  0000 R CNN
-F 1 "D" V -6995 2870 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -6950 2950 50  0001 C CNN
-F 3 "~" H -6950 2950 50  0001 C CNN
-	1    -6950 2950
-	-1   0    0    1   
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A1445C
-P -5375 2950
-AR Path="/62A1445C" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A1445C" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A1445C" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A1445C" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A1445C" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A1445C" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A1445C" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A1445C" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A1445C" Ref="SW114"  Part="1" 
-F 0 "SW114" H -5375 3235 50  0000 C CNN
-F 1 "L04" H -5375 3144 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -5375 2975 50  0001 C CNN
-F 3 "" H -5375 2975 50  0001 C CNN
-	1    -5375 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A14462
-P -3375 2950
-AR Path="/62A14462" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A14462" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A14462" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A14462" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A14462" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A14462" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A14462" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A14462" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A14462" Ref="SW125"  Part="1" 
-F 0 "SW125" H -3375 3235 50  0000 C CNN
-F 1 "L06" H -3375 3144 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -3375 2975 50  0001 C CNN
-F 3 "" H -3375 2975 50  0001 C CNN
-	1    -3375 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62A1446E
-P -4950 2950
-AR Path="/62F5643B/62A1446E" Ref="D?"  Part="1" 
-AR Path="/63013830/62A1446E" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A1446E" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A1446E" Ref="D?"  Part="1" 
-AR Path="/62999965/62A1446E" Ref="D24"  Part="1" 
-F 0 "D24" V -4904 2870 50  0000 R CNN
-F 1 "D" V -4995 2870 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -4950 2950 50  0001 C CNN
-F 3 "~" H -4950 2950 50  0001 C CNN
-	1    -4950 2950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62A14474
-P -3950 2950
-AR Path="/62F5643B/62A14474" Ref="D?"  Part="1" 
-AR Path="/63013830/62A14474" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A14474" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A14474" Ref="D?"  Part="1" 
-AR Path="/62999965/62A14474" Ref="D30"  Part="1" 
-F 0 "D30" V -3904 2870 50  0000 R CNN
-F 1 "D" V -3995 2870 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -3950 2950 50  0001 C CNN
-F 3 "~" H -3950 2950 50  0001 C CNN
-	1    -3950 2950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62A1447A
-P -2950 2950
-AR Path="/62F5643B/62A1447A" Ref="D?"  Part="1" 
-AR Path="/63013830/62A1447A" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A1447A" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A1447A" Ref="D?"  Part="1" 
-AR Path="/62999965/62A1447A" Ref="D123"  Part="1" 
-F 0 "D123" V -2904 2870 50  0000 R CNN
-F 1 "D" V -2995 2870 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -2950 2950 50  0001 C CNN
-F 3 "~" H -2950 2950 50  0001 C CNN
-	1    -2950 2950
-	-1   0    0    1   
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A14486
-P -4375 2950
-AR Path="/62A14486" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A14486" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A14486" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A14486" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A14486" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A14486" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A14486" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A14486" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A14486" Ref="SW120"  Part="1" 
-F 0 "SW120" H -4375 3235 50  0000 C CNN
-F 1 "L05" H -4375 3144 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -4375 2975 50  0001 C CNN
-F 3 "" H -4375 2975 50  0001 C CNN
-	1    -4375 2950
-	1    0    0    -1  
-$EndComp
-Text HLabel -10000 3100 0    50   Output ~ 0
+Text HLabel 3625 2175 0    50   Output ~ 0
 ROW[0]
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A1448D
-P -9375 2950
-AR Path="/62A1448D" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A1448D" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A1448D" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A1448D" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A1448D" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A1448D" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A1448D" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A1448D" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A1448D" Ref="SW90"  Part="1" 
-F 0 "SW90" H -9375 3235 50  0000 C CNN
-F 1 "L00" H -9375 3144 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.50u_PCB_KailhSocket" H -9375 2975 50  0001 C CNN
-F 3 "" H -9375 2975 50  0001 C CNN
-	1    -9375 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-9175 2950 -9100 2950
-Wire Wire Line
-	-9575 2950 -9650 2950
-Wire Wire Line
-	-8800 2950 -8750 2950
-Wire Wire Line
-	-7800 2950 -7750 2950
-Wire Wire Line
-	-8175 2950 -8100 2950
-Wire Wire Line
-	-6800 2950 -6750 2950
-Wire Wire Line
-	-6175 2950 -6100 2950
-Wire Wire Line
-	-5800 2950 -5750 2950
-Wire Wire Line
-	-4800 2950 -4750 2950
-Wire Wire Line
-	-3800 2950 -3750 2950
-Wire Wire Line
-	-3575 2950 -3650 2950
-Wire Wire Line
-	-2800 2950 -2750 2950
-Wire Wire Line
-	-10000 3100 -9650 3100
-Wire Wire Line
-	-9650 3100 -9650 2950
-Wire Wire Line
-	-8575 2950 -8650 2950
-Wire Wire Line
-	-9650 3100 -8650 3100
-Connection ~ -9650 3100
-Wire Wire Line
-	-7575 2950 -7650 2950
-Wire Wire Line
-	-6575 2950 -6650 2950
-Wire Wire Line
-	-6650 3100 -6650 2950
-Wire Wire Line
-	-8650 2950 -8650 3100
-Wire Wire Line
-	-8650 3100 -7650 3100
-Connection ~ -8650 3100
-Wire Wire Line
-	-7650 2950 -7650 3100
-Connection ~ -7650 3100
-Wire Wire Line
-	-7650 3100 -6650 3100
-Wire Wire Line
-	-7175 2950 -7100 2950
-Wire Wire Line
-	-5175 2950 -5100 2950
-Wire Wire Line
-	-4175 2950 -4100 2950
-Wire Wire Line
-	-3175 2950 -3100 2950
-Wire Wire Line
-	-5650 3100 -5650 2950
-Wire Wire Line
-	-4650 3100 -3650 3100
-Wire Wire Line
-	-3650 2950 -3650 3100
-Wire Wire Line
-	-4650 2950 -4650 3100
-Connection ~ -4650 3100
-Wire Wire Line
-	-5650 3100 -4650 3100
-Connection ~ -5650 3100
-Connection ~ -6650 3100
-Wire Wire Line
-	-5650 2950 -5575 2950
-Wire Wire Line
-	-4650 2950 -4575 2950
-$Comp
-L Device:D D?
-U 1 1 62A144CC
-P -8950 2950
-AR Path="/62F5643B/62A144CC" Ref="D?"  Part="1" 
-AR Path="/63013830/62A144CC" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A144CC" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A144CC" Ref="D?"  Part="1" 
-AR Path="/62999965/62A144CC" Ref="D1"  Part="1" 
-F 0 "D1" V -8904 2870 50  0000 R CNN
-F 1 "D" V -8995 2870 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -8950 2950 50  0001 C CNN
-F 3 "~" H -8950 2950 50  0001 C CNN
-	1    -8950 2950
-	-1   0    0    1   
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A1F0BA
-P -8375 3450
-AR Path="/62A1F0BA" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A1F0BA" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A1F0BA" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A1F0BA" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A1F0BA" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A1F0BA" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A1F0BA" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A1F0BA" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A1F0BA" Ref="SW97"  Part="1" 
-F 0 "SW97" H -8375 3735 50  0000 C CNN
-F 1 "L11" H -8375 3644 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -8375 3475 50  0001 C CNN
-F 3 "" H -8375 3475 50  0001 C CNN
-	1    -8375 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A1F0C0
-P -7375 3450
-AR Path="/62A1F0C0" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A1F0C0" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A1F0C0" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A1F0C0" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A1F0C0" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A1F0C0" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A1F0C0" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A1F0C0" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A1F0C0" Ref="SW103"  Part="1" 
-F 0 "SW103" H -7375 3735 50  0000 C CNN
-F 1 "L12" H -7375 3644 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -7375 3475 50  0001 C CNN
-F 3 "" H -7375 3475 50  0001 C CNN
-	1    -7375 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A1F0C6
-P -6375 3450
-AR Path="/62A1F0C6" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A1F0C6" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A1F0C6" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A1F0C6" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A1F0C6" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A1F0C6" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A1F0C6" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A1F0C6" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A1F0C6" Ref="SW109"  Part="1" 
-F 0 "SW109" H -6375 3735 50  0000 C CNN
-F 1 "L13" H -6375 3644 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -6375 3475 50  0001 C CNN
-F 3 "" H -6375 3475 50  0001 C CNN
-	1    -6375 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62A1F0CC
-P -7950 3450
-AR Path="/62F5643B/62A1F0CC" Ref="D?"  Part="1" 
-AR Path="/63013830/62A1F0CC" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A1F0CC" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A1F0CC" Ref="D?"  Part="1" 
-AR Path="/62999965/62A1F0CC" Ref="D7"  Part="1" 
-F 0 "D7" V -7904 3370 50  0000 R CNN
-F 1 "D" V -7995 3370 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -7950 3450 50  0001 C CNN
-F 3 "~" H -7950 3450 50  0001 C CNN
-	1    -7950 3450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62A1F0D2
-P -6950 3450
-AR Path="/62F5643B/62A1F0D2" Ref="D?"  Part="1" 
-AR Path="/63013830/62A1F0D2" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A1F0D2" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A1F0D2" Ref="D?"  Part="1" 
-AR Path="/62999965/62A1F0D2" Ref="D13"  Part="1" 
-F 0 "D13" V -6904 3370 50  0000 R CNN
-F 1 "D" V -6995 3370 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -6950 3450 50  0001 C CNN
-F 3 "~" H -6950 3450 50  0001 C CNN
-	1    -6950 3450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62A1F0D8
-P -5950 3450
-AR Path="/62F5643B/62A1F0D8" Ref="D?"  Part="1" 
-AR Path="/63013830/62A1F0D8" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A1F0D8" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A1F0D8" Ref="D?"  Part="1" 
-AR Path="/62999965/62A1F0D8" Ref="D19"  Part="1" 
-F 0 "D19" V -5904 3370 50  0000 R CNN
-F 1 "D" V -5995 3370 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -5950 3450 50  0001 C CNN
-F 3 "~" H -5950 3450 50  0001 C CNN
-	1    -5950 3450
-	-1   0    0    1   
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A1F0DE
-P -5375 3450
-AR Path="/62A1F0DE" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A1F0DE" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A1F0DE" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A1F0DE" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A1F0DE" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A1F0DE" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A1F0DE" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A1F0DE" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A1F0DE" Ref="SW115"  Part="1" 
-F 0 "SW115" H -5375 3735 50  0000 C CNN
-F 1 "L14" H -5375 3644 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -5375 3475 50  0001 C CNN
-F 3 "" H -5375 3475 50  0001 C CNN
-	1    -5375 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A1F0E4
-P -3375 3450
-AR Path="/62A1F0E4" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A1F0E4" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A1F0E4" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A1F0E4" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A1F0E4" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A1F0E4" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A1F0E4" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A1F0E4" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A1F0E4" Ref="SW126"  Part="1" 
-F 0 "SW126" H -3375 3735 50  0000 C CNN
-F 1 "L16" H -3375 3644 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.50u_PCB_KailhSocket" H -3375 3475 50  0001 C CNN
-F 3 "" H -3375 3475 50  0001 C CNN
-	1    -3375 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62A1F0F0
-P -4950 3450
-AR Path="/62F5643B/62A1F0F0" Ref="D?"  Part="1" 
-AR Path="/63013830/62A1F0F0" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A1F0F0" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A1F0F0" Ref="D?"  Part="1" 
-AR Path="/62999965/62A1F0F0" Ref="D25"  Part="1" 
-F 0 "D25" V -4904 3370 50  0000 R CNN
-F 1 "D" V -4995 3370 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -4950 3450 50  0001 C CNN
-F 3 "~" H -4950 3450 50  0001 C CNN
-	1    -4950 3450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62A1F0F6
-P -3950 3450
-AR Path="/62F5643B/62A1F0F6" Ref="D?"  Part="1" 
-AR Path="/63013830/62A1F0F6" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A1F0F6" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A1F0F6" Ref="D?"  Part="1" 
-AR Path="/62999965/62A1F0F6" Ref="D31"  Part="1" 
-F 0 "D31" V -3904 3370 50  0000 R CNN
-F 1 "D" V -3995 3370 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -3950 3450 50  0001 C CNN
-F 3 "~" H -3950 3450 50  0001 C CNN
-	1    -3950 3450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62A1F0FC
-P -2950 3450
-AR Path="/62F5643B/62A1F0FC" Ref="D?"  Part="1" 
-AR Path="/63013830/62A1F0FC" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A1F0FC" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A1F0FC" Ref="D?"  Part="1" 
-AR Path="/62999965/62A1F0FC" Ref="D124"  Part="1" 
-F 0 "D124" V -2904 3370 50  0000 R CNN
-F 1 "D" V -2995 3370 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -2950 3450 50  0001 C CNN
-F 3 "~" H -2950 3450 50  0001 C CNN
-	1    -2950 3450
-	-1   0    0    1   
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A1F108
-P -4375 3450
-AR Path="/62A1F108" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A1F108" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A1F108" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A1F108" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A1F108" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A1F108" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A1F108" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A1F108" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A1F108" Ref="SW121"  Part="1" 
-F 0 "SW121" H -4375 3735 50  0000 C CNN
-F 1 "L15" H -4375 3644 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -4375 3475 50  0001 C CNN
-F 3 "" H -4375 3475 50  0001 C CNN
-	1    -4375 3450
-	1    0    0    -1  
-$EndComp
-Text HLabel -10000 3600 0    50   Output ~ 0
+Text HLabel 3625 3375 0    50   Output ~ 0
 ROW[1]
-Wire Wire Line
-	-9175 3450 -9100 3450
-Wire Wire Line
-	-9575 3450 -9650 3450
-Wire Wire Line
-	-7800 3450 -7750 3450
-Wire Wire Line
-	-8175 3450 -8100 3450
-Wire Wire Line
-	-6800 3450 -6750 3450
-Wire Wire Line
-	-6175 3450 -6100 3450
-Wire Wire Line
-	-5800 3450 -5750 3450
-Wire Wire Line
-	-4800 3450 -4750 3450
-Wire Wire Line
-	-3800 3450 -3750 3450
-Wire Wire Line
-	-3575 3450 -3650 3450
-Wire Wire Line
-	-2800 3450 -2750 3450
-Wire Wire Line
-	-10000 3600 -9650 3600
-Wire Wire Line
-	-9650 3600 -9650 3450
-Wire Wire Line
-	-8575 3450 -8650 3450
-Wire Wire Line
-	-9650 3600 -8650 3600
-Connection ~ -9650 3600
-Wire Wire Line
-	-7575 3450 -7650 3450
-Wire Wire Line
-	-6575 3450 -6650 3450
-Wire Wire Line
-	-6650 3600 -6650 3450
-Wire Wire Line
-	-8650 3450 -8650 3600
-Wire Wire Line
-	-8650 3600 -7650 3600
-Connection ~ -8650 3600
-Wire Wire Line
-	-7650 3450 -7650 3600
-Connection ~ -7650 3600
-Wire Wire Line
-	-7650 3600 -6650 3600
-Wire Wire Line
-	-7175 3450 -7100 3450
-Wire Wire Line
-	-5175 3450 -5100 3450
-Wire Wire Line
-	-4175 3450 -4100 3450
-Wire Wire Line
-	-3175 3450 -3100 3450
-Wire Wire Line
-	-6650 3600 -5650 3600
-Wire Wire Line
-	-5650 3600 -5650 3450
-Wire Wire Line
-	-4650 3600 -3650 3600
-Wire Wire Line
-	-3650 3450 -3650 3600
-Wire Wire Line
-	-4650 3450 -4650 3600
-Connection ~ -4650 3600
-Wire Wire Line
-	-5650 3600 -4650 3600
-Connection ~ -5650 3600
-Connection ~ -6650 3600
-Wire Wire Line
-	-5650 3450 -5575 3450
-Wire Wire Line
-	-4650 3450 -4575 3450
-$Comp
-L Device:D D?
-U 1 1 62A1F14E
-P -8950 3450
-AR Path="/62F5643B/62A1F14E" Ref="D?"  Part="1" 
-AR Path="/63013830/62A1F14E" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A1F14E" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A1F14E" Ref="D?"  Part="1" 
-AR Path="/62999965/62A1F14E" Ref="D2"  Part="1" 
-F 0 "D2" V -8904 3370 50  0000 R CNN
-F 1 "D" V -8995 3370 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -8950 3450 50  0001 C CNN
-F 3 "~" H -8950 3450 50  0001 C CNN
-	1    -8950 3450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	-8750 2950 -8750 3450
-Wire Wire Line
-	-8800 3450 -8750 3450
-Wire Wire Line
-	-7750 2950 -7750 3450
-Wire Wire Line
-	-6750 2950 -6750 3450
-Wire Wire Line
-	-5750 2950 -5750 3450
-Wire Wire Line
-	-4750 2950 -4750 3450
-Wire Wire Line
-	-3750 2950 -3750 3450
-Wire Wire Line
-	-2750 2950 -2750 3450
-Wire Wire Line
-	-8750 3450 -8750 3950
-Wire Wire Line
-	-7750 3450 -7750 3950
-Wire Wire Line
-	-6750 3450 -6750 3950
-Connection ~ -6750 3450
-Connection ~ -7750 3450
-Connection ~ -8750 3450
-Wire Wire Line
-	-5750 3450 -5750 3950
-Connection ~ -5750 3450
-Wire Wire Line
-	-4750 3450 -4750 3950
-Connection ~ -4750 3450
-Wire Wire Line
-	-3750 3450 -3750 3950
-Connection ~ -3750 3450
-Connection ~ -2750 3450
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A59258
-P -8375 3950
-AR Path="/62A59258" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A59258" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A59258" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A59258" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A59258" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A59258" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A59258" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A59258" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A59258" Ref="SW98"  Part="1" 
-F 0 "SW98" H -8375 4235 50  0000 C CNN
-F 1 "L21" H -8375 4144 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -8375 3975 50  0001 C CNN
-F 3 "" H -8375 3975 50  0001 C CNN
-	1    -8375 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A5925E
-P -7375 3950
-AR Path="/62A5925E" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A5925E" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A5925E" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A5925E" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A5925E" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A5925E" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A5925E" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A5925E" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A5925E" Ref="SW104"  Part="1" 
-F 0 "SW104" H -7375 4235 50  0000 C CNN
-F 1 "L22" H -7375 4144 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -7375 3975 50  0001 C CNN
-F 3 "" H -7375 3975 50  0001 C CNN
-	1    -7375 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A59264
-P -6375 3950
-AR Path="/62A59264" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A59264" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A59264" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A59264" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A59264" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A59264" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A59264" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A59264" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A59264" Ref="SW110"  Part="1" 
-F 0 "SW110" H -6375 4235 50  0000 C CNN
-F 1 "L23" H -6375 4144 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -6375 3975 50  0001 C CNN
-F 3 "" H -6375 3975 50  0001 C CNN
-	1    -6375 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62A5926A
-P -7950 3950
-AR Path="/62F5643B/62A5926A" Ref="D?"  Part="1" 
-AR Path="/63013830/62A5926A" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A5926A" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A5926A" Ref="D?"  Part="1" 
-AR Path="/62999965/62A5926A" Ref="D8"  Part="1" 
-F 0 "D8" V -7904 3870 50  0000 R CNN
-F 1 "D" V -7995 3870 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -7950 3950 50  0001 C CNN
-F 3 "~" H -7950 3950 50  0001 C CNN
-	1    -7950 3950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62A59270
-P -6950 3950
-AR Path="/62F5643B/62A59270" Ref="D?"  Part="1" 
-AR Path="/63013830/62A59270" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A59270" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A59270" Ref="D?"  Part="1" 
-AR Path="/62999965/62A59270" Ref="D14"  Part="1" 
-F 0 "D14" V -6904 3870 50  0000 R CNN
-F 1 "D" V -6995 3870 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -6950 3950 50  0001 C CNN
-F 3 "~" H -6950 3950 50  0001 C CNN
-	1    -6950 3950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62A59276
-P -5950 3950
-AR Path="/62F5643B/62A59276" Ref="D?"  Part="1" 
-AR Path="/63013830/62A59276" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A59276" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A59276" Ref="D?"  Part="1" 
-AR Path="/62999965/62A59276" Ref="D20"  Part="1" 
-F 0 "D20" V -5904 3870 50  0000 R CNN
-F 1 "D" V -5995 3870 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -5950 3950 50  0001 C CNN
-F 3 "~" H -5950 3950 50  0001 C CNN
-	1    -5950 3950
-	-1   0    0    1   
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A5927C
-P -5375 3950
-AR Path="/62A5927C" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A5927C" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A5927C" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A5927C" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A5927C" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A5927C" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A5927C" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A5927C" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A5927C" Ref="SW116"  Part="1" 
-F 0 "SW116" H -5375 4235 50  0000 C CNN
-F 1 "L24" H -5375 4144 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -5375 3975 50  0001 C CNN
-F 3 "" H -5375 3975 50  0001 C CNN
-	1    -5375 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62A59288
-P -4950 3950
-AR Path="/62F5643B/62A59288" Ref="D?"  Part="1" 
-AR Path="/63013830/62A59288" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A59288" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A59288" Ref="D?"  Part="1" 
-AR Path="/62999965/62A59288" Ref="D26"  Part="1" 
-F 0 "D26" V -4904 3870 50  0000 R CNN
-F 1 "D" V -4995 3870 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -4950 3950 50  0001 C CNN
-F 3 "~" H -4950 3950 50  0001 C CNN
-	1    -4950 3950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62A5928E
-P -3950 3950
-AR Path="/62F5643B/62A5928E" Ref="D?"  Part="1" 
-AR Path="/63013830/62A5928E" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A5928E" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A5928E" Ref="D?"  Part="1" 
-AR Path="/62999965/62A5928E" Ref="D120"  Part="1" 
-F 0 "D120" V -3904 3870 50  0000 R CNN
-F 1 "D" V -3995 3870 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -3950 3950 50  0001 C CNN
-F 3 "~" H -3950 3950 50  0001 C CNN
-	1    -3950 3950
-	-1   0    0    1   
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A5929A
-P -4375 3950
-AR Path="/62A5929A" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A5929A" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A5929A" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A5929A" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A5929A" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A5929A" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A5929A" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A5929A" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A5929A" Ref="SW122"  Part="1" 
-F 0 "SW122" H -4375 4235 50  0000 C CNN
-F 1 "L25" H -4375 4144 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -4375 3975 50  0001 C CNN
-F 3 "" H -4375 3975 50  0001 C CNN
-	1    -4375 3950
-	1    0    0    -1  
-$EndComp
-Text HLabel -10000 4100 0    50   Output ~ 0
+Text HLabel 3625 4575 0    50   Output ~ 0
 ROW[2]
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A592A1
-P -9375 3950
-AR Path="/62A592A1" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A592A1" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A592A1" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A592A1" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A592A1" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A592A1" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A592A1" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A592A1" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A592A1" Ref="SW92"  Part="1" 
-F 0 "SW92" H -9375 4235 50  0000 C CNN
-F 1 "L20" H -9375 4144 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.50u_PCB_KailhSocket" H -9375 3975 50  0001 C CNN
-F 3 "" H -9375 3975 50  0001 C CNN
-	1    -9375 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-9175 3950 -9100 3950
-Wire Wire Line
-	-9575 3950 -9650 3950
-Wire Wire Line
-	-7800 3950 -7750 3950
-Wire Wire Line
-	-8175 3950 -8100 3950
-Wire Wire Line
-	-6800 3950 -6750 3950
-Wire Wire Line
-	-6175 3950 -6100 3950
-Wire Wire Line
-	-5800 3950 -5750 3950
-Wire Wire Line
-	-4800 3950 -4750 3950
-Wire Wire Line
-	-3800 3950 -3750 3950
-Wire Wire Line
-	-10000 4100 -9650 4100
-Wire Wire Line
-	-9650 4100 -9650 3950
-Wire Wire Line
-	-8575 3950 -8650 3950
-Wire Wire Line
-	-9650 4100 -8650 4100
-Connection ~ -9650 4100
-Wire Wire Line
-	-7575 3950 -7650 3950
-Wire Wire Line
-	-6575 3950 -6650 3950
-Wire Wire Line
-	-6650 4100 -6650 3950
-Wire Wire Line
-	-8650 3950 -8650 4100
-Wire Wire Line
-	-8650 4100 -7650 4100
-Connection ~ -8650 4100
-Wire Wire Line
-	-7650 3950 -7650 4100
-Connection ~ -7650 4100
-Wire Wire Line
-	-7650 4100 -6650 4100
-Wire Wire Line
-	-7175 3950 -7100 3950
-Wire Wire Line
-	-5175 3950 -5100 3950
-Wire Wire Line
-	-4175 3950 -4100 3950
-Wire Wire Line
-	-6650 4100 -5650 4100
-Wire Wire Line
-	-5650 4100 -5650 3950
-Wire Wire Line
-	-4650 3950 -4650 4100
-Wire Wire Line
-	-5650 4100 -4650 4100
-Connection ~ -5650 4100
-Connection ~ -6650 4100
-Wire Wire Line
-	-5650 3950 -5575 3950
-Wire Wire Line
-	-4650 3950 -4575 3950
-$Comp
-L Device:D D?
-U 1 1 62A592CF
-P -8950 3950
-AR Path="/62F5643B/62A592CF" Ref="D?"  Part="1" 
-AR Path="/63013830/62A592CF" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A592CF" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A592CF" Ref="D?"  Part="1" 
-AR Path="/62999965/62A592CF" Ref="D3"  Part="1" 
-F 0 "D3" V -8904 3870 50  0000 R CNN
-F 1 "D" V -8995 3870 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -8950 3950 50  0001 C CNN
-F 3 "~" H -8950 3950 50  0001 C CNN
-	1    -8950 3950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	-8800 3950 -8750 3950
-Wire Wire Line
-	-8750 3950 -8750 4450
-Wire Wire Line
-	-7750 3950 -7750 4450
-Wire Wire Line
-	-6750 3950 -6750 4450
-Wire Wire Line
-	-5750 3950 -5750 4450
-Wire Wire Line
-	-4750 3950 -4750 4450
-Wire Wire Line
-	-3750 3950 -3750 4450
-Connection ~ -8750 3950
-Connection ~ -7750 3950
-Connection ~ -6750 3950
-Connection ~ -5750 3950
-Connection ~ -4750 3950
-Connection ~ -3750 3950
-Wire Wire Line
-	-4750 4450 -4750 4950
-Wire Wire Line
-	-5750 4450 -5750 4950
-Wire Wire Line
-	-6750 4450 -6750 4950
-Wire Wire Line
-	-7750 4450 -7750 4950
-Wire Wire Line
-	-8750 4450 -8750 4950
-Wire Wire Line
-	-8800 4450 -8750 4450
-$Comp
-L Device:D D?
-U 1 1 62A70F9B
-P -8950 4450
-AR Path="/62F5643B/62A70F9B" Ref="D?"  Part="1" 
-AR Path="/63013830/62A70F9B" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A70F9B" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A70F9B" Ref="D?"  Part="1" 
-AR Path="/62999965/62A70F9B" Ref="D4"  Part="1" 
-F 0 "D4" V -8904 4370 50  0000 R CNN
-F 1 "D" V -8995 4370 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -8950 4450 50  0001 C CNN
-F 3 "~" H -8950 4450 50  0001 C CNN
-	1    -8950 4450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	-4650 4450 -4575 4450
-Wire Wire Line
-	-5650 4450 -5575 4450
-Connection ~ -6650 4600
-Connection ~ -5650 4600
-Wire Wire Line
-	-5650 4600 -4650 4600
-Connection ~ -4650 4600
-Wire Wire Line
-	-4650 4450 -4650 4600
-Wire Wire Line
-	-3650 4450 -3650 4600
-Wire Wire Line
-	-4650 4600 -3650 4600
-Wire Wire Line
-	-5650 4600 -5650 4450
-Wire Wire Line
-	-6650 4600 -5650 4600
-Wire Wire Line
-	-3175 4450 -3100 4450
-Wire Wire Line
-	-4175 4450 -4100 4450
-Wire Wire Line
-	-5175 4450 -5100 4450
-Wire Wire Line
-	-7175 4450 -7100 4450
-Wire Wire Line
-	-7650 4600 -6650 4600
-Connection ~ -7650 4600
-Wire Wire Line
-	-7650 4450 -7650 4600
-Connection ~ -8650 4600
-Wire Wire Line
-	-8650 4600 -7650 4600
-Wire Wire Line
-	-8650 4450 -8650 4600
-Wire Wire Line
-	-6650 4600 -6650 4450
-Wire Wire Line
-	-6575 4450 -6650 4450
-Wire Wire Line
-	-7575 4450 -7650 4450
-Connection ~ -9650 4600
-Wire Wire Line
-	-9650 4600 -8650 4600
-Wire Wire Line
-	-8575 4450 -8650 4450
-Wire Wire Line
-	-9650 4600 -9650 4450
-Wire Wire Line
-	-10000 4600 -9650 4600
-Wire Wire Line
-	-2800 4450 -2750 4450
-Wire Wire Line
-	-3575 4450 -3650 4450
-Wire Wire Line
-	-3800 4450 -3750 4450
-Wire Wire Line
-	-4800 4450 -4750 4450
-Wire Wire Line
-	-5800 4450 -5750 4450
-Wire Wire Line
-	-6175 4450 -6100 4450
-Wire Wire Line
-	-6800 4450 -6750 4450
-Wire Wire Line
-	-8175 4450 -8100 4450
-Wire Wire Line
-	-7800 4450 -7750 4450
-Wire Wire Line
-	-9575 4450 -9650 4450
-Wire Wire Line
-	-9175 4450 -9100 4450
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A70F6D
-P -9375 4450
-AR Path="/62A70F6D" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A70F6D" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A70F6D" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A70F6D" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A70F6D" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A70F6D" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A70F6D" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A70F6D" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A70F6D" Ref="SW94"  Part="1" 
-F 0 "SW94" H -9375 4735 50  0000 C CNN
-F 1 "L30" H -9375 4644 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.50u_PCB_KailhSocket" H -9375 4475 50  0001 C CNN
-F 3 "" H -9375 4475 50  0001 C CNN
-	1    -9375 4450
-	1    0    0    -1  
-$EndComp
-Text HLabel -10000 4600 0    50   Output ~ 0
+Text HLabel 3625 5775 0    50   Output ~ 0
 ROW[3]
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A70F66
-P -4375 4450
-AR Path="/62A70F66" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A70F66" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A70F66" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A70F66" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A70F66" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A70F66" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A70F66" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A70F66" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A70F66" Ref="SW123"  Part="1" 
-F 0 "SW123" H -4375 4735 50  0000 C CNN
-F 1 "L25" H -4375 4644 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -4375 4475 50  0001 C CNN
-F 3 "" H -4375 4475 50  0001 C CNN
-	1    -4375 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62A70F60
-P -2950 4450
-AR Path="/62F5643B/62A70F60" Ref="D?"  Part="1" 
-AR Path="/63013830/62A70F60" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A70F60" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A70F60" Ref="D?"  Part="1" 
-AR Path="/62999965/62A70F60" Ref="D125"  Part="1" 
-F 0 "D125" V -2904 4370 50  0000 R CNN
-F 1 "D" V -2995 4370 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -2950 4450 50  0001 C CNN
-F 3 "~" H -2950 4450 50  0001 C CNN
-	1    -2950 4450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62A70F5A
-P -3950 4450
-AR Path="/62F5643B/62A70F5A" Ref="D?"  Part="1" 
-AR Path="/63013830/62A70F5A" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A70F5A" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A70F5A" Ref="D?"  Part="1" 
-AR Path="/62999965/62A70F5A" Ref="D121"  Part="1" 
-F 0 "D121" V -3904 4370 50  0000 R CNN
-F 1 "D" V -3995 4370 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -3950 4450 50  0001 C CNN
-F 3 "~" H -3950 4450 50  0001 C CNN
-	1    -3950 4450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62A70F54
-P -4950 4450
-AR Path="/62F5643B/62A70F54" Ref="D?"  Part="1" 
-AR Path="/63013830/62A70F54" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A70F54" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A70F54" Ref="D?"  Part="1" 
-AR Path="/62999965/62A70F54" Ref="D27"  Part="1" 
-F 0 "D27" V -4904 4370 50  0000 R CNN
-F 1 "D" V -4995 4370 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -4950 4450 50  0001 C CNN
-F 3 "~" H -4950 4450 50  0001 C CNN
-	1    -4950 4450
-	-1   0    0    1   
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A70F4E
-P -3375 4450
-AR Path="/62A70F4E" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A70F4E" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A70F4E" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A70F4E" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A70F4E" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A70F4E" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A70F4E" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A70F4E" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A70F4E" Ref="SW127"  Part="1" 
-F 0 "SW127" H -3375 4735 50  0000 C CNN
-F 1 "L36" H -3375 4644 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.50u_PCB_KailhSocket" H -3375 4475 50  0001 C CNN
-F 3 "" H -3375 4475 50  0001 C CNN
-	1    -3375 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A70F48
-P -5375 4450
-AR Path="/62A70F48" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A70F48" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A70F48" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A70F48" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A70F48" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A70F48" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A70F48" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A70F48" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A70F48" Ref="SW117"  Part="1" 
-F 0 "SW117" H -5375 4735 50  0000 C CNN
-F 1 "L34" H -5375 4644 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -5375 4475 50  0001 C CNN
-F 3 "" H -5375 4475 50  0001 C CNN
-	1    -5375 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62A70F42
-P -5950 4450
-AR Path="/62F5643B/62A70F42" Ref="D?"  Part="1" 
-AR Path="/63013830/62A70F42" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A70F42" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A70F42" Ref="D?"  Part="1" 
-AR Path="/62999965/62A70F42" Ref="D21"  Part="1" 
-F 0 "D21" V -5904 4370 50  0000 R CNN
-F 1 "D" V -5995 4370 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -5950 4450 50  0001 C CNN
-F 3 "~" H -5950 4450 50  0001 C CNN
-	1    -5950 4450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62A70F3C
-P -6950 4450
-AR Path="/62F5643B/62A70F3C" Ref="D?"  Part="1" 
-AR Path="/63013830/62A70F3C" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A70F3C" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A70F3C" Ref="D?"  Part="1" 
-AR Path="/62999965/62A70F3C" Ref="D15"  Part="1" 
-F 0 "D15" V -6904 4370 50  0000 R CNN
-F 1 "D" V -6995 4370 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -6950 4450 50  0001 C CNN
-F 3 "~" H -6950 4450 50  0001 C CNN
-	1    -6950 4450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62A70F36
-P -7950 4450
-AR Path="/62F5643B/62A70F36" Ref="D?"  Part="1" 
-AR Path="/63013830/62A70F36" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A70F36" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A70F36" Ref="D?"  Part="1" 
-AR Path="/62999965/62A70F36" Ref="D9"  Part="1" 
-F 0 "D9" V -7904 4370 50  0000 R CNN
-F 1 "D" V -7995 4370 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -7950 4450 50  0001 C CNN
-F 3 "~" H -7950 4450 50  0001 C CNN
-	1    -7950 4450
-	-1   0    0    1   
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A70F30
-P -6375 4450
-AR Path="/62A70F30" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A70F30" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A70F30" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A70F30" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A70F30" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A70F30" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A70F30" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A70F30" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A70F30" Ref="SW111"  Part="1" 
-F 0 "SW111" H -6375 4735 50  0000 C CNN
-F 1 "L33" H -6375 4644 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -6375 4475 50  0001 C CNN
-F 3 "" H -6375 4475 50  0001 C CNN
-	1    -6375 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A70F2A
-P -7375 4450
-AR Path="/62A70F2A" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A70F2A" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A70F2A" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A70F2A" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A70F2A" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A70F2A" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A70F2A" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A70F2A" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A70F2A" Ref="SW105"  Part="1" 
-F 0 "SW105" H -7375 4735 50  0000 C CNN
-F 1 "L32" H -7375 4644 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -7375 4475 50  0001 C CNN
-F 3 "" H -7375 4475 50  0001 C CNN
-	1    -7375 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A70F24
-P -8375 4450
-AR Path="/62A70F24" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A70F24" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A70F24" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A70F24" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A70F24" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A70F24" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A70F24" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A70F24" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A70F24" Ref="SW99"  Part="1" 
-F 0 "SW99" H -8375 4735 50  0000 C CNN
-F 1 "L31" H -8375 4644 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -8375 4475 50  0001 C CNN
-F 3 "" H -8375 4475 50  0001 C CNN
-	1    -8375 4450
-	1    0    0    -1  
-$EndComp
-Connection ~ -8750 4450
-Connection ~ -7750 4450
-Connection ~ -6750 4450
-Connection ~ -5750 4450
-Connection ~ -4750 4450
-Connection ~ -3750 4450
-Connection ~ -2750 4450
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62ABBF07
-P -8375 4950
-AR Path="/62ABBF07" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62ABBF07" Ref="SW?"  Part="1" 
-AR Path="/61150193/62ABBF07" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62ABBF07" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62ABBF07" Ref="SW?"  Part="1" 
-AR Path="/63013830/62ABBF07" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62ABBF07" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62ABBF07" Ref="SW?"  Part="1" 
-AR Path="/62999965/62ABBF07" Ref="SW100"  Part="1" 
-F 0 "SW100" H -8375 5235 50  0000 C CNN
-F 1 "L41" H -8375 5144 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -8375 4975 50  0001 C CNN
-F 3 "" H -8375 4975 50  0001 C CNN
-	1    -8375 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62ABBF0D
-P -7375 4950
-AR Path="/62ABBF0D" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62ABBF0D" Ref="SW?"  Part="1" 
-AR Path="/61150193/62ABBF0D" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62ABBF0D" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62ABBF0D" Ref="SW?"  Part="1" 
-AR Path="/63013830/62ABBF0D" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62ABBF0D" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62ABBF0D" Ref="SW?"  Part="1" 
-AR Path="/62999965/62ABBF0D" Ref="SW106"  Part="1" 
-F 0 "SW106" H -7375 5235 50  0000 C CNN
-F 1 "L42" H -7375 5144 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -7375 4975 50  0001 C CNN
-F 3 "" H -7375 4975 50  0001 C CNN
-	1    -7375 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62ABBF13
-P -6375 4950
-AR Path="/62ABBF13" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62ABBF13" Ref="SW?"  Part="1" 
-AR Path="/61150193/62ABBF13" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62ABBF13" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62ABBF13" Ref="SW?"  Part="1" 
-AR Path="/63013830/62ABBF13" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62ABBF13" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62ABBF13" Ref="SW?"  Part="1" 
-AR Path="/62999965/62ABBF13" Ref="SW112"  Part="1" 
-F 0 "SW112" H -6375 5235 50  0000 C CNN
-F 1 "L43" H -6375 5144 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -6375 4975 50  0001 C CNN
-F 3 "" H -6375 4975 50  0001 C CNN
-	1    -6375 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62ABBF19
-P -7950 4950
-AR Path="/62F5643B/62ABBF19" Ref="D?"  Part="1" 
-AR Path="/63013830/62ABBF19" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62ABBF19" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62ABBF19" Ref="D?"  Part="1" 
-AR Path="/62999965/62ABBF19" Ref="D10"  Part="1" 
-F 0 "D10" V -7904 4870 50  0000 R CNN
-F 1 "D" V -7995 4870 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -7950 4950 50  0001 C CNN
-F 3 "~" H -7950 4950 50  0001 C CNN
-	1    -7950 4950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62ABBF1F
-P -6950 4950
-AR Path="/62F5643B/62ABBF1F" Ref="D?"  Part="1" 
-AR Path="/63013830/62ABBF1F" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62ABBF1F" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62ABBF1F" Ref="D?"  Part="1" 
-AR Path="/62999965/62ABBF1F" Ref="D16"  Part="1" 
-F 0 "D16" V -6904 4870 50  0000 R CNN
-F 1 "D" V -6995 4870 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -6950 4950 50  0001 C CNN
-F 3 "~" H -6950 4950 50  0001 C CNN
-	1    -6950 4950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62ABBF25
-P -5950 4950
-AR Path="/62F5643B/62ABBF25" Ref="D?"  Part="1" 
-AR Path="/63013830/62ABBF25" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62ABBF25" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62ABBF25" Ref="D?"  Part="1" 
-AR Path="/62999965/62ABBF25" Ref="D22"  Part="1" 
-F 0 "D22" V -5904 4870 50  0000 R CNN
-F 1 "D" V -5995 4870 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -5950 4950 50  0001 C CNN
-F 3 "~" H -5950 4950 50  0001 C CNN
-	1    -5950 4950
-	-1   0    0    1   
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62ABBF2B
-P -5375 4950
-AR Path="/62ABBF2B" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62ABBF2B" Ref="SW?"  Part="1" 
-AR Path="/61150193/62ABBF2B" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62ABBF2B" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62ABBF2B" Ref="SW?"  Part="1" 
-AR Path="/63013830/62ABBF2B" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62ABBF2B" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62ABBF2B" Ref="SW?"  Part="1" 
-AR Path="/62999965/62ABBF2B" Ref="SW118"  Part="1" 
-F 0 "SW118" H -5375 5235 50  0000 C CNN
-F 1 "L44" H -5375 5144 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -5375 4975 50  0001 C CNN
-F 3 "" H -5375 4975 50  0001 C CNN
-	1    -5375 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62ABBF37
-P -4950 4950
-AR Path="/62F5643B/62ABBF37" Ref="D?"  Part="1" 
-AR Path="/63013830/62ABBF37" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62ABBF37" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62ABBF37" Ref="D?"  Part="1" 
-AR Path="/62999965/62ABBF37" Ref="D28"  Part="1" 
-F 0 "D28" V -4904 4870 50  0000 R CNN
-F 1 "D" V -4995 4870 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -4950 4950 50  0001 C CNN
-F 3 "~" H -4950 4950 50  0001 C CNN
-	1    -4950 4950
-	-1   0    0    1   
-$EndComp
-Text HLabel -10000 5100 0    50   Output ~ 0
+Text HLabel 3625 6975 0    50   Output ~ 0
 ROW[4]
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62ABBF50
-P -9375 4950
-AR Path="/62ABBF50" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62ABBF50" Ref="SW?"  Part="1" 
-AR Path="/61150193/62ABBF50" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62ABBF50" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62ABBF50" Ref="SW?"  Part="1" 
-AR Path="/63013830/62ABBF50" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62ABBF50" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62ABBF50" Ref="SW?"  Part="1" 
-AR Path="/62999965/62ABBF50" Ref="SW95"  Part="1" 
-F 0 "SW95" H -9375 5235 50  0000 C CNN
-F 1 "L40" H -9375 5144 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.50u_PCB_KailhSocket" H -9375 4975 50  0001 C CNN
-F 3 "" H -9375 4975 50  0001 C CNN
-	1    -9375 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-9175 4950 -9100 4950
-Wire Wire Line
-	-9575 4950 -9650 4950
-Wire Wire Line
-	-7800 4950 -7750 4950
-Wire Wire Line
-	-8175 4950 -8100 4950
-Wire Wire Line
-	-6800 4950 -6750 4950
-Wire Wire Line
-	-6175 4950 -6100 4950
-Wire Wire Line
-	-5800 4950 -5750 4950
-Wire Wire Line
-	-4800 4950 -4750 4950
-Wire Wire Line
-	-10000 5100 -9650 5100
-Wire Wire Line
-	-9650 5100 -9650 4950
-Wire Wire Line
-	-8575 4950 -8650 4950
-Wire Wire Line
-	-9650 5100 -8650 5100
-Connection ~ -9650 5100
-Wire Wire Line
-	-7575 4950 -7650 4950
-Wire Wire Line
-	-6575 4950 -6650 4950
-Wire Wire Line
-	-6650 5100 -6650 4950
-Wire Wire Line
-	-8650 4950 -8650 5100
-Wire Wire Line
-	-8650 5100 -7650 5100
-Connection ~ -8650 5100
-Wire Wire Line
-	-7650 4950 -7650 5100
-Connection ~ -7650 5100
-Wire Wire Line
-	-7650 5100 -6650 5100
-Wire Wire Line
-	-7175 4950 -7100 4950
-Wire Wire Line
-	-5175 4950 -5100 4950
-Wire Wire Line
-	-6650 5100 -5650 5100
-Wire Wire Line
-	-5650 5100 -5650 4950
-Connection ~ -6650 5100
-Wire Wire Line
-	-5650 4950 -5575 4950
-$Comp
-L Device:D D?
-U 1 1 62ABBF7E
-P -8950 4950
-AR Path="/62F5643B/62ABBF7E" Ref="D?"  Part="1" 
-AR Path="/63013830/62ABBF7E" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62ABBF7E" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62ABBF7E" Ref="D?"  Part="1" 
-AR Path="/62999965/62ABBF7E" Ref="D5"  Part="1" 
-F 0 "D5" V -8904 4870 50  0000 R CNN
-F 1 "D" V -8995 4870 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -8950 4950 50  0001 C CNN
-F 3 "~" H -8950 4950 50  0001 C CNN
-	1    -8950 4950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	-8800 4950 -8750 4950
-Wire Wire Line
-	-7750 4950 -7750 5450
-Wire Wire Line
-	-6750 4950 -6750 5450
-Wire Wire Line
-	-5750 4950 -5750 5450
-Wire Wire Line
-	-4750 4950 -4750 5450
-Connection ~ -8750 4950
-Connection ~ -7750 4950
-Connection ~ -6750 4950
-Connection ~ -5750 4950
-Connection ~ -4750 4950
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62AE6604
-P -8375 5450
-AR Path="/62AE6604" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62AE6604" Ref="SW?"  Part="1" 
-AR Path="/61150193/62AE6604" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62AE6604" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62AE6604" Ref="SW?"  Part="1" 
-AR Path="/63013830/62AE6604" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62AE6604" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62AE6604" Ref="SW?"  Part="1" 
-AR Path="/62999965/62AE6604" Ref="SW101"  Part="1" 
-F 0 "SW101" H -8375 5735 50  0000 C CNN
-F 1 "L51" H -8375 5644 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -8375 5475 50  0001 C CNN
-F 3 "" H -8375 5475 50  0001 C CNN
-	1    -8375 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62AE660A
-P -7375 5450
-AR Path="/62AE660A" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62AE660A" Ref="SW?"  Part="1" 
-AR Path="/61150193/62AE660A" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62AE660A" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62AE660A" Ref="SW?"  Part="1" 
-AR Path="/63013830/62AE660A" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62AE660A" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62AE660A" Ref="SW?"  Part="1" 
-AR Path="/62999965/62AE660A" Ref="SW107"  Part="1" 
-F 0 "SW107" H -7375 5735 50  0000 C CNN
-F 1 "L52" H -7375 5644 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_2.00u_PCB_KailhSocket" H -7375 5475 50  0001 C CNN
-F 3 "" H -7375 5475 50  0001 C CNN
-	1    -7375 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62AE6616
-P -7950 5450
-AR Path="/62F5643B/62AE6616" Ref="D?"  Part="1" 
-AR Path="/63013830/62AE6616" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62AE6616" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62AE6616" Ref="D?"  Part="1" 
-AR Path="/62999965/62AE6616" Ref="D11"  Part="1" 
-F 0 "D11" V -7904 5370 50  0000 R CNN
-F 1 "D" V -7995 5370 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -7950 5450 50  0001 C CNN
-F 3 "~" H -7950 5450 50  0001 C CNN
-	1    -7950 5450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62AE661C
-P -6950 5450
-AR Path="/62F5643B/62AE661C" Ref="D?"  Part="1" 
-AR Path="/63013830/62AE661C" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62AE661C" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62AE661C" Ref="D?"  Part="1" 
-AR Path="/62999965/62AE661C" Ref="D17"  Part="1" 
-F 0 "D17" V -6904 5370 50  0000 R CNN
-F 1 "D" V -6995 5370 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -6950 5450 50  0001 C CNN
-F 3 "~" H -6950 5450 50  0001 C CNN
-	1    -6950 5450
-	-1   0    0    1   
-$EndComp
-Text HLabel -10000 5600 0    50   Output ~ 0
-ROW[1]
-Wire Wire Line
-	-7800 5450 -7750 5450
-Wire Wire Line
-	-8175 5450 -8100 5450
-Wire Wire Line
-	-6800 5450 -6750 5450
-Wire Wire Line
-	-8575 5450 -8650 5450
-Wire Wire Line
-	-7575 5450 -7650 5450
-Wire Wire Line
-	-8650 5450 -8650 5600
-Wire Wire Line
-	-8650 5600 -7650 5600
-Connection ~ -8650 5600
-Wire Wire Line
-	-7650 5450 -7650 5600
-Wire Wire Line
-	-7175 5450 -7100 5450
-Wire Wire Line
-	-7750 5450 -7750 5950
-Wire Wire Line
-	-6750 5450 -6750 5950
-Connection ~ -7650 5600
-Wire Wire Line
-	-2750 5450 -2750 5950
-Wire Wire Line
-	-3750 5450 -3750 5950
-Wire Wire Line
-	-4750 5450 -4750 5950
-Wire Wire Line
-	-5750 5450 -5750 5950
-Wire Wire Line
-	-4650 5450 -4575 5450
-Wire Wire Line
-	-5650 5450 -5575 5450
-Connection ~ -6650 5600
-Connection ~ -5650 5600
-Wire Wire Line
-	-5650 5600 -4650 5600
-Connection ~ -4650 5600
-Wire Wire Line
-	-4650 5450 -4650 5600
-Wire Wire Line
-	-3650 5450 -3650 5600
-Wire Wire Line
-	-4650 5600 -3650 5600
-Wire Wire Line
-	-5650 5600 -5650 5450
-Wire Wire Line
-	-6650 5600 -5650 5600
-Wire Wire Line
-	-3175 5450 -3100 5450
-Wire Wire Line
-	-4175 5450 -4100 5450
-Wire Wire Line
-	-5175 5450 -5100 5450
-Wire Wire Line
-	-7650 5600 -6650 5600
-Wire Wire Line
-	-6650 5600 -6650 5450
-Wire Wire Line
-	-6575 5450 -6650 5450
-Wire Wire Line
-	-2800 5450 -2750 5450
-Wire Wire Line
-	-3575 5450 -3650 5450
-Wire Wire Line
-	-3800 5450 -3750 5450
-Wire Wire Line
-	-4800 5450 -4750 5450
-Wire Wire Line
-	-5800 5450 -5750 5450
-Wire Wire Line
-	-6175 5450 -6100 5450
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62AE6646
-P -4375 5450
-AR Path="/62AE6646" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62AE6646" Ref="SW?"  Part="1" 
-AR Path="/61150193/62AE6646" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62AE6646" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62AE6646" Ref="SW?"  Part="1" 
-AR Path="/63013830/62AE6646" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62AE6646" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62AE6646" Ref="SW?"  Part="1" 
-AR Path="/62999965/62AE6646" Ref="SW124"  Part="1" 
-F 0 "SW124" H -4375 5735 50  0000 C CNN
-F 1 "L55" H -4375 5644 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -4375 5475 50  0001 C CNN
-F 3 "" H -4375 5475 50  0001 C CNN
-	1    -4375 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62AE6640
-P -2950 5450
-AR Path="/62F5643B/62AE6640" Ref="D?"  Part="1" 
-AR Path="/63013830/62AE6640" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62AE6640" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62AE6640" Ref="D?"  Part="1" 
-AR Path="/62999965/62AE6640" Ref="D126"  Part="1" 
-F 0 "D126" V -2904 5370 50  0000 R CNN
-F 1 "D" V -2995 5370 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -2950 5450 50  0001 C CNN
-F 3 "~" H -2950 5450 50  0001 C CNN
-	1    -2950 5450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62AE663A
-P -3950 5450
-AR Path="/62F5643B/62AE663A" Ref="D?"  Part="1" 
-AR Path="/63013830/62AE663A" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62AE663A" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62AE663A" Ref="D?"  Part="1" 
-AR Path="/62999965/62AE663A" Ref="D122"  Part="1" 
-F 0 "D122" V -3904 5370 50  0000 R CNN
-F 1 "D" V -3995 5370 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -3950 5450 50  0001 C CNN
-F 3 "~" H -3950 5450 50  0001 C CNN
-	1    -3950 5450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62AE6634
-P -4950 5450
-AR Path="/62F5643B/62AE6634" Ref="D?"  Part="1" 
-AR Path="/63013830/62AE6634" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62AE6634" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62AE6634" Ref="D?"  Part="1" 
-AR Path="/62999965/62AE6634" Ref="D29"  Part="1" 
-F 0 "D29" V -4904 5370 50  0000 R CNN
-F 1 "D" V -4995 5370 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -4950 5450 50  0001 C CNN
-F 3 "~" H -4950 5450 50  0001 C CNN
-	1    -4950 5450
-	-1   0    0    1   
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62AE662E
-P -3375 5450
-AR Path="/62AE662E" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62AE662E" Ref="SW?"  Part="1" 
-AR Path="/61150193/62AE662E" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62AE662E" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62AE662E" Ref="SW?"  Part="1" 
-AR Path="/63013830/62AE662E" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62AE662E" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62AE662E" Ref="SW?"  Part="1" 
-AR Path="/62999965/62AE662E" Ref="SW128"  Part="1" 
-F 0 "SW128" H -3375 5735 50  0000 C CNN
-F 1 "L56" H -3375 5644 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -3375 5475 50  0001 C CNN
-F 3 "" H -3375 5475 50  0001 C CNN
-	1    -3375 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62AE6628
-P -5375 5450
-AR Path="/62AE6628" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62AE6628" Ref="SW?"  Part="1" 
-AR Path="/61150193/62AE6628" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62AE6628" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62AE6628" Ref="SW?"  Part="1" 
-AR Path="/63013830/62AE6628" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62AE6628" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62AE6628" Ref="SW?"  Part="1" 
-AR Path="/62999965/62AE6628" Ref="SW119"  Part="1" 
-F 0 "SW119" H -5375 5735 50  0000 C CNN
-F 1 "L54" H -5375 5644 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.00u_PCB_KailhSocket" H -5375 5475 50  0001 C CNN
-F 3 "" H -5375 5475 50  0001 C CNN
-	1    -5375 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62AE6622
-P -5950 5450
-AR Path="/62F5643B/62AE6622" Ref="D?"  Part="1" 
-AR Path="/63013830/62AE6622" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62AE6622" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62AE6622" Ref="D?"  Part="1" 
-AR Path="/62999965/62AE6622" Ref="D23"  Part="1" 
-F 0 "D23" V -5904 5370 50  0000 R CNN
-F 1 "D" V -5995 5370 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -5950 5450 50  0001 C CNN
-F 3 "~" H -5950 5450 50  0001 C CNN
-	1    -5950 5450
-	-1   0    0    1   
-$EndComp
-Connection ~ -7750 5450
-Connection ~ -6750 5450
-Connection ~ -5750 5450
-Connection ~ -4750 5450
-Connection ~ -3750 5450
-Connection ~ -2750 5450
-Text HLabel -8750 5950 3    50   Input ~ 0
+Text HLabel 3625 8175 0    50   Output ~ 0
+ROW[5]
+Text HLabel 5150 9600 3    50   Input ~ 0
 COL[0]
-Text HLabel -7750 5950 3    50   Input ~ 0
+Text HLabel 6375 9600 3    50   Input ~ 0
 COL[1]
-Text HLabel -6750 5950 3    50   Input ~ 0
+Text HLabel 7600 9600 3    50   Input ~ 0
 COL[2]
-Text HLabel -5750 5950 3    50   Input ~ 0
+Text HLabel 8825 9600 3    50   Input ~ 0
 COL[3]
-Text HLabel -4750 5950 3    50   Input ~ 0
+Text HLabel 10050 9600 3    50   Input ~ 0
 COL[4]
-Text HLabel -3750 5950 3    50   Input ~ 0
+Text HLabel 11275 9600 3    50   Input ~ 0
 COL[5]
-Text HLabel -2750 5950 3    50   Input ~ 0
+Text HLabel 12500 9600 3    50   Input ~ 0
 COL[6]
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62A1F10F
-P -9375 3450
-AR Path="/62A1F10F" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62A1F10F" Ref="SW?"  Part="1" 
-AR Path="/61150193/62A1F10F" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62A1F10F" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62A1F10F" Ref="SW?"  Part="1" 
-AR Path="/63013830/62A1F10F" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62A1F10F" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62A1F10F" Ref="SW?"  Part="1" 
-AR Path="/62999965/62A1F10F" Ref="SW91"  Part="1" 
-F 0 "SW91" H -9375 3735 50  0000 C CNN
-F 1 "L10" H -9375 3644 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_1.50u_PCB_KailhSocket" H -9375 3475 50  0001 C CNN
-F 3 "" H -9375 3475 50  0001 C CNN
-	1    -9375 3450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	-2750 3450 -2750 4450
+	6275 2175 6275 2300
 Wire Wire Line
-	-3750 4450 -3750 5450
+	6275 2300 6225 2300
 Wire Wire Line
-	-2750 4450 -2750 5450
-Wire Wire Line
-	-10000 5600 -8650 5600
-Wire Wire Line
-	-8750 4950 -8750 5950
-$Comp
-L CherryMX:CherryMX SW?
-U 1 1 62AE6610
-P -6375 5450
-AR Path="/62AE6610" Ref="SW?"  Part="1" 
-AR Path="/60D44364/62AE6610" Ref="SW?"  Part="1" 
-AR Path="/61150193/62AE6610" Ref="SW?"  Part="1" 
-AR Path="/6123418A/62AE6610" Ref="SW?"  Part="1" 
-AR Path="/62F5643B/62AE6610" Ref="SW?"  Part="1" 
-AR Path="/63013830/62AE6610" Ref="SW?"  Part="1" 
-AR Path="/6301FD9D/62AE6610" Ref="SW?"  Part="1" 
-AR Path="/629AB0D2/62AE6610" Ref="SW?"  Part="1" 
-AR Path="/62999965/62AE6610" Ref="SW113"  Part="1" 
-F 0 "SW113" H -6375 5735 50  0000 C CNN
-F 1 "L53" H -6375 5644 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket:CherryMX_2.00u_PCB_KailhSocket" H -6375 5475 50  0001 C CNN
-F 3 "" H -6375 5475 50  0001 C CNN
-	1    -6375 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-6650 3100 -5650 3100
-$Comp
-L Device:D D?
-U 1 1 62A14456
-P -5950 2950
-AR Path="/62F5643B/62A14456" Ref="D?"  Part="1" 
-AR Path="/63013830/62A14456" Ref="D?"  Part="1" 
-AR Path="/6301FD9D/62A14456" Ref="D?"  Part="1" 
-AR Path="/629AB0D2/62A14456" Ref="D?"  Part="1" 
-AR Path="/62999965/62A14456" Ref="D18"  Part="1" 
-F 0 "D18" V -5904 2870 50  0000 R CNN
-F 1 "D" V -5995 2870 50  0000 R CNN
-F 2 "custom_footprint_library:SOD323_HS" H -5950 2950 50  0001 C CNN
-F 3 "~" H -5950 2950 50  0001 C CNN
-	1    -5950 2950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3850 2025 3850 2150
-Wire Wire Line
-	3850 2150 3800 2150
-Wire Wire Line
-	3800 2025 3850 2025
+	6225 2175 6275 2175
 $Comp
 L power:GND #PWR?
 U 1 1 62F52009
-P 3850 2625
+P 6275 2775
 AR Path="/6114D32E/62F52009" Ref="#PWR?"  Part="1" 
 AR Path="/6247A5CE/62F52009" Ref="#PWR?"  Part="1" 
 AR Path="/612340DE/62F52009" Ref="#PWR?"  Part="1" 
 AR Path="/62F6B81F/62F52009" Ref="#PWR?"  Part="1" 
 AR Path="/629982B4/62F52009" Ref="#PWR?"  Part="1" 
-AR Path="/62999965/62F52009" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3850 2375 50  0001 C CNN
-F 1 "GND" H 3855 2452 50  0000 C CNN
-F 2 "" H 3850 2625 50  0001 C CNN
-F 3 "" H 3850 2625 50  0001 C CNN
-	1    3850 2625
+AR Path="/62999965/62F52009" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 6275 2525 50  0001 C CNN
+F 1 "GND" H 6280 2602 50  0000 C CNN
+F 2 "" H 6275 2775 50  0001 C CNN
+F 3 "" H 6275 2775 50  0001 C CNN
+	1    6275 2775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 2500 3850 2500
+	6225 2650 6275 2650
 Wire Wire Line
-	3850 2500 3850 2575
+	6275 2650 6275 2725
 Wire Wire Line
-	3800 2575 3850 2575
-Connection ~ 3850 2575
+	6225 2725 6275 2725
+Connection ~ 6275 2725
 Wire Wire Line
-	3850 2575 3850 2625
+	6275 2725 6275 2775
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0102
 U 1 1 62F52018
-P 2850 2600
-F 0 "#PWR?" H 2850 2450 50  0001 C CNN
-F 1 "+5V" H 2825 2750 50  0000 C CNN
-F 2 "" H 2850 2600 50  0001 C CNN
-F 3 "" H 2850 2600 50  0001 C CNN
-	1    2850 2600
+P 5275 2750
+F 0 "#PWR0102" H 5275 2600 50  0001 C CNN
+F 1 "+5V" H 5250 2900 50  0000 C CNN
+F 2 "" H 5275 2750 50  0001 C CNN
+F 3 "" H 5275 2750 50  0001 C CNN
+	1    5275 2750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 2600 2850 2625
+	5275 2750 5275 2775
 Wire Wire Line
-	2850 2625 2925 2625
+	5275 2775 5350 2775
 Wire Wire Line
-	2925 2500 2950 2500
+	5350 2650 5375 2650
 Wire Wire Line
-	2950 2575 2925 2575
-Connection ~ 2925 2575
+	5375 2725 5350 2725
+Connection ~ 5350 2725
 Wire Wire Line
-	2925 2625 2925 2575
+	5350 2775 5350 2725
 Wire Wire Line
-	2875 1675 2875 2025
+	5300 1825 5300 2175
 Wire Wire Line
-	2875 2025 2950 2025
+	5300 2175 5375 2175
 Wire Wire Line
-	3850 3225 3850 3350
+	6275 3375 6275 3500
 Wire Wire Line
-	3850 3350 3800 3350
+	6275 3500 6225 3500
 Wire Wire Line
-	3800 3225 3850 3225
+	6225 3375 6275 3375
 $Comp
 L power:GND #PWR?
 U 1 1 6300D880
-P 3850 3825
+P 6275 3975
 AR Path="/6114D32E/6300D880" Ref="#PWR?"  Part="1" 
 AR Path="/6247A5CE/6300D880" Ref="#PWR?"  Part="1" 
 AR Path="/612340DE/6300D880" Ref="#PWR?"  Part="1" 
 AR Path="/62F6B81F/6300D880" Ref="#PWR?"  Part="1" 
 AR Path="/629982B4/6300D880" Ref="#PWR?"  Part="1" 
-AR Path="/62999965/6300D880" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3850 3575 50  0001 C CNN
-F 1 "GND" H 3855 3652 50  0000 C CNN
-F 2 "" H 3850 3825 50  0001 C CNN
-F 3 "" H 3850 3825 50  0001 C CNN
-	1    3850 3825
+AR Path="/62999965/6300D880" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 6275 3725 50  0001 C CNN
+F 1 "GND" H 6280 3802 50  0000 C CNN
+F 2 "" H 6275 3975 50  0001 C CNN
+F 3 "" H 6275 3975 50  0001 C CNN
+	1    6275 3975
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 3700 3850 3700
+	6225 3850 6275 3850
 Wire Wire Line
-	3850 3700 3850 3775
+	6275 3850 6275 3925
 Wire Wire Line
-	3800 3775 3850 3775
-Connection ~ 3850 3775
+	6225 3925 6275 3925
+Connection ~ 6275 3925
 Wire Wire Line
-	3850 3775 3850 3825
+	6275 3925 6275 3975
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0104
 U 1 1 6300D88B
-P 2850 3800
-F 0 "#PWR?" H 2850 3650 50  0001 C CNN
-F 1 "+5V" H 2825 3950 50  0000 C CNN
-F 2 "" H 2850 3800 50  0001 C CNN
-F 3 "" H 2850 3800 50  0001 C CNN
-	1    2850 3800
+P 5275 3950
+F 0 "#PWR0104" H 5275 3800 50  0001 C CNN
+F 1 "+5V" H 5250 4100 50  0000 C CNN
+F 2 "" H 5275 3950 50  0001 C CNN
+F 3 "" H 5275 3950 50  0001 C CNN
+	1    5275 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 3800 2850 3825
+	5275 3950 5275 3975
 Wire Wire Line
-	2850 3825 2925 3825
+	5275 3975 5350 3975
 Wire Wire Line
-	2925 3700 2950 3700
+	5350 3850 5375 3850
 Wire Wire Line
-	2950 3775 2925 3775
-Connection ~ 2925 3775
+	5375 3925 5350 3925
+Connection ~ 5350 3925
 Wire Wire Line
-	2925 3775 2925 3700
+	5350 3925 5350 3850
 Wire Wire Line
-	2925 3825 2925 3775
+	5350 3975 5350 3925
 Wire Wire Line
-	2875 2875 2875 3225
+	5300 3025 5300 3375
 Wire Wire Line
-	2875 3225 2950 3225
+	5300 3375 5375 3375
 Wire Wire Line
-	3800 2250 3950 2250
+	6225 2400 6375 2400
 Wire Wire Line
-	3950 2250 3950 3450
+	6375 2400 6375 3600
 Wire Wire Line
-	3950 3450 3800 3450
+	6375 3600 6225 3600
 Wire Wire Line
-	2925 2500 2925 2575
+	5350 2650 5350 2725
 $Comp
-L custom_parts_library:CherryMX_Integrated SW?
+L custom_parts_library:CherryMX_Integrated SW7
 U 1 1 6316A8F5
-P 3375 2200
-F 0 "SW?" H 3375 2675 50  0000 C CNN
-F 1 "CherryMX_Integrated" H 3375 2600 50  0000 C CNN
-F 2 "" H 3375 2200 50  0001 C CNN
-F 3 "" H 3375 2200 50  0001 C CNN
-	1    3375 2200
+P 5800 2350
+F 0 "SW7" H 5800 2825 50  0000 C CNN
+F 1 "L01" H 5800 2750 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated" H 5800 2350 50  0001 C CNN
+F 3 "" H 5800 2350 50  0001 C CNN
+	1    5800 2350
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom_parts_library:CherryMX_Integrated_Reversed SW?
+L custom_parts_library:CherryMX_Integrated_Reversed SW8
 U 1 1 6316B64E
-P 3375 3400
-F 0 "SW?" H 3375 3875 50  0000 C CNN
-F 1 "CherryMX_Integrated_Reversed" H 3375 3800 50  0000 C CNN
-F 2 "" H 3375 3400 50  0001 C CNN
-F 3 "" H 3375 3400 50  0001 C CNN
-	1    3375 3400
+P 5800 3550
+F 0 "SW8" H 5800 4025 50  0000 C CNN
+F 1 "L11" H 5800 3950 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated_Reversed" H 5800 3550 50  0001 C CNN
+F 3 "" H 5800 3550 50  0001 C CNN
+	1    5800 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3950 3450 3950 4650
-Connection ~ 3950 3450
+	6375 3600 6375 4800
+Connection ~ 6375 3600
 Wire Wire Line
-	1650 4075 2875 4075
+	4075 4225 5300 4225
 Wire Wire Line
-	2875 4075 2875 4425
+	5300 4225 5300 4575
 Wire Wire Line
-	5400 4975 6625 4975
-Wire Wire Line
-	6625 4975 6625 5325
-Wire Wire Line
-	2725 3450 2725 4650
+	5150 3600 5150 4800
 $Comp
-L custom_parts_library:CherryMX_Integrated SW?
+L custom_parts_library:CherryMX_Integrated SW2
 U 1 1 631662B2
-P 2150 2200
-F 0 "SW?" H 2150 2675 50  0000 C CNN
-F 1 "CherryMX_Integrated" H 2150 2600 50  0000 C CNN
-F 2 "" H 2150 2200 50  0001 C CNN
-F 3 "" H 2150 2200 50  0001 C CNN
-	1    2150 2200
+P 4575 2350
+F 0 "SW2" H 4575 2825 50  0000 C CNN
+F 1 "L00" H 4575 2750 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.50u_KailhSocket_Integrated" H 4575 2350 50  0001 C CNN
+F 3 "" H 4575 2350 50  0001 C CNN
+	1    4575 2350
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom_parts_library:CherryMX_Integrated_Reversed SW?
+L custom_parts_library:CherryMX_Integrated_Reversed SW3
 U 1 1 6316219A
-P 2150 3400
-F 0 "SW?" H 2150 3875 50  0000 C CNN
-F 1 "CherryMX_Integrated_Reversed" H 2150 3800 50  0000 C CNN
-F 2 "" H 2150 3400 50  0001 C CNN
-F 3 "" H 2150 3400 50  0001 C CNN
-	1    2150 3400
+P 4575 3550
+F 0 "SW3" H 4575 4025 50  0000 C CNN
+F 1 "L10" H 4575 3950 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.50u_KailhSocket_Integrated_Reversed" H 4575 3550 50  0001 C CNN
+F 3 "" H 4575 3550 50  0001 C CNN
+	1    4575 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2725 3450 2575 3450
-Connection ~ 2725 3450
+	5150 3600 5000 3600
+Connection ~ 5150 3600
 Wire Wire Line
-	2725 2250 2725 3450
+	5150 2400 5150 3600
 Wire Wire Line
-	2575 2375 2950 2375
+	5000 2525 5375 2525
 Wire Wire Line
-	2575 2250 2725 2250
+	5000 2400 5150 2400
 Wire Wire Line
-	2575 3225 2625 3225
+	5000 3375 5050 3375
 Wire Wire Line
-	2625 3350 2575 3350
+	5050 3500 5000 3500
 Wire Wire Line
-	2575 3700 2625 3700
+	5000 3850 5050 3850
 Wire Wire Line
-	2575 3775 2625 3775
+	5000 3925 5050 3925
 Wire Wire Line
-	1650 3225 1725 3225
+	4075 3375 4150 3375
 Wire Wire Line
-	1650 2875 2875 2875
+	4075 3025 5300 3025
 Wire Wire Line
-	1650 3225 1650 2875
-Connection ~ 1650 3225
+	4075 3375 4075 3025
+Connection ~ 4075 3375
 Wire Wire Line
-	1200 3225 1650 3225
+	3625 3375 4075 3375
 Wire Wire Line
-	1700 3825 1700 3775
+	4125 3975 4125 3925
 Wire Wire Line
-	1700 3775 1700 3700
-Connection ~ 1700 3775
+	4125 3925 4125 3850
+Connection ~ 4125 3925
 Wire Wire Line
-	1725 3775 1700 3775
+	4150 3925 4125 3925
 Wire Wire Line
-	1700 3700 1725 3700
+	4125 3850 4150 3850
 Wire Wire Line
-	1625 3825 1700 3825
+	4050 3975 4125 3975
 Wire Wire Line
-	1625 3800 1625 3825
+	4050 3950 4050 3975
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0105
 U 1 1 6300D865
-P 1625 3800
-F 0 "#PWR?" H 1625 3650 50  0001 C CNN
-F 1 "+5V" H 1600 3950 50  0000 C CNN
-F 2 "" H 1625 3800 50  0001 C CNN
-F 3 "" H 1625 3800 50  0001 C CNN
-	1    1625 3800
+P 4050 3950
+F 0 "#PWR0105" H 4050 3800 50  0001 C CNN
+F 1 "+5V" H 4025 4100 50  0000 C CNN
+F 2 "" H 4050 3950 50  0001 C CNN
+F 3 "" H 4050 3950 50  0001 C CNN
+	1    4050 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2625 3775 2625 3825
-Connection ~ 2625 3775
+	5050 3925 5050 3975
+Connection ~ 5050 3925
 Wire Wire Line
-	2625 3700 2625 3775
+	5050 3850 5050 3925
 $Comp
 L power:GND #PWR?
 U 1 1 6300D85C
-P 2625 3825
+P 5050 3975
 AR Path="/6114D32E/6300D85C" Ref="#PWR?"  Part="1" 
 AR Path="/6247A5CE/6300D85C" Ref="#PWR?"  Part="1" 
 AR Path="/612340DE/6300D85C" Ref="#PWR?"  Part="1" 
 AR Path="/62F6B81F/6300D85C" Ref="#PWR?"  Part="1" 
 AR Path="/629982B4/6300D85C" Ref="#PWR?"  Part="1" 
-AR Path="/62999965/6300D85C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2625 3575 50  0001 C CNN
-F 1 "GND" H 2630 3652 50  0000 C CNN
-F 2 "" H 2625 3825 50  0001 C CNN
-F 3 "" H 2625 3825 50  0001 C CNN
-	1    2625 3825
+AR Path="/62999965/6300D85C" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 5050 3725 50  0001 C CNN
+F 1 "GND" H 5055 3802 50  0000 C CNN
+F 2 "" H 5050 3975 50  0001 C CNN
+F 3 "" H 5050 3975 50  0001 C CNN
+	1    5050 3975
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2625 3225 2625 3350
+	5050 3375 5050 3500
 Wire Wire Line
-	2575 2025 2625 2025
+	5000 2175 5050 2175
 Wire Wire Line
-	2625 2150 2575 2150
+	5050 2300 5000 2300
 Wire Wire Line
-	2575 2500 2625 2500
+	5000 2650 5050 2650
 Wire Wire Line
-	2575 2575 2625 2575
+	5000 2725 5050 2725
 Wire Wire Line
-	1650 2025 1725 2025
+	4075 2175 4150 2175
 Wire Wire Line
-	1650 1675 2875 1675
+	4075 1825 5300 1825
 Wire Wire Line
-	1650 2025 1650 1675
-Connection ~ 1650 2025
+	4075 2175 4075 1825
+Connection ~ 4075 2175
 Wire Wire Line
-	1200 2025 1650 2025
+	3625 2175 4075 2175
 Wire Wire Line
-	1700 2625 1700 2575
+	4125 2775 4125 2725
 Wire Wire Line
-	1700 2575 1700 2500
-Connection ~ 1700 2575
+	4125 2725 4125 2650
+Connection ~ 4125 2725
 Wire Wire Line
-	1725 2575 1700 2575
+	4150 2725 4125 2725
 Wire Wire Line
-	1700 2500 1725 2500
+	4125 2650 4150 2650
 Wire Wire Line
-	1625 2625 1700 2625
+	4050 2775 4125 2775
 Wire Wire Line
-	1625 2600 1625 2625
+	4050 2750 4050 2775
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0107
 U 1 1 62E13150
-P 1625 2600
-F 0 "#PWR?" H 1625 2450 50  0001 C CNN
-F 1 "+5V" H 1600 2750 50  0000 C CNN
-F 2 "" H 1625 2600 50  0001 C CNN
-F 3 "" H 1625 2600 50  0001 C CNN
-	1    1625 2600
+P 4050 2750
+F 0 "#PWR0107" H 4050 2600 50  0001 C CNN
+F 1 "+5V" H 4025 2900 50  0000 C CNN
+F 2 "" H 4050 2750 50  0001 C CNN
+F 3 "" H 4050 2750 50  0001 C CNN
+	1    4050 2750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2625 2575 2625 2625
-Connection ~ 2625 2575
+	5050 2725 5050 2775
+Connection ~ 5050 2725
 Wire Wire Line
-	2625 2500 2625 2575
+	5050 2650 5050 2725
 $Comp
 L power:GND #PWR?
 U 1 1 62DAA731
-P 2625 2625
+P 5050 2775
 AR Path="/6114D32E/62DAA731" Ref="#PWR?"  Part="1" 
 AR Path="/6247A5CE/62DAA731" Ref="#PWR?"  Part="1" 
 AR Path="/612340DE/62DAA731" Ref="#PWR?"  Part="1" 
 AR Path="/62F6B81F/62DAA731" Ref="#PWR?"  Part="1" 
 AR Path="/629982B4/62DAA731" Ref="#PWR?"  Part="1" 
-AR Path="/62999965/62DAA731" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2625 2375 50  0001 C CNN
-F 1 "GND" H 2630 2452 50  0000 C CNN
-F 2 "" H 2625 2625 50  0001 C CNN
-F 3 "" H 2625 2625 50  0001 C CNN
-	1    2625 2625
+AR Path="/62999965/62DAA731" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 5050 2525 50  0001 C CNN
+F 1 "GND" H 5055 2602 50  0000 C CNN
+F 2 "" H 5050 2775 50  0001 C CNN
+F 3 "" H 5050 2775 50  0001 C CNN
+	1    5050 2775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2625 2025 2625 2150
+	5050 2175 5050 2300
 Wire Wire Line
-	2725 7050 2575 7050
-Wire Wire Line
-	2725 5850 2725 7050
+	5150 6000 5150 7200
 $Comp
-L custom_parts_library:CherryMX_Integrated SW?
+L custom_parts_library:CherryMX_Integrated SW4
 U 1 1 6338B5ED
-P 2150 4600
-F 0 "SW?" H 2150 5075 50  0000 C CNN
-F 1 "CherryMX_Integrated" H 2150 5000 50  0000 C CNN
-F 2 "" H 2150 4600 50  0001 C CNN
-F 3 "" H 2150 4600 50  0001 C CNN
-	1    2150 4600
+P 4575 4750
+F 0 "SW4" H 4575 5225 50  0000 C CNN
+F 1 "L20" H 4575 5150 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.50u_KailhSocket_Integrated" H 4575 4750 50  0001 C CNN
+F 3 "" H 4575 4750 50  0001 C CNN
+	1    4575 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom_parts_library:CherryMX_Integrated_Reversed SW?
+L custom_parts_library:CherryMX_Integrated_Reversed SW5
 U 1 1 6338B5F3
-P 2150 5800
-F 0 "SW?" H 2150 6275 50  0000 C CNN
-F 1 "CherryMX_Integrated_Reversed" H 2150 6200 50  0000 C CNN
-F 2 "" H 2150 5800 50  0001 C CNN
-F 3 "" H 2150 5800 50  0001 C CNN
-	1    2150 5800
+P 4575 5950
+F 0 "SW5" H 4575 6425 50  0000 C CNN
+F 1 "L30" H 4575 6350 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.50u_KailhSocket_Integrated_Reversed" H 4575 5950 50  0001 C CNN
+F 3 "" H 4575 5950 50  0001 C CNN
+	1    4575 5950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2725 5850 2575 5850
-Connection ~ 2725 5850
+	5150 6000 5000 6000
+Connection ~ 5150 6000
 Wire Wire Line
-	2725 4650 2725 5850
+	5150 4800 5150 6000
 Wire Wire Line
-	2575 4775 2950 4775
+	5000 4925 5375 4925
 Wire Wire Line
-	2575 4650 2725 4650
+	5000 4800 5150 4800
 Wire Wire Line
-	2575 5625 2625 5625
+	5000 5775 5050 5775
 Wire Wire Line
-	2625 5750 2575 5750
+	5050 5900 5000 5900
 Wire Wire Line
-	2575 6100 2625 6100
+	5000 6250 5050 6250
 Wire Wire Line
-	2575 6175 2625 6175
+	5000 6325 5050 6325
 Wire Wire Line
-	1650 5625 1725 5625
+	4075 5775 4150 5775
 Wire Wire Line
-	1650 5625 1650 5275
-Connection ~ 1650 5625
+	4075 5775 4075 5425
+Connection ~ 4075 5775
 Wire Wire Line
-	1200 5625 1650 5625
+	3625 5775 4075 5775
 Wire Wire Line
-	1700 6225 1700 6175
+	4125 6375 4125 6325
 Wire Wire Line
-	1700 6175 1700 6100
-Connection ~ 1700 6175
+	4125 6325 4125 6250
+Connection ~ 4125 6325
 Wire Wire Line
-	1725 6175 1700 6175
+	4150 6325 4125 6325
 Wire Wire Line
-	1700 6100 1725 6100
+	4125 6250 4150 6250
 Wire Wire Line
-	1625 6225 1700 6225
+	4050 6375 4125 6375
 Wire Wire Line
-	1625 6200 1625 6225
+	4050 6350 4050 6375
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0109
 U 1 1 6338B60E
-P 1625 6200
-F 0 "#PWR?" H 1625 6050 50  0001 C CNN
-F 1 "+5V" H 1600 6350 50  0000 C CNN
-F 2 "" H 1625 6200 50  0001 C CNN
-F 3 "" H 1625 6200 50  0001 C CNN
-	1    1625 6200
+P 4050 6350
+F 0 "#PWR0109" H 4050 6200 50  0001 C CNN
+F 1 "+5V" H 4025 6500 50  0000 C CNN
+F 2 "" H 4050 6350 50  0001 C CNN
+F 3 "" H 4050 6350 50  0001 C CNN
+	1    4050 6350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2625 6175 2625 6225
-Connection ~ 2625 6175
+	5050 6325 5050 6375
+Connection ~ 5050 6325
 Wire Wire Line
-	2625 6100 2625 6175
+	5050 6250 5050 6325
 $Comp
 L power:GND #PWR?
 U 1 1 6338B617
-P 2625 6225
+P 5050 6375
 AR Path="/6114D32E/6338B617" Ref="#PWR?"  Part="1" 
 AR Path="/6247A5CE/6338B617" Ref="#PWR?"  Part="1" 
 AR Path="/612340DE/6338B617" Ref="#PWR?"  Part="1" 
 AR Path="/62F6B81F/6338B617" Ref="#PWR?"  Part="1" 
 AR Path="/629982B4/6338B617" Ref="#PWR?"  Part="1" 
-AR Path="/62999965/6338B617" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2625 5975 50  0001 C CNN
-F 1 "GND" H 2630 6052 50  0000 C CNN
-F 2 "" H 2625 6225 50  0001 C CNN
-F 3 "" H 2625 6225 50  0001 C CNN
-	1    2625 6225
+AR Path="/62999965/6338B617" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 5050 6125 50  0001 C CNN
+F 1 "GND" H 5055 6202 50  0000 C CNN
+F 2 "" H 5050 6375 50  0001 C CNN
+F 3 "" H 5050 6375 50  0001 C CNN
+	1    5050 6375
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2625 5625 2625 5750
+	5050 5775 5050 5900
 Wire Wire Line
-	2575 4425 2625 4425
+	5000 4575 5050 4575
 Wire Wire Line
-	2625 4550 2575 4550
+	5050 4700 5000 4700
 Wire Wire Line
-	2575 4900 2625 4900
+	5000 5050 5050 5050
 Wire Wire Line
-	2575 4975 2625 4975
+	5000 5125 5050 5125
 Wire Wire Line
-	1700 5025 1700 4975
+	4125 5175 4125 5125
 Wire Wire Line
-	1700 4975 1700 4900
-Connection ~ 1700 4975
+	4125 5125 4125 5050
+Connection ~ 4125 5125
 Wire Wire Line
-	1725 4975 1700 4975
+	4150 5125 4125 5125
 Wire Wire Line
-	1700 4900 1725 4900
+	4125 5050 4150 5050
 Wire Wire Line
-	1625 5025 1700 5025
+	4050 5175 4125 5175
 Wire Wire Line
-	1625 5000 1625 5025
+	4050 5150 4050 5175
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0111
 U 1 1 6338B62E
-P 1625 5000
-F 0 "#PWR?" H 1625 4850 50  0001 C CNN
-F 1 "+5V" H 1600 5150 50  0000 C CNN
-F 2 "" H 1625 5000 50  0001 C CNN
-F 3 "" H 1625 5000 50  0001 C CNN
-	1    1625 5000
+P 4050 5150
+F 0 "#PWR0111" H 4050 5000 50  0001 C CNN
+F 1 "+5V" H 4025 5300 50  0000 C CNN
+F 2 "" H 4050 5150 50  0001 C CNN
+F 3 "" H 4050 5150 50  0001 C CNN
+	1    4050 5150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2625 4975 2625 5025
-Connection ~ 2625 4975
+	5050 5125 5050 5175
+Connection ~ 5050 5125
 Wire Wire Line
-	2625 4900 2625 4975
+	5050 5050 5050 5125
 $Comp
 L power:GND #PWR?
 U 1 1 6338B637
-P 2625 5025
+P 5050 5175
 AR Path="/6114D32E/6338B637" Ref="#PWR?"  Part="1" 
 AR Path="/6247A5CE/6338B637" Ref="#PWR?"  Part="1" 
 AR Path="/612340DE/6338B637" Ref="#PWR?"  Part="1" 
 AR Path="/62F6B81F/6338B637" Ref="#PWR?"  Part="1" 
 AR Path="/629982B4/6338B637" Ref="#PWR?"  Part="1" 
-AR Path="/62999965/6338B637" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2625 4775 50  0001 C CNN
-F 1 "GND" H 2630 4852 50  0000 C CNN
-F 2 "" H 2625 5025 50  0001 C CNN
-F 3 "" H 2625 5025 50  0001 C CNN
-	1    2625 5025
+AR Path="/62999965/6338B637" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 5050 4925 50  0001 C CNN
+F 1 "GND" H 5055 5002 50  0000 C CNN
+F 2 "" H 5050 5175 50  0001 C CNN
+F 3 "" H 5050 5175 50  0001 C CNN
+	1    5050 5175
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2625 4425 2625 4550
-Connection ~ 2725 4650
+	5050 4575 5050 4700
+Connection ~ 5150 4800
 Wire Wire Line
-	1200 4425 1650 4425
+	3625 4575 4075 4575
 Wire Wire Line
-	1650 4425 1725 4425
-Connection ~ 1650 4425
+	4075 4575 4150 4575
+Connection ~ 4075 4575
 Wire Wire Line
-	1650 4425 1650 4075
+	4075 4575 4075 4225
 $Comp
-L custom_parts_library:CherryMX_Integrated_Reversed SW?
-U 1 1 634408F2
-P 8975 3500
-F 0 "SW?" H 8975 3975 50  0000 C CNN
-F 1 "CherryMX_Integrated_Reversed" H 8975 3900 50  0000 C CNN
-F 2 "" H 8975 3500 50  0001 C CNN
-F 3 "" H 8975 3500 50  0001 C CNN
-	1    8975 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom_parts_library:CherryMX_Integrated SW?
-U 1 1 634408EC
-P 8975 2300
-F 0 "SW?" H 8975 2775 50  0000 C CNN
-F 1 "CherryMX_Integrated" H 8975 2700 50  0000 C CNN
-F 2 "" H 8975 2300 50  0001 C CNN
-F 3 "" H 8975 2300 50  0001 C CNN
-	1    8975 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9450 2125 9450 2250
-$Comp
-L power:GND #PWR?
-U 1 1 63440936
-P 9450 2725
-AR Path="/6114D32E/63440936" Ref="#PWR?"  Part="1" 
-AR Path="/6247A5CE/63440936" Ref="#PWR?"  Part="1" 
-AR Path="/612340DE/63440936" Ref="#PWR?"  Part="1" 
-AR Path="/62F6B81F/63440936" Ref="#PWR?"  Part="1" 
-AR Path="/629982B4/63440936" Ref="#PWR?"  Part="1" 
-AR Path="/62999965/63440936" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9450 2475 50  0001 C CNN
-F 1 "GND" H 9455 2552 50  0000 C CNN
-F 2 "" H 9450 2725 50  0001 C CNN
-F 3 "" H 9450 2725 50  0001 C CNN
-	1    9450 2725
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 6344092D
-P 8450 2700
-F 0 "#PWR?" H 8450 2550 50  0001 C CNN
-F 1 "+5V" H 8425 2850 50  0000 C CNN
-F 2 "" H 8450 2700 50  0001 C CNN
-F 3 "" H 8450 2700 50  0001 C CNN
-	1    8450 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8450 2700 8450 2725
-Wire Wire Line
-	8450 2725 8525 2725
-Wire Wire Line
-	8525 2600 8550 2600
-Wire Wire Line
-	8550 2675 8525 2675
-Wire Wire Line
-	8525 2675 8525 2600
-Connection ~ 8525 2675
-Wire Wire Line
-	8525 2725 8525 2675
-Wire Wire Line
-	8475 2125 8550 2125
-Wire Wire Line
-	9450 2600 9450 2675
-Wire Wire Line
-	9450 2675 9450 2725
-Connection ~ 9450 2675
-Wire Wire Line
-	9400 2675 9450 2675
-Wire Wire Line
-	9400 2600 9450 2600
-Wire Wire Line
-	9450 2250 9400 2250
-Wire Wire Line
-	9400 2125 9450 2125
-Wire Wire Line
-	9450 3325 9450 3450
-$Comp
-L power:GND #PWR?
-U 1 1 63440916
-P 9450 3925
-AR Path="/6114D32E/63440916" Ref="#PWR?"  Part="1" 
-AR Path="/6247A5CE/63440916" Ref="#PWR?"  Part="1" 
-AR Path="/612340DE/63440916" Ref="#PWR?"  Part="1" 
-AR Path="/62F6B81F/63440916" Ref="#PWR?"  Part="1" 
-AR Path="/629982B4/63440916" Ref="#PWR?"  Part="1" 
-AR Path="/62999965/63440916" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9450 3675 50  0001 C CNN
-F 1 "GND" H 9455 3752 50  0000 C CNN
-F 2 "" H 9450 3925 50  0001 C CNN
-F 3 "" H 9450 3925 50  0001 C CNN
-	1    9450 3925
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 6344090D
-P 8450 3900
-F 0 "#PWR?" H 8450 3750 50  0001 C CNN
-F 1 "+5V" H 8425 4050 50  0000 C CNN
-F 2 "" H 8450 3900 50  0001 C CNN
-F 3 "" H 8450 3900 50  0001 C CNN
-	1    8450 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8450 3900 8450 3925
-Wire Wire Line
-	8450 3925 8525 3925
-Wire Wire Line
-	8525 3800 8550 3800
-Wire Wire Line
-	8550 3875 8525 3875
-Wire Wire Line
-	8525 3875 8525 3800
-Connection ~ 8525 3875
-Wire Wire Line
-	8525 3925 8525 3875
-Wire Wire Line
-	8475 3325 8550 3325
-Wire Wire Line
-	9450 3800 9450 3875
-Wire Wire Line
-	9450 3875 9450 3925
-Connection ~ 9450 3875
-Wire Wire Line
-	9400 3875 9450 3875
-Wire Wire Line
-	9400 3800 9450 3800
-Wire Wire Line
-	9450 3450 9400 3450
-Wire Wire Line
-	9400 3325 9450 3325
-Wire Wire Line
-	9400 2350 9550 2350
-Wire Wire Line
-	9400 2475 9775 2475
-Wire Wire Line
-	9550 2350 9550 3550
-Wire Wire Line
-	9550 3550 9400 3550
-Connection ~ 9550 3550
-Wire Wire Line
-	9550 3550 9550 4750
-$Comp
-L custom_parts_library:CherryMX_Integrated_Reversed SW?
+L custom_parts_library:CherryMX_Integrated_Reversed SW10
 U 1 1 635FA3BE
-P 3375 5800
-F 0 "SW?" H 3375 6275 50  0000 C CNN
-F 1 "CherryMX_Integrated_Reversed" H 3375 6200 50  0000 C CNN
-F 2 "" H 3375 5800 50  0001 C CNN
-F 3 "" H 3375 5800 50  0001 C CNN
-	1    3375 5800
+P 5800 5950
+F 0 "SW10" H 5800 6425 50  0000 C CNN
+F 1 "L31" H 5800 6350 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated_Reversed" H 5800 5950 50  0001 C CNN
+F 3 "" H 5800 5950 50  0001 C CNN
+	1    5800 5950
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom_parts_library:CherryMX_Integrated SW?
+L custom_parts_library:CherryMX_Integrated SW9
 U 1 1 635FA3C4
-P 3375 4600
-F 0 "SW?" H 3375 5075 50  0000 C CNN
-F 1 "CherryMX_Integrated" H 3375 5000 50  0000 C CNN
-F 2 "" H 3375 4600 50  0001 C CNN
-F 3 "" H 3375 4600 50  0001 C CNN
-	1    3375 4600
+P 5800 4750
+F 0 "SW9" H 5800 5225 50  0000 C CNN
+F 1 "L21" H 5800 5150 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated" H 5800 4750 50  0001 C CNN
+F 3 "" H 5800 4750 50  0001 C CNN
+	1    5800 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3850 4425 3850 4550
+	6275 4575 6275 4700
 $Comp
 L power:GND #PWR?
 U 1 1 635FA3CB
-P 3850 5025
+P 6275 5175
 AR Path="/6114D32E/635FA3CB" Ref="#PWR?"  Part="1" 
 AR Path="/6247A5CE/635FA3CB" Ref="#PWR?"  Part="1" 
 AR Path="/612340DE/635FA3CB" Ref="#PWR?"  Part="1" 
 AR Path="/62F6B81F/635FA3CB" Ref="#PWR?"  Part="1" 
 AR Path="/629982B4/635FA3CB" Ref="#PWR?"  Part="1" 
-AR Path="/62999965/635FA3CB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3850 4775 50  0001 C CNN
-F 1 "GND" H 3855 4852 50  0000 C CNN
-F 2 "" H 3850 5025 50  0001 C CNN
-F 3 "" H 3850 5025 50  0001 C CNN
-	1    3850 5025
+AR Path="/62999965/635FA3CB" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 6275 4925 50  0001 C CNN
+F 1 "GND" H 6280 5002 50  0000 C CNN
+F 2 "" H 6275 5175 50  0001 C CNN
+F 3 "" H 6275 5175 50  0001 C CNN
+	1    6275 5175
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0114
 U 1 1 635FA3D1
-P 2850 5000
-F 0 "#PWR?" H 2850 4850 50  0001 C CNN
-F 1 "+5V" H 2825 5150 50  0000 C CNN
-F 2 "" H 2850 5000 50  0001 C CNN
-F 3 "" H 2850 5000 50  0001 C CNN
-	1    2850 5000
+P 5275 5150
+F 0 "#PWR0114" H 5275 5000 50  0001 C CNN
+F 1 "+5V" H 5250 5300 50  0000 C CNN
+F 2 "" H 5275 5150 50  0001 C CNN
+F 3 "" H 5275 5150 50  0001 C CNN
+	1    5275 5150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 5000 2850 5025
+	5275 5150 5275 5175
 Wire Wire Line
-	2850 5025 2925 5025
+	5275 5175 5350 5175
 Wire Wire Line
-	2925 4900 2950 4900
+	5350 5050 5375 5050
 Wire Wire Line
-	2950 4975 2925 4975
+	5375 5125 5350 5125
 Wire Wire Line
-	2925 4975 2925 4900
-Connection ~ 2925 4975
+	5350 5125 5350 5050
+Connection ~ 5350 5125
 Wire Wire Line
-	2925 5025 2925 4975
+	5350 5175 5350 5125
 Wire Wire Line
-	2875 4425 2950 4425
+	5300 4575 5375 4575
 Wire Wire Line
-	3850 4900 3850 4975
+	6275 5050 6275 5125
 Wire Wire Line
-	3850 4975 3850 5025
-Connection ~ 3850 4975
+	6275 5125 6275 5175
+Connection ~ 6275 5125
 Wire Wire Line
-	3800 4975 3850 4975
+	6225 5125 6275 5125
 Wire Wire Line
-	3800 4900 3850 4900
+	6225 5050 6275 5050
 Wire Wire Line
-	3850 4550 3800 4550
+	6275 4700 6225 4700
 Wire Wire Line
-	3800 4425 3850 4425
+	6225 4575 6275 4575
 Wire Wire Line
-	3850 5625 3850 5750
+	6275 5775 6275 5900
 $Comp
 L power:GND #PWR?
 U 1 1 635FA3E7
-P 3850 6225
+P 6275 6375
 AR Path="/6114D32E/635FA3E7" Ref="#PWR?"  Part="1" 
 AR Path="/6247A5CE/635FA3E7" Ref="#PWR?"  Part="1" 
 AR Path="/612340DE/635FA3E7" Ref="#PWR?"  Part="1" 
 AR Path="/62F6B81F/635FA3E7" Ref="#PWR?"  Part="1" 
 AR Path="/629982B4/635FA3E7" Ref="#PWR?"  Part="1" 
-AR Path="/62999965/635FA3E7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3850 5975 50  0001 C CNN
-F 1 "GND" H 3855 6052 50  0000 C CNN
-F 2 "" H 3850 6225 50  0001 C CNN
-F 3 "" H 3850 6225 50  0001 C CNN
-	1    3850 6225
+AR Path="/62999965/635FA3E7" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 6275 6125 50  0001 C CNN
+F 1 "GND" H 6280 6202 50  0000 C CNN
+F 2 "" H 6275 6375 50  0001 C CNN
+F 3 "" H 6275 6375 50  0001 C CNN
+	1    6275 6375
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0116
 U 1 1 635FA3ED
-P 2850 6200
-F 0 "#PWR?" H 2850 6050 50  0001 C CNN
-F 1 "+5V" H 2825 6350 50  0000 C CNN
-F 2 "" H 2850 6200 50  0001 C CNN
-F 3 "" H 2850 6200 50  0001 C CNN
-	1    2850 6200
+P 5275 6350
+F 0 "#PWR0116" H 5275 6200 50  0001 C CNN
+F 1 "+5V" H 5250 6500 50  0000 C CNN
+F 2 "" H 5275 6350 50  0001 C CNN
+F 3 "" H 5275 6350 50  0001 C CNN
+	1    5275 6350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 6200 2850 6225
+	5275 6350 5275 6375
 Wire Wire Line
-	2850 6225 2925 6225
+	5275 6375 5350 6375
 Wire Wire Line
-	2925 6100 2950 6100
+	5350 6250 5375 6250
 Wire Wire Line
-	2950 6175 2925 6175
+	5375 6325 5350 6325
 Wire Wire Line
-	2925 6175 2925 6100
-Connection ~ 2925 6175
+	5350 6325 5350 6250
+Connection ~ 5350 6325
 Wire Wire Line
-	2925 6225 2925 6175
+	5350 6375 5350 6325
 Wire Wire Line
-	2875 5625 2950 5625
+	5300 5775 5375 5775
 Wire Wire Line
-	3850 6100 3850 6175
+	6275 6250 6275 6325
 Wire Wire Line
-	3850 6175 3850 6225
-Connection ~ 3850 6175
+	6275 6325 6275 6375
+Connection ~ 6275 6325
 Wire Wire Line
-	3800 6175 3850 6175
+	6225 6325 6275 6325
 Wire Wire Line
-	3800 6100 3850 6100
+	6225 6250 6275 6250
 Wire Wire Line
-	3850 5750 3800 5750
+	6275 5900 6225 5900
 Wire Wire Line
-	3800 5625 3850 5625
+	6225 5775 6275 5775
 Wire Wire Line
-	3800 4650 3950 4650
+	6225 4800 6375 4800
 Wire Wire Line
-	3800 4775 4175 4775
+	6225 4925 6600 4925
 Wire Wire Line
-	3950 4650 3950 5850
+	6375 4800 6375 6000
 Wire Wire Line
-	3950 5850 3800 5850
-Connection ~ 3950 5850
+	6375 6000 6225 6000
+Connection ~ 6375 6000
 Wire Wire Line
-	3950 5850 3950 7050
-Connection ~ 3950 4650
+	6375 6000 6375 7200
+Connection ~ 6375 4800
 Wire Wire Line
-	1650 5275 2875 5275
+	4075 5425 5300 5425
 Wire Wire Line
-	2875 5275 2875 5625
+	5300 5425 5300 5775
+Wire Wire Line
+	8725 2175 8725 2300
+Wire Wire Line
+	8725 2300 8675 2300
+Wire Wire Line
+	8675 2175 8725 2175
+$Comp
+L power:GND #PWR?
+U 1 1 637468C4
+P 8725 2775
+AR Path="/6114D32E/637468C4" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/637468C4" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/637468C4" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/637468C4" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/637468C4" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/637468C4" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 8725 2525 50  0001 C CNN
+F 1 "GND" H 8730 2602 50  0000 C CNN
+F 2 "" H 8725 2775 50  0001 C CNN
+F 3 "" H 8725 2775 50  0001 C CNN
+	1    8725 2775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 2650 8725 2650
+Wire Wire Line
+	8725 2650 8725 2725
+Wire Wire Line
+	8675 2725 8725 2725
+Connection ~ 8725 2725
+Wire Wire Line
+	8725 2725 8725 2775
+$Comp
+L power:+5V #PWR0118
+U 1 1 637468CF
+P 7725 2750
+F 0 "#PWR0118" H 7725 2600 50  0001 C CNN
+F 1 "+5V" H 7700 2900 50  0000 C CNN
+F 2 "" H 7725 2750 50  0001 C CNN
+F 3 "" H 7725 2750 50  0001 C CNN
+	1    7725 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7725 2750 7725 2775
+Wire Wire Line
+	7725 2775 7800 2775
+Wire Wire Line
+	7800 2650 7825 2650
+Wire Wire Line
+	7825 2725 7800 2725
+Connection ~ 7800 2725
+Wire Wire Line
+	7800 2775 7800 2725
+Wire Wire Line
+	7750 1825 7750 2175
+Wire Wire Line
+	7750 2175 7825 2175
+Wire Wire Line
+	8725 3375 8725 3500
+Wire Wire Line
+	8725 3500 8675 3500
+Wire Wire Line
+	8675 3375 8725 3375
+$Comp
+L power:GND #PWR?
+U 1 1 637468E0
+P 8725 3975
+AR Path="/6114D32E/637468E0" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/637468E0" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/637468E0" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/637468E0" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/637468E0" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/637468E0" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 8725 3725 50  0001 C CNN
+F 1 "GND" H 8730 3802 50  0000 C CNN
+F 2 "" H 8725 3975 50  0001 C CNN
+F 3 "" H 8725 3975 50  0001 C CNN
+	1    8725 3975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 3850 8725 3850
+Wire Wire Line
+	8725 3850 8725 3925
+Wire Wire Line
+	8675 3925 8725 3925
+Connection ~ 8725 3925
+Wire Wire Line
+	8725 3925 8725 3975
+$Comp
+L power:+5V #PWR0120
+U 1 1 637468EB
+P 7725 3950
+F 0 "#PWR0120" H 7725 3800 50  0001 C CNN
+F 1 "+5V" H 7700 4100 50  0000 C CNN
+F 2 "" H 7725 3950 50  0001 C CNN
+F 3 "" H 7725 3950 50  0001 C CNN
+	1    7725 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7725 3950 7725 3975
+Wire Wire Line
+	7725 3975 7800 3975
+Wire Wire Line
+	7800 3850 7825 3850
+Wire Wire Line
+	7825 3925 7800 3925
+Connection ~ 7800 3925
+Wire Wire Line
+	7800 3925 7800 3850
+Wire Wire Line
+	7800 3975 7800 3925
+Wire Wire Line
+	7750 3025 7750 3375
+Wire Wire Line
+	7750 3375 7825 3375
+Wire Wire Line
+	8675 2400 8825 2400
+Wire Wire Line
+	8825 2400 8825 3600
+Wire Wire Line
+	8825 3600 8675 3600
+Wire Wire Line
+	7800 2650 7800 2725
+$Comp
+L custom_parts_library:CherryMX_Integrated SW19
+U 1 1 637468FE
+P 8250 2350
+F 0 "SW19" H 8250 2825 50  0000 C CNN
+F 1 "L03" H 8250 2750 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated" H 8250 2350 50  0001 C CNN
+F 3 "" H 8250 2350 50  0001 C CNN
+	1    8250 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_parts_library:CherryMX_Integrated_Reversed SW20
+U 1 1 63746904
+P 8250 3550
+F 0 "SW20" H 8250 4025 50  0000 C CNN
+F 1 "L13" H 8250 3950 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated_Reversed" H 8250 3550 50  0001 C CNN
+F 3 "" H 8250 3550 50  0001 C CNN
+	1    8250 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8825 3600 8825 4800
+Connection ~ 8825 3600
+Wire Wire Line
+	6525 4225 7750 4225
+Wire Wire Line
+	7750 4225 7750 4575
+Wire Wire Line
+	7600 3600 7600 4800
+$Comp
+L custom_parts_library:CherryMX_Integrated SW13
+U 1 1 6374690F
+P 7025 2350
+F 0 "SW13" H 7025 2825 50  0000 C CNN
+F 1 "L02" H 7025 2750 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated" H 7025 2350 50  0001 C CNN
+F 3 "" H 7025 2350 50  0001 C CNN
+	1    7025 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_parts_library:CherryMX_Integrated_Reversed SW14
+U 1 1 63746915
+P 7025 3550
+F 0 "SW14" H 7025 4025 50  0000 C CNN
+F 1 "L12" H 7025 3950 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated_Reversed" H 7025 3550 50  0001 C CNN
+F 3 "" H 7025 3550 50  0001 C CNN
+	1    7025 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3600 7450 3600
+Connection ~ 7600 3600
+Wire Wire Line
+	7600 2400 7600 3600
+Wire Wire Line
+	7450 2525 7825 2525
+Wire Wire Line
+	7450 2400 7600 2400
+Wire Wire Line
+	7450 3375 7500 3375
+Wire Wire Line
+	7500 3500 7450 3500
+Wire Wire Line
+	7450 3850 7500 3850
+Wire Wire Line
+	7450 3925 7500 3925
+Wire Wire Line
+	6525 3375 6600 3375
+Wire Wire Line
+	6525 3025 7750 3025
+Wire Wire Line
+	6525 3375 6525 3025
+Wire Wire Line
+	6575 3975 6575 3925
+Wire Wire Line
+	6575 3925 6575 3850
+Connection ~ 6575 3925
+Wire Wire Line
+	6600 3925 6575 3925
+Wire Wire Line
+	6575 3850 6600 3850
+Wire Wire Line
+	6500 3975 6575 3975
+Wire Wire Line
+	6500 3950 6500 3975
+$Comp
+L power:+5V #PWR0121
+U 1 1 63746930
+P 6500 3950
+F 0 "#PWR0121" H 6500 3800 50  0001 C CNN
+F 1 "+5V" H 6475 4100 50  0000 C CNN
+F 2 "" H 6500 3950 50  0001 C CNN
+F 3 "" H 6500 3950 50  0001 C CNN
+	1    6500 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 3925 7500 3975
+Connection ~ 7500 3925
+Wire Wire Line
+	7500 3850 7500 3925
+$Comp
+L power:GND #PWR?
+U 1 1 63746939
+P 7500 3975
+AR Path="/6114D32E/63746939" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/63746939" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/63746939" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/63746939" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/63746939" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/63746939" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 7500 3725 50  0001 C CNN
+F 1 "GND" H 7505 3802 50  0000 C CNN
+F 2 "" H 7500 3975 50  0001 C CNN
+F 3 "" H 7500 3975 50  0001 C CNN
+	1    7500 3975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 3375 7500 3500
+Wire Wire Line
+	7450 2175 7500 2175
+Wire Wire Line
+	7500 2300 7450 2300
+Wire Wire Line
+	7450 2650 7500 2650
+Wire Wire Line
+	7450 2725 7500 2725
+Wire Wire Line
+	6525 2175 6600 2175
+Wire Wire Line
+	6525 1825 7750 1825
+Wire Wire Line
+	6525 2175 6525 1825
+Wire Wire Line
+	6575 2775 6575 2725
+Wire Wire Line
+	6575 2725 6575 2650
+Connection ~ 6575 2725
+Wire Wire Line
+	6600 2725 6575 2725
+Wire Wire Line
+	6575 2650 6600 2650
+Wire Wire Line
+	6500 2775 6575 2775
+Wire Wire Line
+	6500 2750 6500 2775
+$Comp
+L power:+5V #PWR0123
+U 1 1 63746950
+P 6500 2750
+F 0 "#PWR0123" H 6500 2600 50  0001 C CNN
+F 1 "+5V" H 6475 2900 50  0000 C CNN
+F 2 "" H 6500 2750 50  0001 C CNN
+F 3 "" H 6500 2750 50  0001 C CNN
+	1    6500 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 2725 7500 2775
+Connection ~ 7500 2725
+Wire Wire Line
+	7500 2650 7500 2725
+$Comp
+L power:GND #PWR?
+U 1 1 63746959
+P 7500 2775
+AR Path="/6114D32E/63746959" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/63746959" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/63746959" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/63746959" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/63746959" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/63746959" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 7500 2525 50  0001 C CNN
+F 1 "GND" H 7505 2602 50  0000 C CNN
+F 2 "" H 7500 2775 50  0001 C CNN
+F 3 "" H 7500 2775 50  0001 C CNN
+	1    7500 2775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 2175 7500 2300
+Wire Wire Line
+	7600 6000 7600 7200
+$Comp
+L custom_parts_library:CherryMX_Integrated SW15
+U 1 1 63746961
+P 7025 4750
+F 0 "SW15" H 7025 5225 50  0000 C CNN
+F 1 "L22" H 7025 5150 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated" H 7025 4750 50  0001 C CNN
+F 3 "" H 7025 4750 50  0001 C CNN
+	1    7025 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_parts_library:CherryMX_Integrated_Reversed SW16
+U 1 1 63746967
+P 7025 5950
+F 0 "SW16" H 7025 6425 50  0000 C CNN
+F 1 "L32" H 7025 6350 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated_Reversed" H 7025 5950 50  0001 C CNN
+F 3 "" H 7025 5950 50  0001 C CNN
+	1    7025 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 6000 7450 6000
+Connection ~ 7600 6000
+Wire Wire Line
+	7600 4800 7600 6000
+Wire Wire Line
+	7450 4925 7825 4925
+Wire Wire Line
+	7450 4800 7600 4800
+Wire Wire Line
+	7450 5775 7500 5775
+Wire Wire Line
+	7500 5900 7450 5900
+Wire Wire Line
+	7450 6250 7500 6250
+Wire Wire Line
+	7450 6325 7500 6325
+Wire Wire Line
+	6525 5775 6600 5775
+Wire Wire Line
+	6525 5775 6525 5425
+Wire Wire Line
+	6575 6375 6575 6325
+Wire Wire Line
+	6575 6325 6575 6250
+Connection ~ 6575 6325
+Wire Wire Line
+	6600 6325 6575 6325
+Wire Wire Line
+	6575 6250 6600 6250
+Wire Wire Line
+	6500 6375 6575 6375
+Wire Wire Line
+	6500 6350 6500 6375
+$Comp
+L power:+5V #PWR0125
+U 1 1 63746981
+P 6500 6350
+F 0 "#PWR0125" H 6500 6200 50  0001 C CNN
+F 1 "+5V" H 6475 6500 50  0000 C CNN
+F 2 "" H 6500 6350 50  0001 C CNN
+F 3 "" H 6500 6350 50  0001 C CNN
+	1    6500 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 6325 7500 6375
+Connection ~ 7500 6325
+Wire Wire Line
+	7500 6250 7500 6325
+$Comp
+L power:GND #PWR?
+U 1 1 6374698A
+P 7500 6375
+AR Path="/6114D32E/6374698A" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/6374698A" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/6374698A" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/6374698A" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/6374698A" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/6374698A" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 7500 6125 50  0001 C CNN
+F 1 "GND" H 7505 6202 50  0000 C CNN
+F 2 "" H 7500 6375 50  0001 C CNN
+F 3 "" H 7500 6375 50  0001 C CNN
+	1    7500 6375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 5775 7500 5900
+Wire Wire Line
+	7450 4575 7500 4575
+Wire Wire Line
+	7500 4700 7450 4700
+Wire Wire Line
+	7450 5050 7500 5050
+Wire Wire Line
+	7450 5125 7500 5125
+Wire Wire Line
+	6575 5175 6575 5125
+Wire Wire Line
+	6575 5125 6575 5050
+Connection ~ 6575 5125
+Wire Wire Line
+	6600 5125 6575 5125
+Wire Wire Line
+	6575 5050 6600 5050
+Wire Wire Line
+	6500 5175 6575 5175
+Wire Wire Line
+	6500 5150 6500 5175
+$Comp
+L power:+5V #PWR0127
+U 1 1 6374699C
+P 6500 5150
+F 0 "#PWR0127" H 6500 5000 50  0001 C CNN
+F 1 "+5V" H 6475 5300 50  0000 C CNN
+F 2 "" H 6500 5150 50  0001 C CNN
+F 3 "" H 6500 5150 50  0001 C CNN
+	1    6500 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 5125 7500 5175
+Connection ~ 7500 5125
+Wire Wire Line
+	7500 5050 7500 5125
+$Comp
+L power:GND #PWR?
+U 1 1 637469A5
+P 7500 5175
+AR Path="/6114D32E/637469A5" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/637469A5" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/637469A5" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/637469A5" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/637469A5" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/637469A5" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 7500 4925 50  0001 C CNN
+F 1 "GND" H 7505 5002 50  0000 C CNN
+F 2 "" H 7500 5175 50  0001 C CNN
+F 3 "" H 7500 5175 50  0001 C CNN
+	1    7500 5175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 4575 7500 4700
+Connection ~ 7600 4800
+Wire Wire Line
+	6525 4575 6600 4575
+Wire Wire Line
+	6525 4575 6525 4225
+$Comp
+L custom_parts_library:CherryMX_Integrated_Reversed SW22
+U 1 1 637469B1
+P 8250 5950
+F 0 "SW22" H 8250 6425 50  0000 C CNN
+F 1 "L33" H 8250 6350 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated_Reversed" H 8250 5950 50  0001 C CNN
+F 3 "" H 8250 5950 50  0001 C CNN
+	1    8250 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_parts_library:CherryMX_Integrated SW21
+U 1 1 637469B7
+P 8250 4750
+F 0 "SW21" H 8250 5225 50  0000 C CNN
+F 1 "L23" H 8250 5150 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated" H 8250 4750 50  0001 C CNN
+F 3 "" H 8250 4750 50  0001 C CNN
+	1    8250 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8725 4575 8725 4700
+$Comp
+L power:GND #PWR?
+U 1 1 637469BE
+P 8725 5175
+AR Path="/6114D32E/637469BE" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/637469BE" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/637469BE" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/637469BE" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/637469BE" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/637469BE" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 8725 4925 50  0001 C CNN
+F 1 "GND" H 8730 5002 50  0000 C CNN
+F 2 "" H 8725 5175 50  0001 C CNN
+F 3 "" H 8725 5175 50  0001 C CNN
+	1    8725 5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0130
+U 1 1 637469C4
+P 7725 5150
+F 0 "#PWR0130" H 7725 5000 50  0001 C CNN
+F 1 "+5V" H 7700 5300 50  0000 C CNN
+F 2 "" H 7725 5150 50  0001 C CNN
+F 3 "" H 7725 5150 50  0001 C CNN
+	1    7725 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7725 5150 7725 5175
+Wire Wire Line
+	7725 5175 7800 5175
+Wire Wire Line
+	7800 5050 7825 5050
+Wire Wire Line
+	7825 5125 7800 5125
+Wire Wire Line
+	7800 5125 7800 5050
+Connection ~ 7800 5125
+Wire Wire Line
+	7800 5175 7800 5125
+Wire Wire Line
+	7750 4575 7825 4575
+Wire Wire Line
+	8725 5050 8725 5125
+Wire Wire Line
+	8725 5125 8725 5175
+Connection ~ 8725 5125
+Wire Wire Line
+	8675 5125 8725 5125
+Wire Wire Line
+	8675 5050 8725 5050
+Wire Wire Line
+	8725 4700 8675 4700
+Wire Wire Line
+	8675 4575 8725 4575
+Wire Wire Line
+	8725 5775 8725 5900
+$Comp
+L power:GND #PWR?
+U 1 1 637469DA
+P 8725 6375
+AR Path="/6114D32E/637469DA" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/637469DA" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/637469DA" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/637469DA" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/637469DA" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/637469DA" Ref="#PWR0131"  Part="1" 
+F 0 "#PWR0131" H 8725 6125 50  0001 C CNN
+F 1 "GND" H 8730 6202 50  0000 C CNN
+F 2 "" H 8725 6375 50  0001 C CNN
+F 3 "" H 8725 6375 50  0001 C CNN
+	1    8725 6375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0132
+U 1 1 637469E0
+P 7725 6350
+F 0 "#PWR0132" H 7725 6200 50  0001 C CNN
+F 1 "+5V" H 7700 6500 50  0000 C CNN
+F 2 "" H 7725 6350 50  0001 C CNN
+F 3 "" H 7725 6350 50  0001 C CNN
+	1    7725 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7725 6350 7725 6375
+Wire Wire Line
+	7725 6375 7800 6375
+Wire Wire Line
+	7800 6250 7825 6250
+Wire Wire Line
+	7825 6325 7800 6325
+Wire Wire Line
+	7800 6325 7800 6250
+Connection ~ 7800 6325
+Wire Wire Line
+	7800 6375 7800 6325
+Wire Wire Line
+	7750 5775 7825 5775
+Wire Wire Line
+	8725 6250 8725 6325
+Wire Wire Line
+	8725 6325 8725 6375
+Connection ~ 8725 6325
+Wire Wire Line
+	8675 6325 8725 6325
+Wire Wire Line
+	8675 6250 8725 6250
+Wire Wire Line
+	8725 5900 8675 5900
+Wire Wire Line
+	8675 5775 8725 5775
+Wire Wire Line
+	8675 4800 8825 4800
+Wire Wire Line
+	8675 4925 9050 4925
+Wire Wire Line
+	8825 4800 8825 6000
+Wire Wire Line
+	8825 6000 8675 6000
+Connection ~ 8825 6000
+Wire Wire Line
+	8825 6000 8825 7200
+Connection ~ 8825 4800
+Wire Wire Line
+	6525 5425 7750 5425
+Wire Wire Line
+	7750 5425 7750 5775
+Wire Wire Line
+	8675 2525 9050 2525
+Wire Wire Line
+	6225 2525 6600 2525
+Wire Wire Line
+	11175 2175 11175 2300
+Wire Wire Line
+	11175 2300 11125 2300
+Wire Wire Line
+	11125 2175 11175 2175
+$Comp
+L power:GND #PWR?
+U 1 1 63B54110
+P 11175 2775
+AR Path="/6114D32E/63B54110" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/63B54110" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/63B54110" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/63B54110" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/63B54110" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/63B54110" Ref="#PWR0133"  Part="1" 
+F 0 "#PWR0133" H 11175 2525 50  0001 C CNN
+F 1 "GND" H 11180 2602 50  0000 C CNN
+F 2 "" H 11175 2775 50  0001 C CNN
+F 3 "" H 11175 2775 50  0001 C CNN
+	1    11175 2775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11125 2650 11175 2650
+Wire Wire Line
+	11175 2650 11175 2725
+Wire Wire Line
+	11125 2725 11175 2725
+Connection ~ 11175 2725
+Wire Wire Line
+	11175 2725 11175 2775
+$Comp
+L power:+5V #PWR0134
+U 1 1 63B5411B
+P 10175 2750
+F 0 "#PWR0134" H 10175 2600 50  0001 C CNN
+F 1 "+5V" H 10150 2900 50  0000 C CNN
+F 2 "" H 10175 2750 50  0001 C CNN
+F 3 "" H 10175 2750 50  0001 C CNN
+	1    10175 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10175 2775 10250 2775
+Wire Wire Line
+	10250 2650 10275 2650
+Wire Wire Line
+	10275 2725 10250 2725
+Connection ~ 10250 2725
+Wire Wire Line
+	10250 2775 10250 2725
+Wire Wire Line
+	10200 1825 10200 2175
+Wire Wire Line
+	10200 2175 10275 2175
+Wire Wire Line
+	11175 3375 11175 3500
+Wire Wire Line
+	11175 3500 11125 3500
+Wire Wire Line
+	11125 3375 11175 3375
+$Comp
+L power:GND #PWR?
+U 1 1 63B5412B
+P 11175 3975
+AR Path="/6114D32E/63B5412B" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/63B5412B" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/63B5412B" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/63B5412B" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/63B5412B" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/63B5412B" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 11175 3725 50  0001 C CNN
+F 1 "GND" H 11180 3802 50  0000 C CNN
+F 2 "" H 11175 3975 50  0001 C CNN
+F 3 "" H 11175 3975 50  0001 C CNN
+	1    11175 3975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11125 3850 11175 3850
+Wire Wire Line
+	11175 3850 11175 3925
+Wire Wire Line
+	11125 3925 11175 3925
+Connection ~ 11175 3925
+Wire Wire Line
+	11175 3925 11175 3975
+$Comp
+L power:+5V #PWR0136
+U 1 1 63B54136
+P 10175 3950
+F 0 "#PWR0136" H 10175 3800 50  0001 C CNN
+F 1 "+5V" H 10150 4100 50  0000 C CNN
+F 2 "" H 10175 3950 50  0001 C CNN
+F 3 "" H 10175 3950 50  0001 C CNN
+	1    10175 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10175 3975 10250 3975
+Wire Wire Line
+	10250 3850 10275 3850
+Wire Wire Line
+	10275 3925 10250 3925
+Connection ~ 10250 3925
+Wire Wire Line
+	10250 3925 10250 3850
+Wire Wire Line
+	10250 3975 10250 3925
+Wire Wire Line
+	10200 3025 10200 3375
+Wire Wire Line
+	10200 3375 10275 3375
+Wire Wire Line
+	11125 2400 11275 2400
+Wire Wire Line
+	11275 2400 11275 3600
+Wire Wire Line
+	11275 3600 11125 3600
+Wire Wire Line
+	10250 2650 10250 2725
+$Comp
+L custom_parts_library:CherryMX_Integrated SW31
+U 1 1 63B54148
+P 10700 2350
+F 0 "SW31" H 10700 2825 50  0000 C CNN
+F 1 "L05" H 10700 2750 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated" H 10700 2350 50  0001 C CNN
+F 3 "" H 10700 2350 50  0001 C CNN
+	1    10700 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_parts_library:CherryMX_Integrated_Reversed SW32
+U 1 1 63B5414E
+P 10700 3550
+F 0 "SW32" H 10700 4025 50  0000 C CNN
+F 1 "L15" H 10700 3950 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated_Reversed" H 10700 3550 50  0001 C CNN
+F 3 "" H 10700 3550 50  0001 C CNN
+	1    10700 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11275 3600 11275 4800
+Connection ~ 11275 3600
+Wire Wire Line
+	8975 4225 10200 4225
+Wire Wire Line
+	10200 4225 10200 4575
+$Comp
+L custom_parts_library:CherryMX_Integrated SW25
+U 1 1 63B54158
+P 9475 2350
+F 0 "SW25" H 9475 2825 50  0000 C CNN
+F 1 "L04" H 9475 2750 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated" H 9475 2350 50  0001 C CNN
+F 3 "" H 9475 2350 50  0001 C CNN
+	1    9475 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 2525 10275 2525
+Wire Wire Line
+	8975 3025 10200 3025
+$Comp
+L custom_parts_library:CherryMX_Integrated SW27
+U 1 1 63B54167
+P 9475 4750
+F 0 "SW27" H 9475 5225 50  0000 C CNN
+F 1 "L24" H 9475 5150 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated" H 9475 4750 50  0001 C CNN
+F 3 "" H 9475 4750 50  0001 C CNN
+	1    9475 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_parts_library:CherryMX_Integrated_Reversed SW28
+U 1 1 63B5416D
+P 9475 5950
+F 0 "SW28" H 9475 6425 50  0000 C CNN
+F 1 "L34" H 9475 6350 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated_Reversed" H 9475 5950 50  0001 C CNN
+F 3 "" H 9475 5950 50  0001 C CNN
+	1    9475 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 4925 10275 4925
+$Comp
+L custom_parts_library:CherryMX_Integrated_Reversed SW34
+U 1 1 63B54174
+P 10700 5950
+F 0 "SW34" H 10700 6425 50  0000 C CNN
+F 1 "L35" H 10700 6350 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated_Reversed" H 10700 5950 50  0001 C CNN
+F 3 "" H 10700 5950 50  0001 C CNN
+	1    10700 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11175 4575 11175 4700
+$Comp
+L power:GND #PWR?
+U 1 1 63B54181
+P 11175 5175
+AR Path="/6114D32E/63B54181" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/63B54181" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/63B54181" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/63B54181" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/63B54181" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/63B54181" Ref="#PWR0137"  Part="1" 
+F 0 "#PWR0137" H 11175 4925 50  0001 C CNN
+F 1 "GND" H 11180 5002 50  0000 C CNN
+F 2 "" H 11175 5175 50  0001 C CNN
+F 3 "" H 11175 5175 50  0001 C CNN
+	1    11175 5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0138
+U 1 1 63B54187
+P 10175 5150
+F 0 "#PWR0138" H 10175 5000 50  0001 C CNN
+F 1 "+5V" H 10150 5300 50  0000 C CNN
+F 2 "" H 10175 5150 50  0001 C CNN
+F 3 "" H 10175 5150 50  0001 C CNN
+	1    10175 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10175 5175 10250 5175
+Wire Wire Line
+	10250 5050 10275 5050
+Wire Wire Line
+	10275 5125 10250 5125
+Wire Wire Line
+	10250 5125 10250 5050
+Connection ~ 10250 5125
+Wire Wire Line
+	10250 5175 10250 5125
+Wire Wire Line
+	10200 4575 10275 4575
+Wire Wire Line
+	11175 5050 11175 5125
+Wire Wire Line
+	11175 5125 11175 5175
+Connection ~ 11175 5125
+Wire Wire Line
+	11125 5125 11175 5125
+Wire Wire Line
+	11125 5050 11175 5050
+Wire Wire Line
+	11175 4700 11125 4700
+Wire Wire Line
+	11125 4575 11175 4575
+Wire Wire Line
+	11175 5775 11175 5900
+$Comp
+L power:GND #PWR?
+U 1 1 63B5419C
+P 11175 6375
+AR Path="/6114D32E/63B5419C" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/63B5419C" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/63B5419C" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/63B5419C" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/63B5419C" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/63B5419C" Ref="#PWR0139"  Part="1" 
+F 0 "#PWR0139" H 11175 6125 50  0001 C CNN
+F 1 "GND" H 11180 6202 50  0000 C CNN
+F 2 "" H 11175 6375 50  0001 C CNN
+F 3 "" H 11175 6375 50  0001 C CNN
+	1    11175 6375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0140
+U 1 1 63B541A2
+P 10175 6350
+F 0 "#PWR0140" H 10175 6200 50  0001 C CNN
+F 1 "+5V" H 10150 6500 50  0000 C CNN
+F 2 "" H 10175 6350 50  0001 C CNN
+F 3 "" H 10175 6350 50  0001 C CNN
+	1    10175 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10175 6375 10250 6375
+Wire Wire Line
+	10250 6250 10275 6250
+Wire Wire Line
+	10275 6325 10250 6325
+Wire Wire Line
+	10250 6325 10250 6250
+Connection ~ 10250 6325
+Wire Wire Line
+	10250 6375 10250 6325
+Wire Wire Line
+	10200 5775 10275 5775
+Wire Wire Line
+	11175 6250 11175 6325
+Wire Wire Line
+	11175 6325 11175 6375
+Connection ~ 11175 6325
+Wire Wire Line
+	11125 6325 11175 6325
+Wire Wire Line
+	11125 6250 11175 6250
+Wire Wire Line
+	11175 5900 11125 5900
+Wire Wire Line
+	11125 5775 11175 5775
+Wire Wire Line
+	11125 4800 11275 4800
+Wire Wire Line
+	11275 4800 11275 6000
+Wire Wire Line
+	11275 6000 11125 6000
+Connection ~ 11275 6000
+Connection ~ 11275 4800
+Wire Wire Line
+	8975 5425 10200 5425
+Wire Wire Line
+	10200 5425 10200 5775
+Wire Wire Line
+	12500 3600 12350 3600
+Connection ~ 12500 3600
+Wire Wire Line
+	12500 2400 12500 3600
+Wire Wire Line
+	12350 2525 12725 2525
+Wire Wire Line
+	12350 2400 12500 2400
+Wire Wire Line
+	12350 3375 12400 3375
+Wire Wire Line
+	12400 3500 12350 3500
+Wire Wire Line
+	12350 3850 12400 3850
+Wire Wire Line
+	12350 3925 12400 3925
+Wire Wire Line
+	11425 3375 11500 3375
+Wire Wire Line
+	11425 3375 11425 3025
+Wire Wire Line
+	11475 3975 11475 3925
+Wire Wire Line
+	11475 3925 11475 3850
+Connection ~ 11475 3925
+Wire Wire Line
+	11500 3925 11475 3925
+Wire Wire Line
+	11475 3850 11500 3850
+Wire Wire Line
+	11400 3975 11475 3975
+Wire Wire Line
+	11400 3950 11400 3975
+$Comp
+L power:+5V #PWR0141
+U 1 1 63B5422C
+P 11400 3950
+F 0 "#PWR0141" H 11400 3800 50  0001 C CNN
+F 1 "+5V" H 11375 4100 50  0000 C CNN
+F 2 "" H 11400 3950 50  0001 C CNN
+F 3 "" H 11400 3950 50  0001 C CNN
+	1    11400 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12400 3925 12400 3975
+Connection ~ 12400 3925
+Wire Wire Line
+	12400 3850 12400 3925
+$Comp
+L power:GND #PWR?
+U 1 1 63B54235
+P 12400 3975
+AR Path="/6114D32E/63B54235" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/63B54235" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/63B54235" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/63B54235" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/63B54235" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/63B54235" Ref="#PWR0142"  Part="1" 
+F 0 "#PWR0142" H 12400 3725 50  0001 C CNN
+F 1 "GND" H 12405 3802 50  0000 C CNN
+F 2 "" H 12400 3975 50  0001 C CNN
+F 3 "" H 12400 3975 50  0001 C CNN
+	1    12400 3975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12400 3375 12400 3500
+Wire Wire Line
+	12350 2175 12400 2175
+Wire Wire Line
+	12400 2300 12350 2300
+Wire Wire Line
+	12350 2650 12400 2650
+Wire Wire Line
+	12350 2725 12400 2725
+Wire Wire Line
+	11425 2175 11500 2175
+Wire Wire Line
+	11425 2175 11425 1825
+Wire Wire Line
+	11475 2775 11475 2725
+Wire Wire Line
+	11475 2725 11475 2650
+Connection ~ 11475 2725
+Wire Wire Line
+	11500 2725 11475 2725
+Wire Wire Line
+	11475 2650 11500 2650
+Wire Wire Line
+	11400 2775 11475 2775
+Wire Wire Line
+	11400 2750 11400 2775
+$Comp
+L power:+5V #PWR0143
+U 1 1 63B5424A
+P 11400 2750
+F 0 "#PWR0143" H 11400 2600 50  0001 C CNN
+F 1 "+5V" H 11375 2900 50  0000 C CNN
+F 2 "" H 11400 2750 50  0001 C CNN
+F 3 "" H 11400 2750 50  0001 C CNN
+	1    11400 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12400 2725 12400 2775
+Connection ~ 12400 2725
+Wire Wire Line
+	12400 2650 12400 2725
+$Comp
+L power:GND #PWR?
+U 1 1 63B54253
+P 12400 2775
+AR Path="/6114D32E/63B54253" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/63B54253" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/63B54253" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/63B54253" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/63B54253" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/63B54253" Ref="#PWR0144"  Part="1" 
+F 0 "#PWR0144" H 12400 2525 50  0001 C CNN
+F 1 "GND" H 12405 2602 50  0000 C CNN
+F 2 "" H 12400 2775 50  0001 C CNN
+F 3 "" H 12400 2775 50  0001 C CNN
+	1    12400 2775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12400 2175 12400 2300
+Wire Wire Line
+	12500 6000 12350 6000
+Connection ~ 12500 6000
+Wire Wire Line
+	12350 5775 12400 5775
+Wire Wire Line
+	12400 5900 12350 5900
+Wire Wire Line
+	12350 6250 12400 6250
+Wire Wire Line
+	12350 6325 12400 6325
+Wire Wire Line
+	11425 5775 11500 5775
+Wire Wire Line
+	11425 5775 11425 5425
+Wire Wire Line
+	11475 6375 11475 6325
+Wire Wire Line
+	11475 6325 11475 6250
+Connection ~ 11475 6325
+Wire Wire Line
+	11500 6325 11475 6325
+Wire Wire Line
+	11475 6250 11500 6250
+Wire Wire Line
+	11400 6375 11475 6375
+Wire Wire Line
+	11400 6350 11400 6375
+$Comp
+L power:+5V #PWR0145
+U 1 1 63B54279
+P 11400 6350
+F 0 "#PWR0145" H 11400 6200 50  0001 C CNN
+F 1 "+5V" H 11375 6500 50  0000 C CNN
+F 2 "" H 11400 6350 50  0001 C CNN
+F 3 "" H 11400 6350 50  0001 C CNN
+	1    11400 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12400 6325 12400 6375
+Connection ~ 12400 6325
+Wire Wire Line
+	12400 6250 12400 6325
+$Comp
+L power:GND #PWR?
+U 1 1 63B54282
+P 12400 6375
+AR Path="/6114D32E/63B54282" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/63B54282" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/63B54282" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/63B54282" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/63B54282" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/63B54282" Ref="#PWR0146"  Part="1" 
+F 0 "#PWR0146" H 12400 6125 50  0001 C CNN
+F 1 "GND" H 12405 6202 50  0000 C CNN
+F 2 "" H 12400 6375 50  0001 C CNN
+F 3 "" H 12400 6375 50  0001 C CNN
+	1    12400 6375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12400 5775 12400 5900
+Wire Wire Line
+	11125 2525 11500 2525
+Wire Wire Line
+	4075 6625 5300 6625
+Wire Wire Line
+	5300 6625 5300 6975
+$Comp
+L custom_parts_library:CherryMX_Integrated SW6
+U 1 1 63DB7C50
+P 4575 7150
+F 0 "SW6" H 4575 7625 50  0000 C CNN
+F 1 "L40" H 4575 7550 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.50u_KailhSocket_Integrated" H 4575 7150 50  0001 C CNN
+F 3 "" H 4575 7150 50  0001 C CNN
+	1    4575 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 7325 5375 7325
+Wire Wire Line
+	5000 7200 5150 7200
+Wire Wire Line
+	5000 6975 5050 6975
+Wire Wire Line
+	5050 7100 5000 7100
+Wire Wire Line
+	5000 7450 5050 7450
+Wire Wire Line
+	5000 7525 5050 7525
+Wire Wire Line
+	4125 7575 4125 7525
+Wire Wire Line
+	4125 7525 4125 7450
+Connection ~ 4125 7525
+Wire Wire Line
+	4150 7525 4125 7525
+Wire Wire Line
+	4125 7450 4150 7450
+Wire Wire Line
+	4050 7575 4125 7575
+Wire Wire Line
+	4050 7550 4050 7575
+$Comp
+L power:+5V #PWR0147
+U 1 1 63DB7C8B
+P 4050 7550
+F 0 "#PWR0147" H 4050 7400 50  0001 C CNN
+F 1 "+5V" H 4025 7700 50  0000 C CNN
+F 2 "" H 4050 7550 50  0001 C CNN
+F 3 "" H 4050 7550 50  0001 C CNN
+	1    4050 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 7525 5050 7575
+Connection ~ 5050 7525
+Wire Wire Line
+	5050 7450 5050 7525
+$Comp
+L power:GND #PWR?
+U 1 1 63DB7C94
+P 5050 7575
+AR Path="/6114D32E/63DB7C94" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/63DB7C94" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/63DB7C94" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/63DB7C94" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/63DB7C94" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/63DB7C94" Ref="#PWR0148"  Part="1" 
+F 0 "#PWR0148" H 5050 7325 50  0001 C CNN
+F 1 "GND" H 5055 7402 50  0000 C CNN
+F 2 "" H 5050 7575 50  0001 C CNN
+F 3 "" H 5050 7575 50  0001 C CNN
+	1    5050 7575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 6975 5050 7100
+Wire Wire Line
+	3625 6975 4075 6975
+Wire Wire Line
+	4075 6975 4150 6975
+Connection ~ 4075 6975
+Wire Wire Line
+	4075 6975 4075 6625
+$Comp
+L custom_parts_library:CherryMX_Integrated_Reversed SW12
+U 1 1 63DB7CA0
+P 5800 8350
+F 0 "SW12" H 5800 8825 50  0000 C CNN
+F 1 "L51" H 5800 8750 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated" H 5800 8350 50  0001 C CNN
+F 3 "" H 5800 8350 50  0001 C CNN
+	1    5800 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_parts_library:CherryMX_Integrated SW11
+U 1 1 63DB7CA6
+P 5800 7150
+F 0 "SW11" H 5800 7625 50  0000 C CNN
+F 1 "L41" H 5800 7550 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated" H 5800 7150 50  0001 C CNN
+F 3 "" H 5800 7150 50  0001 C CNN
+	1    5800 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6275 6975 6275 7100
+$Comp
+L power:GND #PWR?
+U 1 1 63DB7CAD
+P 6275 7575
+AR Path="/6114D32E/63DB7CAD" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/63DB7CAD" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/63DB7CAD" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/63DB7CAD" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/63DB7CAD" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/63DB7CAD" Ref="#PWR0149"  Part="1" 
+F 0 "#PWR0149" H 6275 7325 50  0001 C CNN
+F 1 "GND" H 6280 7402 50  0000 C CNN
+F 2 "" H 6275 7575 50  0001 C CNN
+F 3 "" H 6275 7575 50  0001 C CNN
+	1    6275 7575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0150
+U 1 1 63DB7CB3
+P 5275 7550
+F 0 "#PWR0150" H 5275 7400 50  0001 C CNN
+F 1 "+5V" H 5250 7700 50  0000 C CNN
+F 2 "" H 5275 7550 50  0001 C CNN
+F 3 "" H 5275 7550 50  0001 C CNN
+	1    5275 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5275 7550 5275 7575
+Wire Wire Line
+	5275 7575 5350 7575
+Wire Wire Line
+	5350 7450 5375 7450
+Wire Wire Line
+	5375 7525 5350 7525
+Wire Wire Line
+	5350 7525 5350 7450
+Connection ~ 5350 7525
+Wire Wire Line
+	5350 7575 5350 7525
+Wire Wire Line
+	5300 6975 5375 6975
+Wire Wire Line
+	6275 7450 6275 7525
+Wire Wire Line
+	6275 7525 6275 7575
+Connection ~ 6275 7525
+Wire Wire Line
+	6225 7525 6275 7525
+Wire Wire Line
+	6225 7450 6275 7450
+Wire Wire Line
+	6275 7100 6225 7100
+Wire Wire Line
+	6225 6975 6275 6975
+Wire Wire Line
+	6275 8175 6275 8300
+$Comp
+L power:GND #PWR?
+U 1 1 63DB7CC9
+P 6275 8775
+AR Path="/6114D32E/63DB7CC9" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/63DB7CC9" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/63DB7CC9" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/63DB7CC9" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/63DB7CC9" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/63DB7CC9" Ref="#PWR0151"  Part="1" 
+F 0 "#PWR0151" H 6275 8525 50  0001 C CNN
+F 1 "GND" H 6280 8602 50  0000 C CNN
+F 2 "" H 6275 8775 50  0001 C CNN
+F 3 "" H 6275 8775 50  0001 C CNN
+	1    6275 8775
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0152
+U 1 1 63DB7CCF
+P 5275 8750
+F 0 "#PWR0152" H 5275 8600 50  0001 C CNN
+F 1 "+5V" H 5250 8900 50  0000 C CNN
+F 2 "" H 5275 8750 50  0001 C CNN
+F 3 "" H 5275 8750 50  0001 C CNN
+	1    5275 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5275 8750 5275 8775
+Wire Wire Line
+	5275 8775 5350 8775
+Wire Wire Line
+	5350 8650 5375 8650
+Wire Wire Line
+	5375 8725 5350 8725
+Wire Wire Line
+	5350 8725 5350 8650
+Connection ~ 5350 8725
+Wire Wire Line
+	5350 8775 5350 8725
+Wire Wire Line
+	6275 8650 6275 8725
+Wire Wire Line
+	6275 8725 6275 8775
+Connection ~ 6275 8725
+Wire Wire Line
+	6225 8725 6275 8725
+Wire Wire Line
+	6225 8650 6275 8650
+Wire Wire Line
+	6275 8300 6225 8300
+Wire Wire Line
+	6225 8175 6275 8175
+Wire Wire Line
+	6225 7200 6375 7200
+Wire Wire Line
+	6225 7325 6600 7325
+Wire Wire Line
+	6375 7200 6375 8400
+Wire Wire Line
+	6375 8400 6225 8400
+Connection ~ 6375 8400
+Wire Wire Line
+	6375 8400 6375 9600
+Wire Wire Line
+	6525 6625 7750 6625
+Wire Wire Line
+	7750 6625 7750 6975
+Wire Wire Line
+	7600 8400 7600 9600
+$Comp
+L custom_parts_library:CherryMX_Integrated SW17
+U 1 1 63DB7CF2
+P 7025 7150
+F 0 "SW17" H 7025 7625 50  0000 C CNN
+F 1 "L42" H 7025 7550 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated" H 7025 7150 50  0001 C CNN
+F 3 "" H 7025 7150 50  0001 C CNN
+	1    7025 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_parts_library:CherryMX_Integrated_Reversed SW18
+U 1 1 63DB7CF8
+P 7025 8350
+F 0 "SW18" H 7025 8825 50  0000 C CNN
+F 1 "L52" H 7025 8750 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_2.00u_KailhSocket_Integrated_Vertical" H 7025 8350 50  0001 C CNN
+F 3 "" H 7025 8350 50  0001 C CNN
+	1    7025 8350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 8400 7450 8400
+Connection ~ 7600 8400
+Wire Wire Line
+	7600 7200 7600 8400
+Wire Wire Line
+	7450 7325 7825 7325
+Wire Wire Line
+	7450 7200 7600 7200
+Wire Wire Line
+	7450 8175 7500 8175
+Wire Wire Line
+	7500 8300 7450 8300
+Wire Wire Line
+	7450 8650 7500 8650
+Wire Wire Line
+	7450 8725 7500 8725
+Wire Wire Line
+	6525 8175 6600 8175
+Wire Wire Line
+	6525 8175 6525 7825
+Wire Wire Line
+	6575 8775 6575 8725
+Wire Wire Line
+	6575 8725 6575 8650
+Connection ~ 6575 8725
+Wire Wire Line
+	6600 8725 6575 8725
+Wire Wire Line
+	6575 8650 6600 8650
+Wire Wire Line
+	6500 8775 6575 8775
+Wire Wire Line
+	6500 8750 6500 8775
+$Comp
+L power:+5V #PWR0153
+U 1 1 63DB7D10
+P 6500 8750
+F 0 "#PWR0153" H 6500 8600 50  0001 C CNN
+F 1 "+5V" H 6475 8900 50  0000 C CNN
+F 2 "" H 6500 8750 50  0001 C CNN
+F 3 "" H 6500 8750 50  0001 C CNN
+	1    6500 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 8725 7500 8775
+Connection ~ 7500 8725
+Wire Wire Line
+	7500 8650 7500 8725
+$Comp
+L power:GND #PWR?
+U 1 1 63DB7D19
+P 7500 8775
+AR Path="/6114D32E/63DB7D19" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/63DB7D19" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/63DB7D19" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/63DB7D19" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/63DB7D19" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/63DB7D19" Ref="#PWR0154"  Part="1" 
+F 0 "#PWR0154" H 7500 8525 50  0001 C CNN
+F 1 "GND" H 7505 8602 50  0000 C CNN
+F 2 "" H 7500 8775 50  0001 C CNN
+F 3 "" H 7500 8775 50  0001 C CNN
+	1    7500 8775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 8175 7500 8300
+Wire Wire Line
+	7450 6975 7500 6975
+Wire Wire Line
+	7500 7100 7450 7100
+Wire Wire Line
+	7450 7450 7500 7450
+Wire Wire Line
+	7450 7525 7500 7525
+Wire Wire Line
+	6575 7575 6575 7525
+Wire Wire Line
+	6575 7525 6575 7450
+Connection ~ 6575 7525
+Wire Wire Line
+	6600 7525 6575 7525
+Wire Wire Line
+	6575 7450 6600 7450
+Wire Wire Line
+	6500 7575 6575 7575
+Wire Wire Line
+	6500 7550 6500 7575
+$Comp
+L power:+5V #PWR0155
+U 1 1 63DB7D2B
+P 6500 7550
+F 0 "#PWR0155" H 6500 7400 50  0001 C CNN
+F 1 "+5V" H 6475 7700 50  0000 C CNN
+F 2 "" H 6500 7550 50  0001 C CNN
+F 3 "" H 6500 7550 50  0001 C CNN
+	1    6500 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 7525 7500 7575
+Connection ~ 7500 7525
+Wire Wire Line
+	7500 7450 7500 7525
+$Comp
+L power:GND #PWR?
+U 1 1 63DB7D34
+P 7500 7575
+AR Path="/6114D32E/63DB7D34" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/63DB7D34" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/63DB7D34" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/63DB7D34" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/63DB7D34" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/63DB7D34" Ref="#PWR0156"  Part="1" 
+F 0 "#PWR0156" H 7500 7325 50  0001 C CNN
+F 1 "GND" H 7505 7402 50  0000 C CNN
+F 2 "" H 7500 7575 50  0001 C CNN
+F 3 "" H 7500 7575 50  0001 C CNN
+	1    7500 7575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 6975 7500 7100
+Wire Wire Line
+	6525 6975 6600 6975
+Wire Wire Line
+	6525 6975 6525 6625
+$Comp
+L custom_parts_library:CherryMX_Integrated_Reversed SW24
+U 1 1 63DB7D3E
+P 8250 8350
+F 0 "SW24" H 8250 8825 50  0000 C CNN
+F 1 "L53" H 8250 8750 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_2.00u_KailhSocket_Integrated_Vertical" H 8250 8350 50  0001 C CNN
+F 3 "" H 8250 8350 50  0001 C CNN
+	1    8250 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_parts_library:CherryMX_Integrated SW23
+U 1 1 63DB7D44
+P 8250 7150
+F 0 "SW23" H 8250 7625 50  0000 C CNN
+F 1 "L43" H 8250 7550 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated" H 8250 7150 50  0001 C CNN
+F 3 "" H 8250 7150 50  0001 C CNN
+	1    8250 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8725 6975 8725 7100
+$Comp
+L power:GND #PWR?
+U 1 1 63DB7D4B
+P 8725 7575
+AR Path="/6114D32E/63DB7D4B" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/63DB7D4B" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/63DB7D4B" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/63DB7D4B" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/63DB7D4B" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/63DB7D4B" Ref="#PWR0157"  Part="1" 
+F 0 "#PWR0157" H 8725 7325 50  0001 C CNN
+F 1 "GND" H 8730 7402 50  0000 C CNN
+F 2 "" H 8725 7575 50  0001 C CNN
+F 3 "" H 8725 7575 50  0001 C CNN
+	1    8725 7575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0158
+U 1 1 63DB7D51
+P 7725 7550
+F 0 "#PWR0158" H 7725 7400 50  0001 C CNN
+F 1 "+5V" H 7700 7700 50  0000 C CNN
+F 2 "" H 7725 7550 50  0001 C CNN
+F 3 "" H 7725 7550 50  0001 C CNN
+	1    7725 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7725 7550 7725 7575
+Wire Wire Line
+	7725 7575 7800 7575
+Wire Wire Line
+	7800 7450 7825 7450
+Wire Wire Line
+	7825 7525 7800 7525
+Wire Wire Line
+	7800 7525 7800 7450
+Connection ~ 7800 7525
+Wire Wire Line
+	7800 7575 7800 7525
+Wire Wire Line
+	7750 6975 7825 6975
+Wire Wire Line
+	8725 7450 8725 7525
+Wire Wire Line
+	8725 7525 8725 7575
+Connection ~ 8725 7525
+Wire Wire Line
+	8675 7525 8725 7525
+Wire Wire Line
+	8675 7450 8725 7450
+Wire Wire Line
+	8725 7100 8675 7100
+Wire Wire Line
+	8675 6975 8725 6975
+Wire Wire Line
+	8725 8175 8725 8300
+$Comp
+L power:GND #PWR?
+U 1 1 63DB7D67
+P 8725 8775
+AR Path="/6114D32E/63DB7D67" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/63DB7D67" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/63DB7D67" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/63DB7D67" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/63DB7D67" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/63DB7D67" Ref="#PWR0159"  Part="1" 
+F 0 "#PWR0159" H 8725 8525 50  0001 C CNN
+F 1 "GND" H 8730 8602 50  0000 C CNN
+F 2 "" H 8725 8775 50  0001 C CNN
+F 3 "" H 8725 8775 50  0001 C CNN
+	1    8725 8775
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0160
+U 1 1 63DB7D6D
+P 7725 8750
+F 0 "#PWR0160" H 7725 8600 50  0001 C CNN
+F 1 "+5V" H 7700 8900 50  0000 C CNN
+F 2 "" H 7725 8750 50  0001 C CNN
+F 3 "" H 7725 8750 50  0001 C CNN
+	1    7725 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7725 8750 7725 8775
+Wire Wire Line
+	7725 8775 7800 8775
+Wire Wire Line
+	7800 8650 7825 8650
+Wire Wire Line
+	7825 8725 7800 8725
+Wire Wire Line
+	7800 8725 7800 8650
+Connection ~ 7800 8725
+Wire Wire Line
+	7800 8775 7800 8725
+Wire Wire Line
+	7750 8175 7825 8175
+Wire Wire Line
+	8725 8650 8725 8725
+Wire Wire Line
+	8725 8725 8725 8775
+Connection ~ 8725 8725
+Wire Wire Line
+	8675 8725 8725 8725
+Wire Wire Line
+	8675 8650 8725 8650
+Wire Wire Line
+	8725 8300 8675 8300
+Wire Wire Line
+	8675 8175 8725 8175
+Wire Wire Line
+	8675 7200 8825 7200
+Wire Wire Line
+	8675 7325 9050 7325
+Wire Wire Line
+	8825 7200 8825 8400
+Wire Wire Line
+	8825 8400 8675 8400
+Connection ~ 8825 8400
+Wire Wire Line
+	8825 8400 8825 9600
+Wire Wire Line
+	7750 7825 7750 8175
+Wire Wire Line
+	11175 8175 11175 8300
+$Comp
+L power:GND #PWR?
+U 1 1 63DB7DC3
+P 11175 8775
+AR Path="/6114D32E/63DB7DC3" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/63DB7DC3" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/63DB7DC3" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/63DB7DC3" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/63DB7DC3" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/63DB7DC3" Ref="#PWR0161"  Part="1" 
+F 0 "#PWR0161" H 11175 8525 50  0001 C CNN
+F 1 "GND" H 11180 8602 50  0000 C CNN
+F 2 "" H 11175 8775 50  0001 C CNN
+F 3 "" H 11175 8775 50  0001 C CNN
+	1    11175 8775
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0162
+U 1 1 63DB7DC9
+P 10175 8750
+F 0 "#PWR0162" H 10175 8600 50  0001 C CNN
+F 1 "+5V" H 10150 8900 50  0000 C CNN
+F 2 "" H 10175 8750 50  0001 C CNN
+F 3 "" H 10175 8750 50  0001 C CNN
+	1    10175 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 8650 10275 8650
+Wire Wire Line
+	10275 8725 10250 8725
+Wire Wire Line
+	10250 8725 10250 8650
+Connection ~ 10250 8725
+Wire Wire Line
+	10250 8775 10250 8725
+Wire Wire Line
+	10200 8175 10275 8175
+Wire Wire Line
+	11175 8650 11175 8725
+Wire Wire Line
+	11175 8725 11175 8775
+Connection ~ 11175 8725
+Wire Wire Line
+	11125 8725 11175 8725
+Wire Wire Line
+	11125 8650 11175 8650
+Wire Wire Line
+	11175 8300 11125 8300
+Wire Wire Line
+	11125 8175 11175 8175
+Wire Wire Line
+	11275 8400 11125 8400
+Connection ~ 11275 8400
+Wire Wire Line
+	11275 8400 11275 9600
+Wire Wire Line
+	8975 7825 10200 7825
+Wire Wire Line
+	10200 7825 10200 8175
+Wire Wire Line
+	12500 8400 12500 9600
+Wire Wire Line
+	12500 8400 12350 8400
+Connection ~ 12500 8400
+Wire Wire Line
+	12350 8175 12400 8175
+Wire Wire Line
+	12400 8300 12350 8300
+Wire Wire Line
+	12350 8650 12400 8650
+Wire Wire Line
+	12350 8725 12400 8725
+Wire Wire Line
+	11425 8175 11500 8175
+Wire Wire Line
+	11425 8175 11425 7825
+Wire Wire Line
+	11475 8775 11475 8725
+Wire Wire Line
+	11475 8725 11475 8650
+Connection ~ 11475 8725
+Wire Wire Line
+	11500 8725 11475 8725
+Wire Wire Line
+	11475 8650 11500 8650
+Wire Wire Line
+	11400 8775 11475 8775
+Wire Wire Line
+	11400 8750 11400 8775
+$Comp
+L power:+5V #PWR0163
+U 1 1 63DB7E08
+P 11400 8750
+F 0 "#PWR0163" H 11400 8600 50  0001 C CNN
+F 1 "+5V" H 11375 8900 50  0000 C CNN
+F 2 "" H 11400 8750 50  0001 C CNN
+F 3 "" H 11400 8750 50  0001 C CNN
+	1    11400 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12400 8725 12400 8775
+Connection ~ 12400 8725
+Wire Wire Line
+	12400 8650 12400 8725
+$Comp
+L power:GND #PWR?
+U 1 1 63DB7E11
+P 12400 8775
+AR Path="/6114D32E/63DB7E11" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/63DB7E11" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/63DB7E11" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/63DB7E11" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/63DB7E11" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/63DB7E11" Ref="#PWR0164"  Part="1" 
+F 0 "#PWR0164" H 12400 8525 50  0001 C CNN
+F 1 "GND" H 12405 8602 50  0000 C CNN
+F 2 "" H 12400 8775 50  0001 C CNN
+F 3 "" H 12400 8775 50  0001 C CNN
+	1    12400 8775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12400 8175 12400 8300
+Connection ~ 5150 7200
+Connection ~ 6375 7200
+Connection ~ 7600 7200
+Connection ~ 8825 7200
+Wire Wire Line
+	9900 8650 9950 8650
+Wire Wire Line
+	9900 8725 9950 8725
+Wire Wire Line
+	9025 8775 9025 8725
+Wire Wire Line
+	9025 8725 9025 8650
+Connection ~ 9025 8725
+Wire Wire Line
+	9050 8725 9025 8725
+Wire Wire Line
+	9025 8650 9050 8650
+Wire Wire Line
+	8950 8775 9025 8775
+Wire Wire Line
+	8950 8750 8950 8775
+$Comp
+L power:+5V #PWR0165
+U 1 1 64C8B2F5
+P 8950 8750
+F 0 "#PWR0165" H 8950 8600 50  0001 C CNN
+F 1 "+5V" H 8925 8900 50  0000 C CNN
+F 2 "" H 8950 8750 50  0001 C CNN
+F 3 "" H 8950 8750 50  0001 C CNN
+	1    8950 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 8725 9950 8775
+Connection ~ 9950 8725
+Wire Wire Line
+	9950 8650 9950 8725
+$Comp
+L power:GND #PWR?
+U 1 1 64C8B2FE
+P 9950 8775
+AR Path="/6114D32E/64C8B2FE" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/64C8B2FE" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/64C8B2FE" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/64C8B2FE" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/64C8B2FE" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/64C8B2FE" Ref="#PWR0166"  Part="1" 
+F 0 "#PWR0166" H 9950 8525 50  0001 C CNN
+F 1 "GND" H 9955 8602 50  0000 C CNN
+F 2 "" H 9950 8775 50  0001 C CNN
+F 3 "" H 9950 8775 50  0001 C CNN
+	1    9950 8775
+	1    0    0    -1  
+$EndComp
+Text HLabel 3625 7325 0    50   Input ~ 0
+RGB_DIN
+Wire Wire Line
+	3625 7325 4150 7325
+Wire Wire Line
+	5300 1825 6525 1825
+Connection ~ 5300 1825
+Connection ~ 6525 1825
+Wire Wire Line
+	8975 1825 10200 1825
+Wire Wire Line
+	9050 2175 8975 2175
+Wire Wire Line
+	8975 2175 8975 1825
+Wire Wire Line
+	8975 1825 7750 1825
+Connection ~ 8975 1825
+Connection ~ 7750 1825
+Wire Wire Line
+	9900 2650 9950 2650
+Wire Wire Line
+	9900 2725 9950 2725
+Wire Wire Line
+	9025 2775 9025 2725
+Wire Wire Line
+	9025 2725 9025 2650
+Connection ~ 9025 2725
+Wire Wire Line
+	9050 2725 9025 2725
+Wire Wire Line
+	9025 2650 9050 2650
+Wire Wire Line
+	8950 2775 9025 2775
+Wire Wire Line
+	8950 2750 8950 2775
+$Comp
+L power:+5V #PWR0167
+U 1 1 652F5C0D
+P 8950 2750
+F 0 "#PWR0167" H 8950 2600 50  0001 C CNN
+F 1 "+5V" H 8925 2900 50  0000 C CNN
+F 2 "" H 8950 2750 50  0001 C CNN
+F 3 "" H 8950 2750 50  0001 C CNN
+	1    8950 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 2725 9950 2775
+Connection ~ 9950 2725
+Wire Wire Line
+	9950 2650 9950 2725
+$Comp
+L power:GND #PWR?
+U 1 1 652F5C16
+P 9950 2775
+AR Path="/6114D32E/652F5C16" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/652F5C16" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/652F5C16" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/652F5C16" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/652F5C16" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/652F5C16" Ref="#PWR0168"  Part="1" 
+F 0 "#PWR0168" H 9950 2525 50  0001 C CNN
+F 1 "GND" H 9955 2602 50  0000 C CNN
+F 2 "" H 9950 2775 50  0001 C CNN
+F 3 "" H 9950 2775 50  0001 C CNN
+	1    9950 2775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 3850 9950 3850
+Wire Wire Line
+	9900 3925 9950 3925
+Wire Wire Line
+	9025 3975 9025 3925
+Wire Wire Line
+	9025 3925 9025 3850
+Connection ~ 9025 3925
+Wire Wire Line
+	9050 3925 9025 3925
+Wire Wire Line
+	9025 3850 9050 3850
+Wire Wire Line
+	8950 3975 9025 3975
+Wire Wire Line
+	8950 3950 8950 3975
+$Comp
+L power:+5V #PWR0169
+U 1 1 6549BCD0
+P 8950 3950
+F 0 "#PWR0169" H 8950 3800 50  0001 C CNN
+F 1 "+5V" H 8925 4100 50  0000 C CNN
+F 2 "" H 8950 3950 50  0001 C CNN
+F 3 "" H 8950 3950 50  0001 C CNN
+	1    8950 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 3925 9950 3975
+Connection ~ 9950 3925
+Wire Wire Line
+	9950 3850 9950 3925
+$Comp
+L power:GND #PWR?
+U 1 1 6549BCD9
+P 9950 3975
+AR Path="/6114D32E/6549BCD9" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/6549BCD9" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/6549BCD9" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/6549BCD9" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/6549BCD9" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/6549BCD9" Ref="#PWR0170"  Part="1" 
+F 0 "#PWR0170" H 9950 3725 50  0001 C CNN
+F 1 "GND" H 9955 3802 50  0000 C CNN
+F 2 "" H 9950 3975 50  0001 C CNN
+F 3 "" H 9950 3975 50  0001 C CNN
+	1    9950 3975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 5050 9950 5050
+Wire Wire Line
+	9900 5125 9950 5125
+Wire Wire Line
+	9025 5175 9025 5125
+Wire Wire Line
+	9025 5125 9025 5050
+Connection ~ 9025 5125
+Wire Wire Line
+	9050 5125 9025 5125
+Wire Wire Line
+	9025 5050 9050 5050
+Wire Wire Line
+	8950 5175 9025 5175
+Wire Wire Line
+	8950 5150 8950 5175
+$Comp
+L power:+5V #PWR0193
+U 1 1 65572D9D
+P 8950 5150
+F 0 "#PWR0193" H 8950 5000 50  0001 C CNN
+F 1 "+5V" H 8925 5300 50  0000 C CNN
+F 2 "" H 8950 5150 50  0001 C CNN
+F 3 "" H 8950 5150 50  0001 C CNN
+	1    8950 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 5125 9950 5175
+Connection ~ 9950 5125
+Wire Wire Line
+	9950 5050 9950 5125
+$Comp
+L power:GND #PWR?
+U 1 1 65572DA6
+P 9950 5175
+AR Path="/6114D32E/65572DA6" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/65572DA6" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/65572DA6" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/65572DA6" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/65572DA6" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/65572DA6" Ref="#PWR0194"  Part="1" 
+F 0 "#PWR0194" H 9950 4925 50  0001 C CNN
+F 1 "GND" H 9955 5002 50  0000 C CNN
+F 2 "" H 9950 5175 50  0001 C CNN
+F 3 "" H 9950 5175 50  0001 C CNN
+	1    9950 5175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 6250 9950 6250
+Wire Wire Line
+	9900 6325 9950 6325
+Wire Wire Line
+	9025 6375 9025 6325
+Wire Wire Line
+	9025 6325 9025 6250
+Connection ~ 9025 6325
+Wire Wire Line
+	9050 6325 9025 6325
+Wire Wire Line
+	9025 6250 9050 6250
+Wire Wire Line
+	8950 6375 9025 6375
+Wire Wire Line
+	8950 6350 8950 6375
+$Comp
+L power:+5V #PWR0195
+U 1 1 6564E871
+P 8950 6350
+F 0 "#PWR0195" H 8950 6200 50  0001 C CNN
+F 1 "+5V" H 8925 6500 50  0000 C CNN
+F 2 "" H 8950 6350 50  0001 C CNN
+F 3 "" H 8950 6350 50  0001 C CNN
+	1    8950 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 6325 9950 6375
+Connection ~ 9950 6325
+Wire Wire Line
+	9950 6250 9950 6325
+$Comp
+L power:GND #PWR?
+U 1 1 6564E87A
+P 9950 6375
+AR Path="/6114D32E/6564E87A" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/6564E87A" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/6564E87A" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/6564E87A" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/6564E87A" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/6564E87A" Ref="#PWR0196"  Part="1" 
+F 0 "#PWR0196" H 9950 6125 50  0001 C CNN
+F 1 "GND" H 9955 6202 50  0000 C CNN
+F 2 "" H 9950 6375 50  0001 C CNN
+F 3 "" H 9950 6375 50  0001 C CNN
+	1    9950 6375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 7450 9950 7450
+Wire Wire Line
+	9900 7525 9950 7525
+Wire Wire Line
+	9025 7575 9025 7525
+Wire Wire Line
+	9025 7525 9025 7450
+Connection ~ 9025 7525
+Wire Wire Line
+	9050 7525 9025 7525
+Wire Wire Line
+	9025 7450 9050 7450
+Wire Wire Line
+	8950 7575 9025 7575
+Wire Wire Line
+	8950 7550 8950 7575
+$Comp
+L power:+5V #PWR0197
+U 1 1 6572EC1C
+P 8950 7550
+F 0 "#PWR0197" H 8950 7400 50  0001 C CNN
+F 1 "+5V" H 8925 7700 50  0000 C CNN
+F 2 "" H 8950 7550 50  0001 C CNN
+F 3 "" H 8950 7550 50  0001 C CNN
+	1    8950 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 7525 9950 7575
+Connection ~ 9950 7525
+Wire Wire Line
+	9950 7450 9950 7525
+$Comp
+L power:GND #PWR?
+U 1 1 6572EC25
+P 9950 7575
+AR Path="/6114D32E/6572EC25" Ref="#PWR?"  Part="1" 
+AR Path="/6247A5CE/6572EC25" Ref="#PWR?"  Part="1" 
+AR Path="/612340DE/6572EC25" Ref="#PWR?"  Part="1" 
+AR Path="/62F6B81F/6572EC25" Ref="#PWR?"  Part="1" 
+AR Path="/629982B4/6572EC25" Ref="#PWR?"  Part="1" 
+AR Path="/62999965/6572EC25" Ref="#PWR0198"  Part="1" 
+F 0 "#PWR0198" H 9950 7325 50  0001 C CNN
+F 1 "GND" H 9955 7402 50  0000 C CNN
+F 2 "" H 9950 7575 50  0001 C CNN
+F 3 "" H 9950 7575 50  0001 C CNN
+	1    9950 7575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8975 3025 8975 3375
+Wire Wire Line
+	8975 3375 9050 3375
+Wire Wire Line
+	8975 4225 8975 4575
+Wire Wire Line
+	8975 4575 9050 4575
+Wire Wire Line
+	8975 5425 8975 5775
+Wire Wire Line
+	8975 5775 9050 5775
+Wire Wire Line
+	8975 6625 8975 6975
+Wire Wire Line
+	8975 6975 9050 6975
+Wire Wire Line
+	8975 7825 8975 8175
+Wire Wire Line
+	8975 8175 9050 8175
+Connection ~ 10050 7200
+Wire Wire Line
+	10050 8400 10050 9600
+Connection ~ 10050 8400
+Wire Wire Line
+	10050 8400 9900 8400
+Wire Wire Line
+	10050 7200 10050 8400
+Wire Wire Line
+	9900 7200 10050 7200
+Connection ~ 10050 4800
+Wire Wire Line
+	10050 6000 10050 7200
+Connection ~ 10050 6000
+Wire Wire Line
+	10050 6000 9900 6000
+Wire Wire Line
+	10050 4800 10050 6000
+Wire Wire Line
+	9900 4800 10050 4800
+Connection ~ 10050 3600
+Wire Wire Line
+	10050 3600 10050 4800
+Wire Wire Line
+	10050 3600 9900 3600
+Wire Wire Line
+	10050 2400 10050 3600
+Wire Wire Line
+	9900 2400 10050 2400
+$Comp
+L custom_parts_library:CherryMX_Integrated_Reversed SW26
+U 1 1 63B5415E
+P 9475 3550
+F 0 "SW26" H 9475 4025 50  0000 C CNN
+F 1 "L14" H 9475 3950 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated_Reversed" H 9475 3550 50  0001 C CNN
+F 3 "" H 9475 3550 50  0001 C CNN
+	1    9475 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_parts_library:CherryMX_Integrated SW30
+U 1 1 64D55C3C
+P 9475 8350
+F 0 "SW30" H 9475 8825 50  0000 C CNN
+F 1 "L54" H 9475 8750 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated_Reversed" H 9475 8350 50  0001 C CNN
+F 3 "" H 9475 8350 50  0001 C CNN
+	1    9475 8350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 8300 9950 8300
+Wire Wire Line
+	9900 7100 9950 7100
+Wire Wire Line
+	9950 7100 9950 6975
+Wire Wire Line
+	9950 6975 9900 6975
+Wire Wire Line
+	9950 8300 9950 8175
+Wire Wire Line
+	9950 8175 9900 8175
+Wire Wire Line
+	9900 5900 9950 5900
+Wire Wire Line
+	9950 5900 9950 5775
+Wire Wire Line
+	9950 5775 9900 5775
+Wire Wire Line
+	9900 4700 9950 4700
+Wire Wire Line
+	9950 4700 9950 4575
+Wire Wire Line
+	9950 4575 9900 4575
+Wire Wire Line
+	9900 3500 9950 3500
+Wire Wire Line
+	9950 3500 9950 3375
+Wire Wire Line
+	9950 3375 9900 3375
+Wire Wire Line
+	9900 2300 9950 2300
+Wire Wire Line
+	9950 2300 9950 2175
+Wire Wire Line
+	9950 2175 9900 2175
+Wire Wire Line
+	10175 2775 10175 2750
+Wire Wire Line
+	10200 1825 11425 1825
+Connection ~ 10200 1825
+Wire Wire Line
+	4150 3725 3925 3725
+Wire Wire Line
+	3925 3725 3925 2525
+Wire Wire Line
+	3925 2525 4150 2525
+Wire Wire Line
+	5000 3725 5375 3725
+Wire Wire Line
+	5300 3025 6525 3025
+Connection ~ 5300 3025
+Connection ~ 6525 3025
+Wire Wire Line
+	6225 3725 6600 3725
+Wire Wire Line
+	7450 3725 7825 3725
+Wire Wire Line
+	7750 3025 8975 3025
+Connection ~ 7750 3025
+Connection ~ 8975 3025
+Wire Wire Line
+	8675 3725 9050 3725
+Wire Wire Line
+	10200 3025 11425 3025
+Connection ~ 10200 3025
+Wire Wire Line
+	9900 3725 10275 3725
+Wire Wire Line
+	11125 3725 11500 3725
+Wire Wire Line
+	10175 3975 10175 3950
+$Comp
+L custom_parts_library:CherryMX_Integrated_Reversed SW36
+U 1 1 63B54213
+P 11925 3550
+F 0 "SW36" H 11925 4025 50  0000 C CNN
+F 1 "L16" H 11925 3950 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.50u_KailhSocket_Integrated_Vertical_Reversed" H 11925 3550 50  0001 C CNN
+F 3 "" H 11925 3550 50  0001 C CNN
+	1    11925 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12500 3600 12500 6000
+$Comp
+L custom_parts_library:CherryMX_Integrated SW33
+U 1 1 69636882
+P 10700 4750
+F 0 "SW33" H 10700 5225 50  0000 C CNN
+F 1 "L25" H 10700 5150 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated" H 10700 4750 50  0001 C CNN
+F 3 "" H 10700 4750 50  0001 C CNN
+	1    10700 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 3725 12575 3725
+Wire Wire Line
+	12575 3725 12575 4925
+Wire Wire Line
+	12575 4925 11125 4925
+Wire Wire Line
+	5300 4225 6525 4225
+Connection ~ 5300 4225
+Connection ~ 6525 4225
+Wire Wire Line
+	7750 4225 8975 4225
+Connection ~ 7750 4225
+Connection ~ 8975 4225
+Wire Wire Line
+	10175 5150 10175 5175
+Wire Wire Line
+	4150 6125 3925 6125
+Wire Wire Line
+	3925 4925 3925 6125
+Wire Wire Line
+	3925 4925 4150 4925
+Wire Wire Line
+	5000 6125 5375 6125
+Wire Wire Line
+	5300 5425 6525 5425
+Connection ~ 5300 5425
+Connection ~ 6525 5425
+Wire Wire Line
+	6225 6125 6600 6125
+Wire Wire Line
+	7450 6125 7825 6125
+Wire Wire Line
+	7750 5425 8975 5425
+Connection ~ 7750 5425
+Connection ~ 8975 5425
+Wire Wire Line
+	8675 6125 9050 6125
+Wire Wire Line
+	10175 6375 10175 6350
+Wire Wire Line
+	9900 6125 10275 6125
+Wire Wire Line
+	10200 5425 11425 5425
+Connection ~ 10200 5425
+Wire Wire Line
+	11125 6125 11500 6125
+$Comp
+L custom_parts_library:CherryMX_Integrated_Reversed SW37
+U 1 1 6A6750CF
+P 11925 5950
+F 0 "SW37" H 11925 6425 50  0000 C CNN
+F 1 "L36" H 11925 6350 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.50u_KailhSocket_Integrated_Vertical_Reversed" H 11925 5950 50  0001 C CNN
+F 3 "" H 11925 5950 50  0001 C CNN
+	1    11925 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12500 6000 12500 8400
+Wire Wire Line
+	11275 6000 11275 8400
+Wire Wire Line
+	7750 6625 8975 6625
+Connection ~ 7750 6625
+Wire Wire Line
+	12350 6125 12575 6125
+Wire Wire Line
+	5300 6625 6525 6625
+Connection ~ 5300 6625
+Connection ~ 6525 6625
+$Comp
+L custom_parts_library:CherryMX_Integrated SW29
+U 1 1 6ADAE685
+P 9475 7150
+F 0 "SW29" H 9475 7625 50  0000 C CNN
+F 1 "L44" H 9475 7550 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated" H 9475 7150 50  0001 C CNN
+F 3 "" H 9475 7150 50  0001 C CNN
+	1    9475 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 7200 5150 9600
+Wire Wire Line
+	3625 8175 5300 8175
+Wire Wire Line
+	9900 7325 10225 7325
+Text Label 10225 7325 0    50   ~ 0
+RGB_L44
+Wire Wire Line
+	5300 7825 6525 7825
+Wire Wire Line
+	5300 8175 5300 7825
+Connection ~ 5300 8175
+Wire Wire Line
+	5300 8175 5375 8175
+Connection ~ 6525 7825
+Wire Wire Line
+	7825 8525 7450 8525
+Wire Wire Line
+	6600 8525 6225 8525
+Wire Wire Line
+	6525 7825 7750 7825
+Connection ~ 8975 7825
+Connection ~ 7750 7825
+Wire Wire Line
+	7750 7825 8975 7825
+Text Label 8775 8450 1    50   ~ 0
+RGB_L44
+Wire Wire Line
+	5375 8525 5050 8525
+Text Label 5050 8525 2    50   ~ 0
+RGB_L51
+Text Label 8975 8425 1    50   ~ 0
+RGB_L51
+Wire Wire Line
+	8775 8525 8775 8450
+Wire Wire Line
+	8675 8525 8775 8525
+Wire Wire Line
+	8975 8425 8975 8525
+Wire Wire Line
+	8975 8525 9050 8525
+Text Label 10000 8450 1    50   ~ 0
+RGB_L54
+Wire Wire Line
+	10000 8450 10000 8525
+Wire Wire Line
+	10000 8525 9900 8525
+$Comp
+L custom_parts_library:CherryMX_Integrated_Reversed SW35
+U 1 1 6C184CED
+P 10700 8350
+F 0 "SW35" H 10700 8825 50  0000 C CNN
+F 1 "L55" H 10700 8750 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated_Reversed" H 10700 8350 50  0001 C CNN
+F 3 "" H 10700 8350 50  0001 C CNN
+	1    10700 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_parts_library:CherryMX_Integrated_Reversed SW38
+U 1 1 6C186800
+P 11925 8350
+F 0 "SW38" H 11925 8825 50  0000 C CNN
+F 1 "L56" H 11925 8750 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated_Reversed" H 11925 8350 50  0001 C CNN
+F 3 "" H 11925 8350 50  0001 C CNN
+	1    11925 8350
+	1    0    0    -1  
+$EndComp
+Text Label 12450 8450 1    50   ~ 0
+RGB_L54
+Wire Wire Line
+	12450 8450 12450 8525
+Wire Wire Line
+	12450 8525 12350 8525
+Wire Wire Line
+	11500 8525 11125 8525
+Wire Wire Line
+	10200 7825 11425 7825
+Connection ~ 10200 7825
+Wire Wire Line
+	10175 8775 10250 8775
+Wire Wire Line
+	10175 8775 10175 8750
+Text Label 10175 8425 1    50   ~ 0
+RGB_L55
+Wire Wire Line
+	10175 8425 10175 8525
+Wire Wire Line
+	10175 8525 10275 8525
+Text Label 12575 6125 0    50   ~ 0
+RGB_L55
+Text HLabel 12725 2525 2    50   Output ~ 0
+RGB_DOUT
+$Comp
+L custom_parts_library:CherryMX_Integrated SW39
+U 1 1 63B5420D
+P 11925 2350
+F 0 "SW39" H 11925 2825 50  0000 C CNN
+F 1 "L06" H 11925 2750 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated" H 11925 2350 50  0001 C CNN
+F 3 "" H 11925 2350 50  0001 C CNN
+	1    11925 2350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
