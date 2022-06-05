@@ -256,8 +256,6 @@ F 3 "~" H 6725 3375 50  0001 C CNN
 	1    6725 3375
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	6325 3275 6325 3800
 NoConn ~ 7575 4725
 Wire Wire Line
 	6225 2425 6225 2375
@@ -437,10 +435,6 @@ Wire Wire Line
 	5925 2375 6225 2375
 Text Notes 6325 3950 0    50   ~ 0
 ESD Protection
-Wire Wire Line
-	6325 3800 7725 3800
-Wire Wire Line
-	7725 3800 7725 4525
 NoConn ~ 6575 4525
 Wire Wire Line
 	4725 4650 4650 4650
@@ -488,10 +482,7 @@ Text HLabel 7650 3275 2    50   Output ~ 0
 USB-
 Wire Wire Line
 	5400 3275 6325 3275
-Wire Wire Line
-	5400 3475 6200 3475
 Connection ~ 6325 3275
-Connection ~ 6200 3475
 Text Label 5775 3275 0    50   ~ 0
 CD-
 Text Label 5775 3475 0    50   ~ 0
@@ -500,15 +491,7 @@ Wire Wire Line
 	6325 3275 6525 3275
 Wire Wire Line
 	6925 3275 7250 3275
-Wire Wire Line
-	6200 3475 6525 3475
 Connection ~ 6225 2375
-Wire Wire Line
-	6200 4725 6575 4725
-Wire Wire Line
-	6200 3475 6200 4725
-Wire Wire Line
-	7575 4525 7725 4525
 $Comp
 L power:+5V #PWR011
 U 1 1 6D04B032
@@ -549,4 +532,21 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4850 33
 $EndComp
 Wire Wire Line
 	6925 3475 7250 3475
+Wire Wire Line
+	5400 3475 6425 3475
+Wire Wire Line
+	6325 4725 6575 4725
+Wire Wire Line
+	6325 3275 6325 4725
+Wire Wire Line
+	6425 3475 6425 3750
+Wire Wire Line
+	6425 3750 7700 3750
+Wire Wire Line
+	7700 3750 7700 4525
+Wire Wire Line
+	7700 4525 7575 4525
+Connection ~ 6425 3475
+Wire Wire Line
+	6425 3475 6525 3475
 $EndSCHEMATC

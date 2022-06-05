@@ -846,13 +846,13 @@ F 3 "~" H 4175 2400 50  0001 C CNN
 	1    4175 2400
 	1    0    0    -1  
 $EndComp
-Text HLabel 5925 5225 2    50   Input ~ 0
-ENCODER_A_L
-Text HLabel 5925 5325 2    50   Input ~ 0
-ENCODER_B_L
-Text HLabel 5925 5025 2    50   Input ~ 0
-ENCODER_A_R
 Text HLabel 5925 5125 2    50   Input ~ 0
+ENCODER_A_L
+Text HLabel 5925 5025 2    50   Input ~ 0
+ENCODER_B_L
+Text HLabel 5925 5225 2    50   Input ~ 0
+ENCODER_A_R
+Text HLabel 5925 5325 2    50   Input ~ 0
 ENCODER_B_R
 Text Label 5925 2725 0    50   ~ 0
 SCK
