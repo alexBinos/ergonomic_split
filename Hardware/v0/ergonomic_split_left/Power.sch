@@ -338,10 +338,10 @@ F 3 "~" H 3500 6550 50  0001 C CNN
 $EndComp
 NoConn ~ 3500 6650
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H10
 U 1 1 629C12E0
 P 4500 5550
-F 0 "H?" H 4600 5599 50  0000 L CNN
+F 0 "H10" H 4600 5599 50  0000 L CNN
 F 1 "MountingHole_Pad" H 4600 5508 50  0000 L CNN
 F 2 "mounting_hole:MountingHole_3.2mm_M3_ISO7380_Pad" H 4500 5550 50  0001 C CNN
 F 3 "~" H 4500 5550 50  0001 C CNN

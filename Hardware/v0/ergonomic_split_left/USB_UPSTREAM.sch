@@ -16,22 +16,6 @@ $EndDescr
 Text Notes 750  1000 0    315  ~ 0
 USB Upstream
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J1
-U 1 1 60D529C7
-P 4700 3325
-AR Path="/6114D32E/60D529C7" Ref="J1"  Part="1" 
-AR Path="/6247A5CE/60D529C7" Ref="J?"  Part="1" 
-AR Path="/612340DE/60D529C7" Ref="J1"  Part="1" 
-AR Path="/62F6B81F/60D529C7" Ref="J1"  Part="1" 
-AR Path="/629982B4/60D529C7" Ref="J1"  Part="1" 
-F 0 "J1" H 4700 4175 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 4750 4100 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 4850 3325 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4850 3325 50  0001 C CNN
-	1    4700 3325
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VBUS #PWR09
 U 1 1 60D529CD
 P 5375 2600
@@ -589,4 +573,20 @@ Wire Wire Line
 Connection ~ 5375 2725
 Wire Wire Line
 	5375 2725 5525 2725
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 60D529C7
+P 4700 3325
+AR Path="/6114D32E/60D529C7" Ref="J1"  Part="1" 
+AR Path="/6247A5CE/60D529C7" Ref="J?"  Part="1" 
+AR Path="/612340DE/60D529C7" Ref="J1"  Part="1" 
+AR Path="/62F6B81F/60D529C7" Ref="J1"  Part="1" 
+AR Path="/629982B4/60D529C7" Ref="J1"  Part="1" 
+F 0 "J1" H 4700 4175 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 4750 4100 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 4850 3325 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4850 3325 50  0001 C CNN
+	1    4700 3325
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

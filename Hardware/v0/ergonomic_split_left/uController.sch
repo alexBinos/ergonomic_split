@@ -607,24 +607,20 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 6202CCD8
-P 6425 4800
+P 6025 4775
 AR Path="/6202CCD8" Ref="#PWR?"  Part="1" 
 AR Path="/60D44BDB/6202CCD8" Ref="#PWR?"  Part="1" 
 AR Path="/62022D96/6202CCD8" Ref="#PWR0158"  Part="1" 
 AR Path="/612342D1/6202CCD8" Ref="#PWR0158"  Part="1" 
 AR Path="/63013830/6202CCD8" Ref="#PWR0181"  Part="1" 
 AR Path="/62999575/6202CCD8" Ref="#PWR0181"  Part="1" 
-F 0 "#PWR0181" H 6425 4550 50  0001 C CNN
-F 1 "GND" H 6430 4627 50  0000 C CNN
-F 2 "" H 6425 4800 50  0001 C CNN
-F 3 "" H 6425 4800 50  0001 C CNN
-	1    6425 4800
+F 0 "#PWR0181" H 6025 4525 50  0001 C CNN
+F 1 "GND" H 6030 4602 50  0000 C CNN
+F 2 "" H 6025 4775 50  0001 C CNN
+F 3 "" H 6025 4775 50  0001 C CNN
+	1    6025 4775
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5975 4725 6425 4725
-Wire Wire Line
-	6425 4725 6425 4800
 Wire Wire Line
 	5925 3225 5575 3225
 Wire Wire Line
@@ -850,13 +846,13 @@ F 3 "~" H 4175 2400 50  0001 C CNN
 	1    4175 2400
 	1    0    0    -1  
 $EndComp
-Text HLabel 5925 4425 2    50   Input ~ 0
-ENCODER_A_L
-Text HLabel 5925 4525 2    50   Input ~ 0
-ENCODER_B_L
 Text HLabel 5925 5225 2    50   Input ~ 0
-ENCODER_A_R
+ENCODER_A_L
 Text HLabel 5925 5325 2    50   Input ~ 0
+ENCODER_B_L
+Text HLabel 5925 5025 2    50   Input ~ 0
+ENCODER_A_R
+Text HLabel 5925 5125 2    50   Input ~ 0
 ENCODER_B_R
 Text Label 5925 2725 0    50   ~ 0
 SCK
@@ -874,7 +870,7 @@ Text Label 4100 2625 2    50   ~ 0
 RST
 Text Label 6975 3575 2    50   ~ 0
 RST
-Text Label 5925 4325 0    50   ~ 0
+Text Label 5925 3325 0    50   ~ 0
 nCAPS_LED
 Text Label 2675 5900 0    50   ~ 0
 nCAPS_LED
@@ -955,13 +951,17 @@ Connection ~ 7775 5675
 Wire Wire Line
 	7775 5675 7775 5600
 Wire Wire Line
+	5925 5025 5575 5025
+Wire Wire Line
+	5925 5125 5575 5125
+Wire Wire Line
 	5925 5225 5575 5225
 Wire Wire Line
 	5925 5325 5575 5325
 Wire Wire Line
-	5925 4425 5575 4425
+	5925 3325 5575 3325
 Wire Wire Line
-	5925 4525 5575 4525
+	6025 4775 6025 4725
 Wire Wire Line
-	5925 4325 5575 4325
+	6025 4725 5975 4725
 $EndSCHEMATC
