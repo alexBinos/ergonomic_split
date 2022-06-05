@@ -195,7 +195,7 @@ AR Path="/63013830/60D692BA" Ref="J5"  Part="1"
 AR Path="/62999575/60D692BA" Ref="J5"  Part="1" 
 F 0 "J5" H 7400 3775 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 7175 3700 50  0000 C CNN
-F 2 "custom_footprint_library:ISP_POGO" H 7425 3475 50  0001 C CNN
+F 2 "custom_footprint_library:Conn_AVX_PCB_Edge_02x03" H 7425 3475 50  0001 C CNN
 F 3 "~" H 7425 3475 50  0001 C CNN
 	1    7425 3475
 	1    0    0    -1  
@@ -882,74 +882,61 @@ Wire Notes Line
 	6650 5275 6650 6150
 Wire Notes Line
 	6650 6150 8300 6150
-Text HLabel 7250 5675 0    50   BiDi ~ 0
+Text HLabel 6900 5950 0    50   BiDi ~ 0
 SCL
-Text HLabel 7250 5775 0    50   BiDi ~ 0
+Text HLabel 6900 6050 0    50   BiDi ~ 0
 SDA
 $Comp
 L Device:R R?
 U 1 1 6EAA3992
-P 7550 5675
+P 7375 5725
 AR Path="/6EAA3992" Ref="R?"  Part="1" 
 AR Path="/60D44BDB/6EAA3992" Ref="R?"  Part="1" 
 AR Path="/62022D96/6EAA3992" Ref="R?"  Part="1" 
 AR Path="/612342D1/6EAA3992" Ref="R?"  Part="1" 
 AR Path="/63013830/6EAA3992" Ref="R?"  Part="1" 
 AR Path="/62999575/6EAA3992" Ref="R14"  Part="1" 
-F 0 "R14" V 7550 6000 50  0000 C CNN
-F 1 "2K2" V 7550 5675 50  0000 C CNN
-F 2 "resistor_smd:R_0603_1608Metric" V 7480 5675 50  0001 C CNN
-F 3 "~" H 7550 5675 50  0001 C CNN
-	1    7550 5675
-	0    1    -1   0   
+F 0 "R14" H 7500 5750 50  0000 C CNN
+F 1 "2K2" V 7375 5725 50  0000 C CNN
+F 2 "resistor_smd:R_0603_1608Metric" V 7305 5725 50  0001 C CNN
+F 3 "~" H 7375 5725 50  0001 C CNN
+	1    7375 5725
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 6EAA6F53
-P 7550 5775
+P 7475 5725
 AR Path="/6EAA6F53" Ref="R?"  Part="1" 
 AR Path="/60D44BDB/6EAA6F53" Ref="R?"  Part="1" 
 AR Path="/62022D96/6EAA6F53" Ref="R?"  Part="1" 
 AR Path="/612342D1/6EAA6F53" Ref="R?"  Part="1" 
 AR Path="/63013830/6EAA6F53" Ref="R?"  Part="1" 
 AR Path="/62999575/6EAA6F53" Ref="R15"  Part="1" 
-F 0 "R15" V 7550 6100 50  0000 C CNN
-F 1 "2K2" V 7550 5775 50  0000 C CNN
-F 2 "resistor_smd:R_0603_1608Metric" V 7480 5775 50  0001 C CNN
-F 3 "~" H 7550 5775 50  0001 C CNN
-	1    7550 5775
-	0    1    -1   0   
+F 0 "R15" H 7350 5750 50  0000 C CNN
+F 1 "2K2" V 7475 5725 50  0000 C CNN
+F 2 "resistor_smd:R_0603_1608Metric" V 7405 5725 50  0001 C CNN
+F 3 "~" H 7475 5725 50  0001 C CNN
+	1    7475 5725
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	7400 5675 7250 5675
-Wire Wire Line
-	7250 5775 7400 5775
 $Comp
 L power:+3.3V #PWR?
 U 1 1 6EAA9FB3
-P 7775 5600
+P 7375 5475
 AR Path="/6EAA9FB3" Ref="#PWR?"  Part="1" 
 AR Path="/60D44BDB/6EAA9FB3" Ref="#PWR?"  Part="1" 
 AR Path="/62022D96/6EAA9FB3" Ref="#PWR?"  Part="1" 
 AR Path="/612342D1/6EAA9FB3" Ref="#PWR?"  Part="1" 
 AR Path="/63013830/6EAA9FB3" Ref="#PWR?"  Part="1" 
 AR Path="/62999575/6EAA9FB3" Ref="#PWR0203"  Part="1" 
-F 0 "#PWR0203" H 7775 5450 50  0001 C CNN
-F 1 "+3.3V" H 7790 5773 50  0000 C CNN
-F 2 "" H 7775 5600 50  0001 C CNN
-F 3 "" H 7775 5600 50  0001 C CNN
-	1    7775 5600
+F 0 "#PWR0203" H 7375 5325 50  0001 C CNN
+F 1 "+3.3V" H 7375 5625 50  0000 C CNN
+F 2 "" H 7375 5475 50  0001 C CNN
+F 3 "" H 7375 5475 50  0001 C CNN
+	1    7375 5475
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7700 5775 7775 5775
-Wire Wire Line
-	7775 5775 7775 5675
-Wire Wire Line
-	7700 5675 7775 5675
-Connection ~ 7775 5675
-Wire Wire Line
-	7775 5675 7775 5600
 Wire Wire Line
 	5925 5025 5575 5025
 Wire Wire Line
@@ -964,4 +951,40 @@ Wire Wire Line
 	6025 4775 6025 4725
 Wire Wire Line
 	6025 4725 5975 4725
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 62DE68FB
+P 7800 6050
+F 0 "J3" H 7772 5932 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 8000 6100 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7800 6050 50  0001 C CNN
+F 3 "~" H 7800 6050 50  0001 C CNN
+	1    7800 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7375 5475 7375 5525
+Wire Wire Line
+	7475 5575 7475 5525
+Wire Wire Line
+	7475 5525 7375 5525
+Connection ~ 7375 5525
+Wire Wire Line
+	7375 5525 7375 5575
+Wire Wire Line
+	7375 5950 7375 5875
+Wire Wire Line
+	6900 5950 7375 5950
+Wire Wire Line
+	7475 6050 7475 5875
+Wire Wire Line
+	6900 6050 7475 6050
+Wire Wire Line
+	7600 5950 7375 5950
+Connection ~ 7375 5950
+Wire Wire Line
+	7600 6050 7475 6050
+Connection ~ 7475 6050
+Text Notes 6700 5375 0    50   ~ 0
+I2C
 $EndSCHEMATC

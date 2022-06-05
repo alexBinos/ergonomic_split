@@ -312,4 +312,14 @@ F 3 "" H 3775 2775 50  0001 C CNN
 $EndComp
 NoConn ~ 6150 3525
 NoConn ~ 6150 4425
+Text Notes 750  1000 0    315  ~ 0
+IO Expander
+Wire Notes Line
+	3500 5000 7250 5000
+Wire Notes Line
+	3500 2250 3500 5000
+Wire Notes Line
+	7250 5000 7250 2250
+Wire Notes Line
+	3500 2250 7250 2250
 $EndSCHEMATC

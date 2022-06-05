@@ -502,8 +502,6 @@ Wire Wire Line
 	6925 3275 7250 3275
 Wire Wire Line
 	6200 3475 6525 3475
-Wire Wire Line
-	6925 3475 7025 3475
 Connection ~ 6225 2375
 Wire Wire Line
 	6200 4725 6575 4725
@@ -511,46 +509,6 @@ Wire Wire Line
 	6200 3475 6200 4725
 Wire Wire Line
 	7575 4525 7725 4525
-$Comp
-L Device:R R?
-U 1 1 614B1649
-P 7025 2975
-AR Path="/6114D32E/614B1649" Ref="R?"  Part="1" 
-AR Path="/6247A5CE/614B1649" Ref="R?"  Part="1" 
-AR Path="/612340DE/614B1649" Ref="R?"  Part="1" 
-AR Path="/62F6B81F/614B1649" Ref="R42"  Part="1" 
-AR Path="/629982B4/614B1649" Ref="R42"  Part="1" 
-F 0 "R42" V 6950 2975 50  0000 C CNN
-F 1 "1K5" V 7025 2975 50  0000 C CNN
-F 2 "resistor_smd:R_0603_1608Metric" V 6955 2975 50  0001 C CNN
-F 3 "~" H 7025 2975 50  0001 C CNN
-	1    7025 2975
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	7025 3125 7025 3475
-Connection ~ 7025 3475
-Wire Wire Line
-	7025 3475 7250 3475
-$Comp
-L power:+3.3V #PWR?
-U 1 1 614B6C4F
-P 7025 2775
-AR Path="/6114D32E/614B6C4F" Ref="#PWR?"  Part="1" 
-AR Path="/6247A5CE/614B6C4F" Ref="#PWR?"  Part="1" 
-AR Path="/612340DE/614B6C4F" Ref="#PWR?"  Part="1" 
-AR Path="/62F6B81F/614B6C4F" Ref="#PWR0538"  Part="1" 
-AR Path="/613390DE/614B6C4F" Ref="#PWR?"  Part="1" 
-AR Path="/629982B4/614B6C4F" Ref="#PWR0538"  Part="1" 
-F 0 "#PWR0538" H 7025 2625 50  0001 C CNN
-F 1 "+3.3V" H 7040 2948 50  0000 C CNN
-F 2 "" H 7025 2775 50  0001 C CNN
-F 3 "" H 7025 2775 50  0001 C CNN
-	1    7025 2775
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7025 2825 7025 2775
 $Comp
 L power:+5V #PWR011
 U 1 1 6D04B032
@@ -589,4 +547,6 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4850 33
 	1    4700 3325
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6925 3475 7250 3475
 $EndSCHEMATC

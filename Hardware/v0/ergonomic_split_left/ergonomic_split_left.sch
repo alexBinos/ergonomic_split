@@ -161,4 +161,6 @@ Wire Wire Line
 Connection ~ 5175 2525
 Wire Wire Line
 	5175 2525 8500 2525
+Wire Notes Line
+	2100 4025 2125 4025
 $EndSCHEMATC

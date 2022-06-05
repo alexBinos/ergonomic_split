@@ -1797,7 +1797,7 @@ U 1 1 63DB7C50
 P 3000 7325
 F 0 "SW6" H 3000 7800 50  0000 C CNN
 F 1 "L40" H 3000 7725 50  0000 C CNN
-F 2 "custom_footprint_library:CherryMX_1.50u_KailhSocket_Integrated_Reversed" H 3000 7325 50  0001 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated_Reversed" H 3000 7325 50  0001 C CNN
 F 3 "" H 3000 7325 50  0001 C CNN
 	1    3000 7325
 	1    0    0    -1  
@@ -3416,4 +3416,26 @@ Wire Wire Line
 	12350 8600 12425 8600
 Wire Wire Line
 	12350 8400 12775 8400
+Text Notes 750  1000 0    315  ~ 0
+Switch Matrix
+Wire Notes Line
+	1500 10500 11750 10500
+Wire Notes Line
+	11750 1500 11750 10500
+Wire Notes Line
+	1500 1500 1500 10500
+Wire Notes Line
+	1500 1500 11750 1500
+Wire Notes Line
+	15500 7500 12000 7500
+Wire Notes Line
+	12000 7500 12000 9500
+Wire Notes Line
+	12000 9500 15500 9500
+Wire Notes Line
+	15500 7500 15500 9500
+Text Notes 1525 1600 0    50   ~ 0
+Switch Matrix
+Text Notes 12025 7600 0    50   ~ 0
+Rotary Encoder
 $EndSCHEMATC
