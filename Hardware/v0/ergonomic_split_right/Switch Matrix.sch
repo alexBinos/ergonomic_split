@@ -1824,12 +1824,12 @@ $EndComp
 $Comp
 L custom_parts_library:CherryMX_Integrated_Reversed SW18
 U 1 1 63DB7CF8
-P 5450 8525
-F 0 "SW18" H 5450 9000 50  0000 C CNN
-F 1 "R52" H 5450 8925 50  0000 C CNN
-F 2 "custom_footprint_library:CherryMX_2.00u_KailhSocket_Integrated_Vertical_Reversed" H 5450 8525 50  0001 C CNN
-F 3 "" H 5450 8525 50  0001 C CNN
-	1    5450 8525
+P 7900 8525
+F 0 "SW18" H 7900 9000 50  0000 C CNN
+F 1 "R54" H 7900 8925 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_2.00u_KailhSocket_Integrated_Vertical_Reversed" H 7900 8525 50  0001 C CNN
+F 3 "" H 7900 8525 50  0001 C CNN
+	1    7900 8525
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2931,7 +2931,7 @@ L Device:Rotary_Encoder_Switch SW40
 U 1 1 6D1F6F50
 P 13075 8500
 F 0 "SW40" H 13075 8867 50  0000 C CNN
-F 1 "L_Encoder" H 13075 8776 50  0000 C CNN
+F 1 "R_Encoder" H 13075 8776 50  0000 C CNN
 F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 12925 8660 50  0001 C CNN
 F 3 "~" H 13075 8760 50  0001 C CNN
 	1    13075 8500
@@ -3437,12 +3437,12 @@ Wire Wire Line
 $Comp
 L custom_parts_library:CherryMX_Integrated_Reversed SW6
 U 1 1 652A932B
-P 7900 8525
-F 0 "SW6" H 7900 9000 50  0000 C CNN
-F 1 "R54" H 7900 8925 50  0000 C CNN
-F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated" H 7900 8525 50  0001 C CNN
-F 3 "" H 7900 8525 50  0001 C CNN
-	1    7900 8525
+P 5450 8525
+F 0 "SW6" H 5450 9000 50  0000 C CNN
+F 1 "R52" H 5450 8925 50  0000 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated" H 5450 8525 50  0001 C CNN
+F 3 "" H 5450 8525 50  0001 C CNN
+	1    5450 8525
 	1    0    0    -1  
 $EndComp
 Text Label 6175 8600 1    50   ~ 0
