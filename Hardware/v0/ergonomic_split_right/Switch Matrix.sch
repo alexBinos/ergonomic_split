@@ -1738,7 +1738,7 @@ U 1 1 63DB7CA0
 P 4225 8525
 F 0 "SW12" H 4225 9000 50  0000 C CNN
 F 1 "R51" H 4225 8925 50  0000 C CNN
-F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated_Reversed" H 4225 8525 50  0001 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated" H 4225 8525 50  0001 C CNN
 F 3 "" H 4225 8525 50  0001 C CNN
 	1    4225 8525
 	1    0    0    -1  
@@ -3169,7 +3169,7 @@ U 1 1 63F5034C
 P 3000 8525
 F 0 "SW1" H 3000 9000 50  0000 C CNN
 F 1 "R50" H 3000 8925 50  0000 C CNN
-F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated_Reversed" H 3000 8525 50  0001 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated" H 3000 8525 50  0001 C CNN
 F 3 "" H 3000 8525 50  0001 C CNN
 	1    3000 8525
 	1    0    0    -1  
@@ -3384,7 +3384,7 @@ U 1 1 6C184CED
 P 9125 8525
 F 0 "SW35" H 9125 9000 50  0000 C CNN
 F 1 "R55" H 9125 8925 50  0000 C CNN
-F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated" H 9125 8525 50  0001 C CNN
+F 2 "custom_footprint_library:CherryMX_1.00u_KailhSocket_Integrated_Reversed" H 9125 8525 50  0001 C CNN
 F 3 "" H 9125 8525 50  0001 C CNN
 	1    9125 8525
 	1    0    0    -1  
