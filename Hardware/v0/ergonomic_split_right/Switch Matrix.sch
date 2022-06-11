@@ -2981,8 +2981,6 @@ Wire Wire Line
 Connection ~ 9900 5300
 Wire Wire Line
 	3700 4150 3700 4125
-Text HLabel 12350 8600 0    50   Input ~ 0
-COL[6]
 $Comp
 L Device:D D1
 U 1 1 62BFACFD
@@ -3473,4 +3471,6 @@ Wire Wire Line
 Connection ~ 8375 8900
 Wire Wire Line
 	8375 8900 8375 8950
+Text HLabel 12350 8600 0    50   Input ~ 0
+COL[2]
 $EndSCHEMATC
