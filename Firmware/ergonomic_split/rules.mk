@@ -1,24 +1,39 @@
+# MCU name
 MCU = atmega32u4
 
-BOOTLOADER = caterina
+# Bootloader selection
+BOOTLOADER = halfkay
+
+# If you have Left LEDs (see
+# https://geekhack.org/index.php?topic=22780.msg873819#msg873819 for
+# details), include the following define:
+# OPT_DEFS += -DLEFT_LEDS
 
 # Build Options
-CUSTOM_MATRIX = lite
-BOOTMAGIC_ENABLE = no     # Virtual DIP switch configuration
-MOUSEKEY_ENABLE = no       # Mouse keys
-EXTRAKEY_ENABLE = no       # Audio control and System control
-CONSOLE_ENABLE = no         # Console for debug
-COMMAND_ENABLE = no         # Commands for debug and configuration
-# Do not enable SLEEP_LED_ENABLE. it uses the same timer as BACKLIGHT_ENABLE
-SLEEP_LED_ENABLE = no       # Breathing sleep LED during USB suspend
-# if this doesn't work, see here: https://github.com/tmk/tmk_keyboard/wiki/FAQ#nkro-doesnt-work
-NKRO_ENABLE = no            # USB Nkey Rollover
-BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
-RGBLIGHT_ENABLE = no       # Enable keyboard RGB underglow
-UNICODE_ENABLE = no         # Unicode
-BLUETOOTH_ENABLE = no       # Enable Bluetooth
-AUDIO_ENABLE = no           # Audio output
-ENCODER_ENABLE = no         # Rotary Encoder support
-OLED_ENABLE = no           # OLED display support
+#   comment out to disable the options.
+#
+BOOTMAGIC_ENABLE = no   # Virtual DIP switch configuration
+MOUSEKEY_ENABLE  = yes  # Mouse keys
+EXTRAKEY_ENABLE  = yes  # Audio control and System control
+CONSOLE_ENABLE   = no   # Console for debug
+COMMAND_ENABLE   = yes  # Commands for debug and configuration
+CUSTOM_MATRIX    = lite # Custom matrix file for the ErgoDox EZ
+NKRO_ENABLE      = yes  # USB Nkey Rollover - if this doesn't work, see here: https://github.com/tmk/tmk_keyboard/wiki/FAQ#nkro-doesnt-work
+UNICODE_ENABLE   = yes  # Unicode
+SWAP_HANDS_ENABLE= yes  # Allow swapping hands of keyboard
+SLEEP_LED_ENABLE = no
+API_SYSEX_ENABLE = no
 
+RGB_MATRIX_ENABLE = no # enable later
+RGB_MATRIX_DRIVER = IS31FL3731
+DEBOUNCE_TYPE = eager_pr
+
+# project specific files
 SRC += matrix.c
+QUANTUM_LIB_SRC += i2c_master.c
+
+LAYOUTS = ergodox
+
+# Disable unsupported hardware
+AUDIO_SUPPORTED = no
+BACKLIGHT_SUPPORTED = no
