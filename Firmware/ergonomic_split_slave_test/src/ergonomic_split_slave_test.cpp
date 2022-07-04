@@ -12,6 +12,8 @@
 
 #define UPDATE_TIME 10000
 
+#define TEMP_REGB 0x12
+
 #define SLAVE_ADDR 0x20
 #define KEY_1 0x31
 #define KEY_2 0x32
@@ -23,11 +25,13 @@ void debug_dump_counters(void);
 void debug_dump_registers(void);
 void rx_process_data(uint8_t addr, uint8_t data);
 void update_bit_positions();
+void write_column(void);
 
 char debug_buf[40];
 
 uint32_t    scan_timeout;
-uint8_t     current_bitshift;
+uint8_t     current_row;
+uint8_t     current_col;
 
 uint8_t     row;
 uint8_t     col;
@@ -53,7 +57,8 @@ void setup() {
    Wire.onRequest(requestEvent);
    
    scan_timeout       = 0x00000000;
-   current_bitshift   = 0x01;
+   current_row        = 0x01;
+   current_col        = 0x01;
    
    // Keyboard registers
    row                = 0xFF;
@@ -87,9 +92,6 @@ void loop() {
 
 void receiveEvent(uint8_t len) {
    uint8_t rx_byte;
-   
-   Serial.print("Rx event: ");
-   Serial.println(len);
    register_command = Wire.read();
    len--;
    
@@ -104,20 +106,30 @@ void receiveEvent(uint8_t len) {
 
 void requestEvent(void) {
    // TODO: I2C slave transmit handler
-   Serial.println("Request");
    
    request_counter++;
    update_bit_positions();
-   
-   Wire.write(0xFF);
+   write_column();
+   Wire.write(col);
    
 }
 
-void update_bit_positions() {
+void update_bit_positions(void) {
    scan_timeout++;
    if (scan_timeout >= UPDATE_TIME) {
+      Serial.println("Updating values");
       scan_timeout = 0x00000000;
-      current_bitshift = (current_bitshift == 0x40) ? 0x01 : (current_bitshift << 1);
+      current_row = (current_row == 0x40) ? 0x01 : (current_row << 1);
+      current_col = (current_row == 0x40) ? (current_col == 0x40) ? 0x01 : (current_col << 1) : current_col;
+   }
+}
+
+void write_column(void) {
+   if ((~row) & current_row) {
+      col = ~current_col;
+   }
+   else {
+      col = 0xFF;
    }
 }
 
@@ -133,6 +145,7 @@ void rx_process_data(uint8_t addr, uint8_t data) {
       case(ADDR_PCAL9555_PUDEN1) :  register_puden1    = data; break;
       case(ADDR_PCAL9555_PUD0) :    register_pud0      = data; break;
       case(ADDR_PCAL9555_PUD1) :    register_pud1      = data; break;
+      case(TEMP_REGB) :             row                = data; break;
       default : register_invalid = ((addr << 8) | (data)); break;
    }
    return;
