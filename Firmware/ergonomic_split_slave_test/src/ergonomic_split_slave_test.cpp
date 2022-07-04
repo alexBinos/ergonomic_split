@@ -10,31 +10,71 @@
 #include <Wire.h>
 #include <pcal9555.h>
 
-#define SLAVE_ADDR 0x25
+#define UPDATE_TIME 10000
+
+#define SLAVE_ADDR 0x20
 #define KEY_1 0x31
 #define KEY_2 0x32
 #define KEY_3 0x33
 
-void receiveEvent(int len);
-void requestEvent(void);
+void receiveEvent(uint8_t len);
+void requestEvent();
 void debug_dump_counters(void);
 void debug_dump_registers(void);
+void rx_process_data(uint8_t addr, uint8_t data);
+void update_bit_positions();
 
-uint8_t  row_register;
-uint8_t  col_register;
-uint8_t  command_register;
-uint32_t request_counter;
+char debug_buf[40];
+
+uint32_t    scan_timeout;
+uint8_t     current_bitshift;
+
+uint8_t     row;
+uint8_t     col;
+uint8_t     register_command;
+uint32_t    request_counter;
+
+uint8_t     register_input0;
+uint8_t     register_input1;
+uint8_t     register_output0;
+uint8_t     register_output1;
+uint8_t     register_conf0;
+uint8_t     register_conf1;
+uint8_t     register_puden0;
+uint8_t     register_puden1;
+uint8_t     register_pud0;
+uint8_t     register_pud1;
+uint16_t    register_invalid;
 
 void setup() {
+   // Configure I2C slave
    Wire.begin(SLAVE_ADDR);
    Wire.onReceive(receiveEvent);
    Wire.onRequest(requestEvent);
    
-   row_register       = 0xFF;
-   col_register       = 0xFF;
-   command_register   = 0x00;
+   scan_timeout       = 0x00000000;
+   current_bitshift   = 0x01;
+   
+   // Keyboard registers
+   row                = 0xFF;
+   col                = 0xFF;
    request_counter    = 0x00000000;
    
+   // PCAL9555 register values
+   register_command   = 0x00;
+   register_input0    = 0x00;
+   register_input1    = 0x00;
+   register_output0   = 0x00;
+   register_output1   = 0x00;
+   register_conf0     = 0x00;
+   register_conf1     = 0x00;
+   register_puden0    = 0x00;
+   register_puden1    = 0x00;
+   register_pud0      = 0x00;
+   register_pud1      = 0x00;
+   register_invalid   = 0x00000;
+   
+   // Debug serial port
    Serial.begin(9600);
    Serial.println("Starting test");
 }
@@ -45,14 +85,57 @@ void loop() {
    
 }
 
-void receiveEvent(int len) {
-   // TODO: I2C recieve handler
+void receiveEvent(uint8_t len) {
+   uint8_t rx_byte;
    
+   Serial.print("Rx event: ");
+   Serial.println(len);
+   register_command = Wire.read();
+   len--;
+   
+   while (len != 0) {
+      len--;
+      rx_byte = Wire.read();
+      rx_process_data(register_command, rx_byte);
+      register_command++; // Implements auto address increment
+   }
+   return;
 }
 
 void requestEvent(void) {
    // TODO: I2C slave transmit handler
+   Serial.println("Request");
    
+   request_counter++;
+   update_bit_positions();
+   
+   Wire.write(0xFF);
+   
+}
+
+void update_bit_positions() {
+   scan_timeout++;
+   if (scan_timeout >= UPDATE_TIME) {
+      scan_timeout = 0x00000000;
+      current_bitshift = (current_bitshift == 0x40) ? 0x01 : (current_bitshift << 1);
+   }
+}
+
+void rx_process_data(uint8_t addr, uint8_t data) {
+   switch (addr) {
+      case(ADDR_PCAL9555_INPUT0) :  register_input0    = data; break;
+      case(ADDR_PCAL9555_INPUT1) :  register_input1    = data; break;
+      case(ADDR_PCAL9555_OUTPUT0) : register_output0   = data; break;
+      case(ADDR_PCAL9555_OUTPUT1) : register_output1   = data; break;
+      case(ADDR_PCAL9555_CONF0) :   register_conf0     = data; break;
+      case(ADDR_PCAL9555_CONF1) :   register_conf1     = data; break;
+      case(ADDR_PCAL9555_PUDEN0) :  register_puden0    = data; break;
+      case(ADDR_PCAL9555_PUDEN1) :  register_puden1    = data; break;
+      case(ADDR_PCAL9555_PUD0) :    register_pud0      = data; break;
+      case(ADDR_PCAL9555_PUD1) :    register_pud1      = data; break;
+      default : register_invalid = ((addr << 8) | (data)); break;
+   }
+   return;
 }
 
 void serialEvent(void) {
@@ -64,7 +147,7 @@ void serialEvent(void) {
             Serial.println("Detected A key");
             break;
          case (KEY_2) : 
-            Serial.println("Detected B key");
+            debug_dump_registers();
             break;
          case (KEY_3) :
             
@@ -75,6 +158,7 @@ void serialEvent(void) {
             break;
       }
    }
+   return;
 }
 
 void debug_dump_counters(void) {
@@ -83,6 +167,30 @@ void debug_dump_counters(void) {
 }
 
 void debug_dump_registers(void) {
-   // TODO: Print register information over serial
+   Serial.println("***** Debug register dump *****");
    
+   Serial.print("INPUT0:  ");
+   Serial.println(register_input0, HEX);
+   Serial.print("INPUT1:  ");
+   Serial.println(register_input1, HEX);
+   Serial.print("OUTPUT:  ");
+   Serial.println(register_output0, HEX);
+   Serial.print("OUTPUT:  ");
+   Serial.println(register_output1, HEX);
+   Serial.print("CONF:    ");
+   Serial.println(register_conf0, HEX);
+   Serial.print("CONF:    ");
+   Serial.println(register_conf1, HEX);
+   Serial.print("PUDEN:   ");
+   Serial.println(register_puden0, HEX);
+   Serial.print("PUDEN:   ");
+   Serial.println(register_puden1, HEX);
+   Serial.print("PUD:     ");
+   Serial.println(register_pud0, HEX);
+   Serial.print("PUD:     ");
+   Serial.println(register_pud1, HEX);
+   Serial.print("INVALID: ");
+   Serial.println(register_invalid, HEX);
+   Serial.println("*******************************");
+   return;
 }
