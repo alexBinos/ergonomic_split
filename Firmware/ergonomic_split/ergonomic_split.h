@@ -1,22 +1,4 @@
-/*
-Copyright 2012 Jun Wako <wakojun@gmail.com>
-Copyright 2013 Oleg Kostyuk <cub.uanic@gmail.com>
-Copyright 2015 ZSA Technology Labs Inc (@zsa)
-Copyright 2020 Christopher Courtney <drashna@live.com> (@drashna)
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
-*/
 
 #pragma once
 
@@ -30,6 +12,28 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #elif defined(KEYBOARD_ergodox_ez_shine)
 #    include "shine.h"
 #endif
+
+// IO expander addresses
+#define ADDR_PCAL9555_SLAVE_LEFT            0x22
+#define ADDR_PCAL9555_SLAVE_LEFT_READ       ((ADDR_PCAL9555_SLAVE_LEFT << 1) | 0x01)
+#define ADDR_PCAL9555_SLAVE_LEFT_WRITE      ((ADDR_PCAL9555_SLAVE_LEFT << 1) & ~(0x01))
+#define ADDR_PCAL9555_SLAVE_RIGHT           0x25
+#define ADDR_PCAL9555_SLAVE_RIGHT_READ       ((ADDR_PCAL9555_SLAVE_RIGHT << 1) | 0x01)
+#define ADDR_PCAL9555_SLAVE_RIGHT_WRITE      ((ADDR_PCAL9555_SLAVE_RIGHT << 1) & ~(0x01))
+
+#define ADDR_PCAL9555_INPUT0                0x00    // Input data register
+#define ADDR_PCAL9555_INPUT1                0x01    // Input data register
+#define ADDR_PCAL9555_OUTPUT0               0x02    // Output data register
+#define ADDR_PCAL9555_OUTPUT1               0x03    // Output data register
+#define ADDR_PCAL9555_CONF0                 0x06    // Port configuration register
+#define ADDR_PCAL9555_CONF1                 0x07    // Port configuration register
+#define ADDR_PCAL9555_PUDEN0                0x46    // Pull-up/down enable register
+#define ADDR_PCAL9555_PUDEN1                0x47    // Pull-up/down enable register
+#define ADDR_PCAL9555_PUD0                  0x48    // Pull-up/down configuration register
+#define ADDR_PCAL9555_PUD1                  0x49    // Pull-up/down configuration register
+
+#define PCAL9555_TIMEOUT 100
+
 
 // I2C aliases and register addresses (see "mcp23018.md")
 #define I2C_ADDR        0b0100000
@@ -45,7 +49,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define OLATB           0x15
 
 extern i2c_status_t mcp23018_status;
-#define ERGODOX_EZ_I2C_TIMEOUT 100
+#define ERGODOX_EZ_I2C_TIMEOUT 1000
 
 void init_ergodox(void);
 uint8_t init_mcp23018(void);
@@ -57,27 +61,11 @@ uint8_t init_mcp23018(void);
 #define LED_BRIGHTNESS_HI       255
 #endif
 
-
 enum ergodox_ez_keycodes {
     LED_LEVEL = SAFE_RANGE,
     TOGGLE_LAYER_COLOR,
     EZ_SAFE_RANGE,
 };
-
-#ifndef WEBUSB_ENABLE
-#    define WEBUSB_PAIR KC_NO
-#endif
-
-typedef union {
-  uint32_t raw;
-  struct {
-    uint8_t    led_level :3;
-    bool       disable_layer_led   :1;
-    bool       rgb_matrix_enable   :1;
-  };
-} keyboard_config_t;
-
-extern keyboard_config_t keyboard_config;
 
 /*  ---------- LEFT HAND -----------   ---------- RIGHT HAND ---------- */
 #define LAYOUT_ergodox_pretty(                                           \
