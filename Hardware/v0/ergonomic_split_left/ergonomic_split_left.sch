@@ -163,4 +163,6 @@ Wire Wire Line
 	5175 2525 8500 2525
 Wire Notes Line
 	2100 4025 2125 4025
+Text Notes 750  1000 0    315  ~ 0
+ergonomic split keyboard - left side
 $EndSCHEMATC

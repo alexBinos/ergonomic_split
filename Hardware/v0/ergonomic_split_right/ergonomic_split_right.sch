@@ -115,4 +115,6 @@ Wire Wire Line
 	4450 3275 6750 3275
 Wire Wire Line
 	4450 3050 6750 3050
+Text Notes 750  1000 0    315  ~ 0
+ergonomic split keyboard - right side
 $EndSCHEMATC
