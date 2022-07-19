@@ -34,6 +34,11 @@
 
 #define PCAL9555_TIMEOUT 100
 
+uint8_t init_pcal9555(void);
+
+
+
+
 
 // I2C aliases and register addresses (see "mcp23018.md")
 #define I2C_ADDR        0b0100000
@@ -52,7 +57,7 @@ extern i2c_status_t mcp23018_status;
 #define ERGODOX_EZ_I2C_TIMEOUT 1000
 
 void init_ergodox(void);
-uint8_t init_mcp23018(void);
+// uint8_t init_mcp23018(void);
 
 #ifndef LED_BRIGHTNESS_LO
 #define LED_BRIGHTNESS_LO       15

@@ -2,39 +2,30 @@
 
 #include "ergonomic_split.h"
 
-bool         i2c_initialized = 0;
-i2c_status_t mcp23018_status = 0x20;
+uint8_t i2c_initialsied;
+i2c_status_t i2c_status;
 
-uint8_t init_mcp23018(void) {
-    mcp23018_status = 0x20;
-
-    if (i2c_initialized == 0) {
-        i2c_init();  // on pins D(1,0)
-        i2c_initialized = true;
-        _delay_ms(1000);
-    }
-
-    mcp23018_status = i2c_start(I2C_ADDR_WRITE, ERGODOX_EZ_I2C_TIMEOUT);
-    if (mcp23018_status) goto out;
-    mcp23018_status = i2c_write(IODIRA, ERGODOX_EZ_I2C_TIMEOUT);
-    if (mcp23018_status) goto out;
-    mcp23018_status = i2c_write(0b00000000, ERGODOX_EZ_I2C_TIMEOUT);
-    if (mcp23018_status) goto out;
-    mcp23018_status = i2c_write(0b00111111, ERGODOX_EZ_I2C_TIMEOUT);
-    if (mcp23018_status) goto out;
-    i2c_stop();
-
-    mcp23018_status = i2c_start(I2C_ADDR_WRITE, ERGODOX_EZ_I2C_TIMEOUT);
-    if (mcp23018_status) goto out;
-    mcp23018_status = i2c_write(GPPUA, ERGODOX_EZ_I2C_TIMEOUT);
-    if (mcp23018_status) goto out;
-    mcp23018_status = i2c_write(0b00000000, ERGODOX_EZ_I2C_TIMEOUT);
-    if (mcp23018_status) goto out;
-    mcp23018_status = i2c_write(0b00111111, ERGODOX_EZ_I2C_TIMEOUT);
-    if (mcp23018_status) goto out;
-
-out:
-    i2c_stop();
-
-    return mcp23018_status;
+uint8_t init_pcal9555(void) {
+   if (!i2c_initialsied) {
+      print("Initialising...\n");
+      i2c_init();
+      i2c_initialsied = 0x01;
+      _delay_ms(1000);
+   }
+   
+   // Set port directions
+   i2c_start(ADDR_PCAL9555_SLAVE_LEFT_WRITE, PCAL9555_TIMEOUT);
+   i2c_write(ADDR_PCAL9555_CONF0, PCAL9555_TIMEOUT);
+   i2c_write(0xFF, PCAL9555_TIMEOUT); // Rows, input
+   i2c_write(0x80, PCAL9555_TIMEOUT); // Cols, output
+   i2c_stop();
+   
+   // Set columns to inactive state
+   i2c_start(ADDR_PCAL9555_SLAVE_LEFT_WRITE, PCAL9555_TIMEOUT);
+   i2c_write(ADDR_PCAL9555_OUTPUT1, PCAL9555_TIMEOUT);
+   i2c_write(0xFF, PCAL9555_TIMEOUT);
+   i2c_stop();
+   
+   // Pull up resistors are enabled by default
+   return 0x01;
 }
