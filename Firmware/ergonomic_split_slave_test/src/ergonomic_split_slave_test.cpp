@@ -10,11 +10,11 @@
 #include <Wire.h>
 #include <pcal9555.h>
 
-#define UPDATE_TIME 10000
+#define UPDATE_TIME 50
 
 #define TEMP_REGB 0x12
 
-#define SLAVE_ADDR 0x20
+#define SLAVE_ADDR 0x22
 #define KEY_1 0x31
 #define KEY_2 0x32
 #define KEY_3 0x33
@@ -86,8 +86,6 @@ void setup() {
 
 void loop() {
    delay(100);
-   
-   
 }
 
 void receiveEvent(uint8_t len) {
@@ -112,12 +110,15 @@ void requestEvent(void) {
    write_column();
    Wire.write(col);
    
+   Serial.print("Writing ");
+   Serial.println(col, HEX);
+   
 }
 
 void update_bit_positions(void) {
    scan_timeout++;
    if (scan_timeout >= UPDATE_TIME) {
-      Serial.println("Updating values");
+      // Serial.println("Updating values");
       scan_timeout = 0x00000000;
       current_row = (current_row == 0x40) ? 0x01 : (current_row << 1);
       current_col = (current_row == 0x40) ? (current_col == 0x40) ? 0x01 : (current_col << 1) : current_col;
@@ -125,7 +126,7 @@ void update_bit_positions(void) {
 }
 
 void write_column(void) {
-   if ((~row) & current_row) {
+   if ((~register_output1) & current_row) {
       col = ~current_col;
    }
    else {

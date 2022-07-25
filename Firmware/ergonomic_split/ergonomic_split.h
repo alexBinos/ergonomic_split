@@ -32,10 +32,10 @@
 #define ADDR_PCAL9555_PUD0                  0x48    // Pull-up/down configuration register
 #define ADDR_PCAL9555_PUD1                  0x49    // Pull-up/down configuration register
 
-#define PCAL9555_TIMEOUT 100
+#define PCAL9555_TIMEOUT 1000
 
 uint8_t init_pcal9555(void);
-
+extern i2c_status_t i2c_status;
 
 
 

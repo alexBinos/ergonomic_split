@@ -35,7 +35,7 @@
 
 #define TAPPING_TOGGLE  1
 
-#define F_SCL 100000
+#define F_SCL 400000
 
 /* define if matrix has ghost */
 //#define MATRIX_HAS_GHOST
@@ -65,12 +65,18 @@
 #endif
 #define LED_BRIGHTNESS_DEFAULT (LED_BRIGHTNESS_HI)
 
-/* ws2812 RGB LED */
-#define RGB_DI_PIN D7
+/* RGB array */
+#define RGB_DI_PIN B6
 #define RGBLIGHT_ANIMATIONS
-#define RGBLIGHT_HUE_STEP 12
-#define RGBLIGHT_SAT_STEP 255
-#define RGBLIGHT_VAL_STEP 12
+#define RGBLIGHT_HUE_STEP 8
+#define RGBLIGHT_SAT_STEP 8
+#define RGBLIGHT_VAL_STEP 8
+#define RGBLIGHT_LIMIT_VAL 128      // Half brightness to save power
+#define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_STATIC_LIGHT
+
+/* Caps LED (active low) */
+#define LED_CAPS_LOCK_PIN E6
+#define LED_PIN_ON_STATE 0
 
 /* fix space cadet rollover issue */
 #define DISABLE_SPACE_CADET_ROLLOVER
