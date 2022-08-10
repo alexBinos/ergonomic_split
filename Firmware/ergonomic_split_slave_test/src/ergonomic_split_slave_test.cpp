@@ -12,9 +12,7 @@
 
 #define UPDATE_TIME 50
 
-#define TEMP_REGB 0x12
-
-#define SLAVE_ADDR 0x22
+#define SLAVE_ADDR 0x25
 #define KEY_1 0x31
 #define KEY_2 0x32
 #define KEY_3 0x33
@@ -103,8 +101,6 @@ void receiveEvent(uint8_t len) {
 }
 
 void requestEvent(void) {
-   // TODO: I2C slave transmit handler
-   
    request_counter++;
    update_bit_positions();
    write_column();
@@ -112,7 +108,6 @@ void requestEvent(void) {
    
    Serial.print("Writing ");
    Serial.println(col, HEX);
-   
 }
 
 void update_bit_positions(void) {
@@ -146,7 +141,6 @@ void rx_process_data(uint8_t addr, uint8_t data) {
       case(ADDR_PCAL9555_PUDEN1) :  register_puden1    = data; break;
       case(ADDR_PCAL9555_PUD0) :    register_pud0      = data; break;
       case(ADDR_PCAL9555_PUD1) :    register_pud1      = data; break;
-      case(TEMP_REGB) :             row                = data; break;
       default : register_invalid = ((addr << 8) | (data)); break;
    }
    return;
@@ -176,8 +170,9 @@ void serialEvent(void) {
 }
 
 void debug_dump_counters(void) {
-   // TODO :Print counter information over serial
-   
+   Serial.println("***** Debug counters *****");
+   Serial.print("Request counter: ");
+   Serial.println(request_counter, DEC);
 }
 
 void debug_dump_registers(void) {
