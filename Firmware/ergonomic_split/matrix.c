@@ -15,7 +15,7 @@
 extern matrix_row_t matrix[MATRIX_ROWS];      // debounced values
 extern matrix_row_t raw_matrix[MATRIX_ROWS];  // raw values
 
-static matrix_row_t read_rows(void);
+static matrix_row_t read_rows(uint8_t left);
 static void select_col(uint8_t col);
 
 void matrix_init_custom(void) {
@@ -31,16 +31,22 @@ bool matrix_scan_custom(matrix_row_t current_matrix[]) {
    
    // Drive column, read rows
    for (uint8_t i = 0; i < MATRIX_ROWS_PER_SIDE; i++) {
-      matrix_row_t last_row_value = matrix[i];
+      matrix_row_t last_left_value = matrix[i];
+      matrix_row_t last_right_value = matrix[i + MATRIX_ROWS_PER_SIDE];
+      
+      matrix_row_t left_row_value;
+      matrix_row_t right_row_value;
       
       select_col(i);
       wait_ms(1);
-      matrix_row_t current_row_value = read_rows();
-      changed = (current_row_value != last_row_value);
-      if (changed) {
-         uprintf("Changed: %d, %d\n", i, current_row_value);
-      }
-      matrix[i] = current_row_value;
+      
+      left_row_value = read_rows(1);
+      right_row_value = read_rows(0);
+      
+      changed = (left_row_value != last_left_value) || (right_row_value != last_right_value);
+      
+      matrix[i] = left_row_value;
+      matrix[i + MATRIX_ROWS_PER_SIDE] = right_row_value;
    }
    return changed;
 }
@@ -53,40 +59,25 @@ static void select_col(uint8_t col) {
    i2c_write(col_write, PCAL9555_TIMEOUT);
    i2c_stop();
    
-   // wait_ms(1);
-   
    // Set right side
+   i2c_start(ADDR_PCAL9555_SLAVE_RIGHT_WRITE, PCAL9555_TIMEOUT);
+   i2c_write(ADDR_PCAL9555_OUTPUT1, PCAL9555_TIMEOUT);
+   i2c_write(col_write, PCAL9555_TIMEOUT);
+   i2c_stop();
    
 }
 
-static matrix_row_t read_rows(void) {
-   // uint8_t row_data = 0;
-   uint8_t row_data[1];
+static matrix_row_t read_rows(uint8_t left) {
+   matrix_row_t row_data = 0;
    
-   // i2c_start(ADDR_PCAL9555_SLAVE_LEFT_READ, PCAL9555_TIMEOUT);
-   // i2c_write(ADDR_PCAL9555_INPUT0, PCAL9555_TIMEOUT);
-   // uint8_t row_data = ~(uint8_t)i2c_read_nack(PCAL9555_TIMEOUT);
-   // row_data = ~((uint8_t)i2c_status);
-   // i2c_stop();
-   
-   i2c_status = i2c_readReg(ADDR_PCAL9555_SLAVE_LEFT_WRITE, ADDR_PCAL9555_INPUT0, row_data, 1, PCAL9555_TIMEOUT);
-   /*
-   if (i2c_status == I2C_STATUS_ERROR) {
-      print("i2c error\n");
-   }
-   else if (i2c_status == I2C_STATUS_TIMEOUT) {
-      print("i2c timeout\n");
-   }
-   else if (i2c_status == I2C_STATUS_SUCCESS) {
-      print("I2C success\n");
+   if (left) {
+      i2c_status = i2c_readReg(ADDR_PCAL9555_SLAVE_LEFT_WRITE, ADDR_PCAL9555_INPUT0, &row_data, 1, PCAL9555_TIMEOUT);
    }
    else {
-      print("unknown i2c code\n");
+      i2c_status = i2c_readReg(ADDR_PCAL9555_SLAVE_RIGHT_WRITE, ADDR_PCAL9555_INPUT0, &row_data, 1, PCAL9555_TIMEOUT);
    }
    
-   uprintf("Row: %d\n", row_data[0]);
-   */
-   return ~row_data[0];
+   return ~row_data;
 }
 
 // DO NOT REMOVE
