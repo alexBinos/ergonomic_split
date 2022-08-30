@@ -12,7 +12,7 @@
 
 /* key matrix size */
 #define MATRIX_ROWS 14
-#define MATRIX_ROWS_PER_SIDE (MATRIX_ROWS / 2)
+#define MATRIX_ROWS_PER_SIDE 7
 #define MATRIX_COLS 6
 
 #define COL_EXPANDED { true, true, true, true, true, true, true, false, false, false, false, false, false, false }
@@ -45,7 +45,7 @@
 #define RGBLIGHT_HUE_STEP 8
 #define RGBLIGHT_SAT_STEP 8
 #define RGBLIGHT_VAL_STEP 8
-#define RGBLIGHT_LIMIT_VAL 10      // Half brightness to save power
+#define RGBLIGHT_LIMIT_VAL 128      // Half brightness to save power
 #define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_STATIC_LIGHT
 
 /* Caps LED (active low) */
