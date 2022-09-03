@@ -12,7 +12,7 @@
 #include "ergonomic_split.h"
 
 /* matrix state(1:on, 0:off) */
-extern matrix_row_t matrix[MATRIX_ROWS];      // debounced values
+extern matrix_row_t matrix[MATRIX_ROWS + 1];      // debounced values
 extern matrix_row_t raw_matrix[MATRIX_ROWS];  // raw values
 static matrix_row_t matrix_local[MATRIX_ROWS];
 
@@ -32,21 +32,24 @@ bool matrix_scan_custom(matrix_row_t current_matrix[]) {
    bool changed = false;
    
    // Drive column, read rows
-   for (uint8_t i = 0; i < MATRIX_ROWS; i++) {
+   for (uint8_t i = 0; i < MATRIX_ROWS + 1; i++) {
       matrix_row_t last_row = matrix[i];
       
-      select_col(i % 7);
-      wait_ms(1);
-      
-      matrix_row_t current_row = read_rows(i < 7);
-      
-      changed = (current_row != last_row);
-      
-      if (changed) {
-         matrix[i] = current_row;
-         // current_matrix[i] = matrix_local[i];
-         uprintf("Changed: i: %d, Last: %d, Current: %d\n", i, last_row, current_row);
-         wait_ms(2);
+      if (i <= MATRIX_ROWS) {
+         select_col(i % 7);
+         wait_ms(1);
+         matrix_row_t current_row = read_rows(i < 7);
+         changed = (current_row != last_row);
+         if (changed) {
+            matrix[i] = current_row;
+            // current_matrix[i] = matrix_local[i];
+            uprintf("Changed: i: %d, Last: %d, Current: %d\n", i, last_row, current_row);
+            wait_ms(2);
+         }
+      }
+      else {
+         changed = false;
+         matrix[i] = last_row;
       }
    }
    
