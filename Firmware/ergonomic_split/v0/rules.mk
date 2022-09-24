@@ -3,7 +3,7 @@ MCU                  = atmega32u4
 BOOTLOADER           = caterina
 
 # Build Options
-CUSTOM_MATRIX        = lite
+CUSTOM_MATRIX        = no
 BOOTMAGIC_ENABLE     = lite   # Virtual DIP switch configuration
 MOUSEKEY_ENABLE      = no     # Mouse keys
 EXTRAKEY_ENABLE      = no     # Audio control and System control
