@@ -16,6 +16,8 @@
 
 #define F_SCL 400000
 
+#define TAPPING_TOGGLE  1
+
 #define RGB_DI_PIN B6
 #define RGBLED_NUM 76
 #define RGBLIGHT_HUE_STEP 8
