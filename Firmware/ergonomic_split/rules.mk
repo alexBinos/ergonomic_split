@@ -20,3 +20,4 @@ ENCODER_ENABLE       = no     # Rotary Encoder support
 OLED_ENABLE          = no     # OLED display support
 
 SRC += matrix.c
+QUANTUM_LIB_SRC += i2c_master.c

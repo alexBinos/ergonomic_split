@@ -8,13 +8,13 @@
 #define MANUFACTURER       Alex Binos
 #define PRODUCT            ergonomic_split
 
-#define MATRIX_ROWS 12
-#define MATRIX_COLS 7
+#define MATRIX_ROWS 7
+#define MATRIX_COLS 12
+#define MATRIX_COLS_HALF (MATRIX_COLS / 2)
 
-#define MATRIX_ROW_PINS {}
-#define MATRIX_COL_PINS {}
+#define DIODE_DIRECTION COL2ROW
 
-#define DIODE_DIRECTION ROW2COL
+#define F_SCL 400000
 
 #define RGB_DI_PIN B6
 #define RGBLED_NUM 76
