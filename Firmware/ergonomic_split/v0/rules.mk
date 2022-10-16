@@ -5,7 +5,7 @@ BOOTLOADER           = caterina
 # Build Options
 CUSTOM_MATRIX        = lite
 BOOTMAGIC_ENABLE     = lite   # Virtual DIP switch configuration
-MOUSEKEY_ENABLE      = no     # Mouse keys
+MOUSEKEY_ENABLE      = yes    # Mouse keys
 EXTRAKEY_ENABLE      = no     # Audio control and System control
 CONSOLE_ENABLE       = no     # Console for debug
 COMMAND_ENABLE       = no     # Commands for debug and configuration
@@ -18,5 +18,6 @@ BLUETOOTH_ENABLE     = no     # Enable Bluetooth
 AUDIO_ENABLE         = no     # Audio output
 ENCODER_ENABLE       = no     # Rotary Encoder support
 OLED_ENABLE          = no     # OLED display support
+CAPS_WORD_ENABLE     = yes    # Enable caps word
 
 SRC += matrix.c

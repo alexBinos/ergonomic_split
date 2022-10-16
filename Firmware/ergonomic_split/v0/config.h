@@ -16,7 +16,9 @@
 
 #define F_SCL 400000
 
-#define TAPPING_TOGGLE  1
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
+
+#define TAPPING_TOGGLE  2
 
 #define RGB_DI_PIN B6
 #define RGBLED_NUM 76
