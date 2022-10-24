@@ -2,24 +2,33 @@
 
 #include "config_common.h"
 
+
+// USB device descriptor
 #define VENDOR_ID          0x1234
 #define PRODUCT_ID         0x5678
 #define DEVICE_VER         0x0000
 #define MANUFACTURER       Alex Binos
 #define PRODUCT            ergonomic_split
 
+// Switch matrix
 #define MATRIX_ROWS 7
 #define MATRIX_COLS 12
 #define MATRIX_COLS_HALF (MATRIX_COLS / 2)
-
 #define DIODE_DIRECTION COL2ROW
 
+// I2C clock frequency
 #define F_SCL 400000
 
+// QMK options
 #define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
-
 #define TAPPING_TOGGLE  2
 
+// Encoders
+#define ENCODERS_PAD_A { F1 } //, F4 }
+#define ENCODERS_PAD_B { F0 } //, F5 }
+#define ENCODER_RESOLUTION 1
+
+// LEDs
 #define RGB_DI_PIN B6
 #define RGBLED_NUM 76
 #define RGBLIGHT_HUE_STEP 8

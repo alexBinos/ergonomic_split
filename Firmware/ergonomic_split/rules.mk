@@ -6,7 +6,7 @@ BOOTLOADER           = caterina
 CUSTOM_MATRIX        = lite
 BOOTMAGIC_ENABLE     = lite   # Virtual DIP switch configuration
 MOUSEKEY_ENABLE      = yes    # Mouse keys
-EXTRAKEY_ENABLE      = no     # Audio control and System control
+EXTRAKEY_ENABLE      = yes    # Audio control and System control
 CONSOLE_ENABLE       = no     # Console for debug
 COMMAND_ENABLE       = no     # Commands for debug and configuration
 SLEEP_LED_ENABLE     = no     # Breathing sleep LED during USB suspend
@@ -16,7 +16,7 @@ RGBLIGHT_ENABLE      = yes    # Enable keyboard RGB underglow
 UNICODE_ENABLE       = no     # Unicode
 BLUETOOTH_ENABLE     = no     # Enable Bluetooth
 AUDIO_ENABLE         = no     # Audio output
-ENCODER_ENABLE       = no     # Rotary Encoder support
+ENCODER_ENABLE       = yes    # Rotary Encoder support
 OLED_ENABLE          = no     # OLED display support
 CAPS_WORD_ENABLE     = yes    # Enable caps word
 

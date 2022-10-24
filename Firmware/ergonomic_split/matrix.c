@@ -91,3 +91,16 @@ static void select_col(uint8_t col) {
    i2c_writeReg(PCAL9555_SLAVE_ADDR_RIGHT_WRITE, PCAL9555_ADDR_OUTPUT1, &col_write, 1, PCAL9555_TIMEOUT);
    return;
 }
+
+bool encoder_update_user(uint8_t index, bool clockwise) {
+    if (index == 0) {
+      if (clockwise) {
+         tap_code(KC_VOLU);
+      }
+      else {
+         tap_code(KC_VOLD);
+      }
+    }
+    
+    return false;
+}
